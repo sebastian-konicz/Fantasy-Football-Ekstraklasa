@@ -47,7 +47,7 @@ def main():
             # player name
             player = a.text
             # link to player's stats
-            link = 'fantasy.ekstraklasa.org' + a['href']
+            link = 'https://fantasy.ekstraklasa.org' + a['href']
             # appending lists
             players_list.append(player)
             links_list.append(link)
