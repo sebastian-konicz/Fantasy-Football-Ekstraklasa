@@ -1,9 +1,11 @@
 from bs4 import BeautifulSoup
+from selenium import webdriver
 from pathlib import Path
 import re
 import pandas as pd
 import time
-from selenium import webdriver
+import datetime as dt
+
 
 PATH = r'C:\Users\kose9001\Desktop\JTM\chromedriver.exe'
 
@@ -198,11 +200,11 @@ def main():
 
 
         # creating dataframe
-        player_stats = pd.DataFrame(data_tuples, columns=["ID", "Name", "Position", "Value", "Club", "Club_abr",
-                                                          "Club_prev", "Country", "Popularity", "Points_prev", "Round",
-                                                          "Opponent", "Time", "Goals", "Assists", "Own_goal", "Penalty",
-                                                          "Penalty_won", "Penalty_given", "Penalty_lost",
-                                                          "Penalty_defended", "InStat", "Yellow_card", "Red_card", "Points"])
+        player_stats = pd.DataFrame(data_tuples, columns=["id", "name", "position", "value", "club", "club_abr",
+                                                          "club_prev", "country", "popularity", "points_prev", "round",
+                                                          "opponent", "time", "goals", "assists", "own_goal", "penalty",
+                                                          "penalty_won", "penalty_given", "penalty_lost",
+                                                          "penalty_defended", "in_stat", "yellow_card", "red_card", "points"])
 
         print(player_stats)
 
@@ -215,10 +217,24 @@ def main():
 
     # cleaning data
     # getting corect value (replacing "." in the nymber with ",")
-    players_stats["Value"] = players_stats["Value"].apply(lambda value: value.replace(".", ","))
+    players_stats["value"] = players_stats["value"].apply(lambda value: value.replace(".", ","))
 
     # repairng opponent abbreviation
-    players_stats["Opponent"] = players_stats["Opponent"].apply(lambda value: "SLA" if value == "LA" else value)
+    players_stats["opponent"] = players_stats["opponent"].apply(lambda value: "SLA" if value == "LA" else value)
+
+    letters_dictionary = {'ą': 'a', "ę": "e", "ć": "c", "ł": "l", "ń": "n", "ó": "o", "ś": "s", "ź": "z", "ż": "z",
+                          'Ą': 'A', "Ę": "E", "Ć": "C", "Ł": "L", "N": "N", "Ó": "O", "Ś": "S", "Ż": "Z", "Ź": "Z",
+                          "á": "a", "Á": "A", "â": "a", "Â": "A", "ă": "a", "Ă": "A", "č": "c", "Č": "C", "đ": "d",
+                          "Đ": "D", "é": "e", "É": "E", "í": "i", "Í": "I", "ľ": "l", "Ľ": "L", "ñ": "n", "Ñ": "N",
+                          "ø": "o", "Ø": "O", "ö": "o", "Ö": "O", "ő": "o", "Ő": "O", "š": "s", "Š": "S", "ť": "t",
+                          "Ť": "T", "ú": "u", "Ú": "U", "ý": "y", "Ý": "Y", "ž": "z", "Ž": "Z"}
+
+    columns_list = ["name", "position", "club", "club_prev", "country", "opponent"]
+
+    # replacing special letters in columns:
+    for special_letter, normal_letter in letters_dictionary.items():
+        for column in columns_list:
+            players_stats[column] = players_stats[column].apply(lambda value: value.replace(special_letter, normal_letter))
 
     club_dictionary = {"Cracovia": "CRA", "Gornik Zabrze": "GOR", "Jagiellonia Bialystok": "JAG",
                        "Legia Warszawa": "LEG", "Lechia Gdansk": "LGD", "Lech Poznan": "LPO", "Piast Gliwice": "PIA",
@@ -228,25 +244,19 @@ def main():
 
     # adding club abbreviation to list
     for club_name, club_abr in club_dictionary.items():
-        players_stats["Club_abr"] = players_stats.apply(lambda ps: club_abr if ps["Club"] == club_name else ps["Club_abr"])
+        players_stats["club_abr"] = players_stats.apply(
+            lambda ps: club_abr if ps["club"] == club_name else ps["club_abr"], axis=1)
 
-    letters_dictionary = {'ą': 'a', "ę": "e", "ć": "c", "ł": "l", "ń": "n", "ó": "o", "ś": "s", "ź": "z", "ż": "z",
-                          'Ą': 'A', "Ę": "E", "Ć": "C", "Ł": "L", "N": "N", "Ó": "O", "Ś": "S", "Ż": "Z", "Ź": "Z",
-                          "á": "a", "Á": "A", "â": "a", "Â": "A", "ă": "a", "Ă": "A", "č": "c", "Č": "C", "đ": "d",
-                          "Đ": "D", "é": "e", "É": "E", "í": "i", "Í": "I", "ľ": "l", "Ľ": "L", "ñ": "n", "Ñ": "N",
-                          "ø": "o", "Ø": "O", "ö": "o", "Ö": "O", "ő": "o", "Ő": "O", "š": "s", "Š": "S", "ť": "t",
-                          "Ť": "T", "ú": "u", "Ú": "U", "ý": "y", "Ý": "Y", "ž": "z", "Ž": "Z"}
-
-    columns_list = ["Name", "Position", "Club", "Club_prev", "Country", "Opponent"]
-
-    # replacing special letters in columns:
-    for special_letter, normal_letter in letters_dictionary.items():
-        for column in columns_list:
-            players_stats[column] = players_stats[column].apply(lambda value: value.replace(special_letter, normal_letter))
+    # time stamp
+    today = dt.date.today()
+    day = today.strftime("%d")
+    month = today.strftime("%b").upper()
+    year = today.strftime("%y")
+    time_stamp = day + month + year
 
     print(players_stats)
     # saving dataframe
-    players_stats.to_csv(project_dir + r'\data\raw\Players_stats.csv', index=False, encoding='UTF-8')
+    players_stats.to_csv(project_dir + r'\data\raw\Players_stats_{date}.csv'.format(date=time_stamp), index=False, encoding='UTF-8')
 
     # end time of program + duration
     end_time = time.time()
