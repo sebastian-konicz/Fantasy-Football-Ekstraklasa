@@ -1,10 +1,9 @@
 from bs4 import BeautifulSoup
-from selenium import webdriver
 from pathlib import Path
 import re
 import pandas as pd
 import time
-import datetime as dt
+from selenium import webdriver
 
 PATH = r'C:\Users\kose9001\Desktop\JTM\chromedriver.exe'
 
@@ -47,12 +46,14 @@ def main():
 
         # empty lists for scores
         col_round = []
-        col_team =[]
-        col_team_abr = []
-        col_home_away = []
-        col_score = []
-        col_result = []
-
+        col_team_home =[]
+        col_team_home_abr = []
+        col_score_home = []
+        col_result_home = []
+        col_team_away = []
+        col_team_away_abr = []
+        col_score_away = []
+        col_result_away = []
 
         for row in rows:
             # getting teams names and abreviations
@@ -74,9 +75,6 @@ def main():
                 score_home = "-"
                 score_away = "-"
 
-            score_home_team = score_home + " : " + score_away
-            score_away_team = score_away + " : " + score_home
-
             if score_home == "-":
                 result_home = "-"
                 result_away = "-"
@@ -91,40 +89,36 @@ def main():
                     result_home = "L"
                     result_away = "W"
 
-
-
             # appending lists
             col_round.append(round)
-            col_team.append(team_home)
-            col_team_abr.append(team_home_abr)
-            col_home_away.append("H")
-            col_score.append(score_home_team)
-            col_result.append(result_home)
-
-            col_round.append(round)
-            col_team.append(team_away)
-            col_team_abr.append(team_away_abr)
-            col_home_away.append("A")
-            col_score.append(score_away_team)
-            col_result.append(result_away)
+            col_team_home.append(team_home)
+            col_team_home_abr.append(team_home_abr)
+            col_score_home.append(score_home)
+            col_result_home.append(result_home)
+            col_team_away.append(team_away)
+            col_team_away_abr.append(team_away_abr)
+            col_score_away.append(score_away)
+            col_result_away.append(result_away)
 
         # zipping lists
-        data_tuples = list(zip(col_round, col_team, col_team_abr, col_home_away, col_score, col_result))
+        data_tuples = list(zip(col_round, col_team_home, col_team_home_abr, col_score_home, col_result_home,
+                               col_team_away, col_team_away_abr, col_score_away, col_result_away))
 
         # creating dataframe
-        round_results = pd.DataFrame(data_tuples, columns=["round", "team", "team_abr", "home_away", "score", "result"])
-
+        round_results = pd.DataFrame(data_tuples, columns=["Round", "Team_home", "Team_home_abr", "Score_home", "Result_home",
+                                                          "Team_away", "Team_away_abr", "Score_away", "Result_away"])
         # adding dataframe to list
         round_list.append(round_results)
 
     # concatenating dataframes
     rounds_results = pd.concat(round_list, axis=0, sort=False)
 
+
     # cleaning data
     letters_dictionary = {'ą': 'a', "ę": "e", "ć": "c", "ł": "l", "ń": "n", "ó": "o", "ś": "s", "ź": "z", "ż": "z",
                           'Ą': 'A', "Ę": "E", "Ć": "C", "Ł": "L", "N": "N", "Ó": "O", "Ś": "S", "Ż": "Z", "Ź": "Z"}
 
-    columns_list = ["team", "team_abr"]
+    columns_list = ["Team_home", "Team_home_abr", "Team_away", "Team_away_abr"]
 
     # replacing special letters in columns:
     for special_letter, normal_letter in letters_dictionary.items():
@@ -132,17 +126,9 @@ def main():
             rounds_results[column] = rounds_results[column].apply(
                 lambda value: value.replace(special_letter, normal_letter))
 
-    # time stamp
-    today = dt.date.today()
-    day = today.strftime("%d")
-    month = today.strftime("%b").upper()
-    year = today.strftime("%y")
-    time_stamp = day + month + year
-
     print(rounds_results)
     # saving dataframe
-    rounds_results.to_csv(project_dir + r'\data\raw\Rounds_results_{date}.csv'.format(date=time_stamp),
-                          index=False, encoding='UTF-8')
+    rounds_results.to_csv(project_dir + r'\data\raw\Rounds_results.csv', index=False, encoding='UTF-8')
 
     # end time of program + duration
     end_time = time.time()
