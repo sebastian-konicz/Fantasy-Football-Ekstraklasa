@@ -1,15 +1,29 @@
-Round,Opponent,Time,Goals,Assists,Own_goal,Penalty,Penalty_won,Penalty_given,Penalty_lost,Penalty_defended,InStat,Yellow_card,Red_card,Points
-1,STM,59,0,0,0,0,0,0,0,0,0,0,0,2
-2,LPO,19,0,0,0,0,0,0,0,0,0,0,0,1
-3,LEG,0,0,0,0,0,0,0,0,0,0,0,0,0
-4,WIS,0,0,0,0,0,0,0,0,0,0,0,0,0
-5,WAR,0,0,0,0,0,0,0,0,0,0,0,0,0
-6,RCZ,0,0,0,0,0,0,0,0,0,0,0,0,0
-7,LA,0,0,0,0,0,0,0,0,0,0,0,0,0
-8,PIA,0,0,0,0,0,0,0,0,0,0,0,0,0
-9,POG,0,0,0,0,0,0,0,0,0,0,0,0,0
-10,JAG,0,0,0,0,0,0,0,0,0,0,0,0,0
-11,CRA,0,0,0,0,0,0,0,0,0,0,0,0,0
-12,GÓR,0,0,0,0,0,0,0,0,0,0,0,0,0
-13,LGD,0,0,0,0,0,0,0,0,0,0,0,0,0
-14,POD,0,0,0,0,0,0,0,0,0,0,0,0,0
+ID,Name,Position,Value,Club,Club_prev,Country,Popularity,Points_prev,Round,Opponent,Time,Goals,Assists,Own_goal,Penalty,Penalty_won,Penalty_given,Penalty_lost,Penalty_defended,InStat,Yellow_card,Red_card,Points
+1524,Dawid Abramowicz, Obronca,"1,70",Wisla Krakow,Radomiak Radom,Polska,1,0,1,JAG,12,0,0,0,0,0,0,0,0,0,0,0,1
+1524,Dawid Abramowicz, Obronca,"1,70",Wisla Krakow,Radomiak Radom,Polska,1,0,2,LA,0,0,0,0,0,0,0,0,0,0,0,0,0
+1524,Dawid Abramowicz, Obronca,"1,70",Wisla Krakow,Radomiak Radom,Polska,1,0,3,POG,96,0,0,0,0,0,0,0,0,0,0,0,1
+1524,Dawid Abramowicz, Obronca,"1,70",Wisla Krakow,Radomiak Radom,Polska,1,0,4,WPL,97,0,0,0,0,0,0,0,0,0,0,0,0
+1524,Dawid Abramowicz, Obronca,"1,70",Wisla Krakow,Radomiak Radom,Polska,1,0,5,GOR,96,0,0,0,0,0,0,0,0,0,0,0,5
+1524,Dawid Abramowicz, Obronca,"1,70",Wisla Krakow,Radomiak Radom,Polska,1,0,6,LGD,93,0,0,0,0,0,0,0,0,0,0,0,0
+1524,Dawid Abramowicz, Obronca,"1,70",Wisla Krakow,Radomiak Radom,Polska,1,0,7,STM,91,0,1,0,0,0,0,0,0,0,0,0,10
+1524,Dawid Abramowicz, Obronca,"1,70",Wisla Krakow,Radomiak Radom,Polska,1,0,8,POD,98,0,0,0,0,0,0,0,0,0,0,0,6
+1524,Dawid Abramowicz, Obronca,"1,70",Wisla Krakow,Radomiak Radom,Polska,1,0,9,RCZ,97,0,0,0,0,0,0,0,0,0,1,0,4
+1524,Dawid Abramowicz, Obronca,"1,70",Wisla Krakow,Radomiak Radom,Polska,1,0,10,WAR,94,0,1,0,0,0,1,0,0,0,0,0,3
+1524,Dawid Abramowicz, Obronca,"1,70",Wisla Krakow,Radomiak Radom,Polska,1,0,11,ZAG,0,0,0,0,0,0,0,0,0,0,0,0,0
+1524,Dawid Abramowicz, Obronca,"1,70",Wisla Krakow,Radomiak Radom,Polska,1,0,12,CRA,6,0,0,0,0,0,0,0,0,0,0,0,1
+1524,Dawid Abramowicz, Obronca,"1,70",Wisla Krakow,Radomiak Radom,Polska,1,0,13,LEG,0,0,0,0,0,0,0,0,0,0,0,0,0
+1524,Dawid Abramowicz, Obronca,"1,70",Wisla Krakow,Radomiak Radom,Polska,1,0,14,LPO,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,Hubert Adamczyk, Pomocnik,"1,60",Wisla Plock,GKS Tychy,Polska,1,33,1,STM,59,0,0,0,0,0,0,0,0,0,0,0,2
+15,Hubert Adamczyk, Pomocnik,"1,60",Wisla Plock,GKS Tychy,Polska,1,33,2,LPO,19,0,0,0,0,0,0,0,0,0,0,0,1
+15,Hubert Adamczyk, Pomocnik,"1,60",Wisla Plock,GKS Tychy,Polska,1,33,3,LEG,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,Hubert Adamczyk, Pomocnik,"1,60",Wisla Plock,GKS Tychy,Polska,1,33,4,WIS,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,Hubert Adamczyk, Pomocnik,"1,60",Wisla Plock,GKS Tychy,Polska,1,33,5,WAR,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,Hubert Adamczyk, Pomocnik,"1,60",Wisla Plock,GKS Tychy,Polska,1,33,6,RCZ,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,Hubert Adamczyk, Pomocnik,"1,60",Wisla Plock,GKS Tychy,Polska,1,33,7,LA,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,Hubert Adamczyk, Pomocnik,"1,60",Wisla Plock,GKS Tychy,Polska,1,33,8,PIA,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,Hubert Adamczyk, Pomocnik,"1,60",Wisla Plock,GKS Tychy,Polska,1,33,9,POG,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,Hubert Adamczyk, Pomocnik,"1,60",Wisla Plock,GKS Tychy,Polska,1,33,10,JAG,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,Hubert Adamczyk, Pomocnik,"1,60",Wisla Plock,GKS Tychy,Polska,1,33,11,CRA,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,Hubert Adamczyk, Pomocnik,"1,60",Wisla Plock,GKS Tychy,Polska,1,33,12,GOR,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,Hubert Adamczyk, Pomocnik,"1,60",Wisla Plock,GKS Tychy,Polska,1,33,13,LGD,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,Hubert Adamczyk, Pomocnik,"1,60",Wisla Plock,GKS Tychy,Polska,1,33,14,POD,0,0,0,0,0,0,0,0,0,0,0,0,0
