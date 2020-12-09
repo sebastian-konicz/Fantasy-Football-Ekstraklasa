@@ -1,0 +1,241 @@
+Round,Team_home,Team_home_abr,Score_home,Result_home,Team_away,Team_away_abr,Score_away,Result_away
+1,KGHM Zaglebie Lubin,ZAG,2,W,Lech Poznan,LPO,1,L
+1,Cracovia,CRA,2,W,Pogon Szczecin,POG,1,L
+1,Slask Wroclaw,SLA,2,W,Piast Gliwice,PIA,0,L
+1,Rakow Czestochowa,RCZ,1,L,Legia Warszawa,LEG,2,W
+1,Wisla Plock,WPL,1,D,PGE FKS Stal Mielec,STM,1,D
+1,Warta Poznan,WAR,0,L,Lechia Gdansk,LGD,1,W
+1,Gornik Zabrze,GOR,4,W,Podbeskidzie Bielsko-Biala,POD,2,L
+1,Jagiellonia Bialystok,JAG,1,D,Wisla Krakow,WIS,1,D
+2,KGHM Zaglebie Lubin,ZAG,1,W,Warta Poznan,WAR,0,L
+2,PGE FKS Stal Mielec,STM,0,L,Gornik Zabrze,GOR,2,W
+2,Lechia Gdansk,LGD,1,L,Rakow Czestochowa,RCZ,3,W
+2,Wisla Krakow,WIS,1,L,Slask Wroclaw,SLA,3,W
+2,Legia Warszawa,LEG,1,L,Jagiellonia Bialystok,JAG,2,W
+2,Piast Gliwice,PIA,0,L,Pogon Szczecin,POG,1,W
+2,Podbeskidzie Bielsko-Biala,POD,2,D,Cracovia,CRA,2,D
+2,Lech Poznan,LPO,2,D,Wisla Plock,WPL,2,D
+3,Jagiellonia Bialystok,JAG,2,D,Podbeskidzie Bielsko-Biala,POD,2,D
+3,Wisla Plock,WPL,0,L,Legia Warszawa,LEG,1,W
+3,Cracovia,CRA,1,D,PGE FKS Stal Mielec,STM,1,D
+3,Warta Poznan,WAR,0,D,Piast Gliwice,PIA,0,D
+3,Slask Wroclaw,SLA,3,D,Lech Poznan,LPO,3,D
+3,Pogon Szczecin,POG,2,D,Wisla Krakow,WIS,2,D
+3,Gornik Zabrze,GOR,3,W,Lechia Gdansk,LGD,0,L
+3,Rakow Czestochowa,RCZ,2,W,KGHM Zaglebie Lubin,ZAG,1,L
+4,Podbeskidzie Bielsko-Biala,POD,1,L,Rakow Czestochowa,RCZ,4,W
+4,Wisla Krakow,WIS,0,L,Wisla Plock,WPL,3,W
+4,Lechia Gdansk,LGD,4,W,PGE FKS Stal Mielec,STM,2,L
+4,Pogon Szczecin,POG,1,W,Slask Wroclaw,SLA,0,L
+4,Legia Warszawa,LEG,1,L,Gornik Zabrze,GOR,3,W
+4,KGHM Zaglebie Lubin,ZAG,1,D,Cracovia,CRA,1,D
+4,Lech Poznan,LPO,1,W,Warta Poznan,WAR,0,L
+4,Piast Gliwice,PIA,0,L,Jagiellonia Bialystok,JAG,1,W
+5,Wisla Plock,WPL,1,L,Warta Poznan,WAR,3,W
+5,Gornik Zabrze,GOR,0,D,Wisla Krakow,WIS,0,D
+5,Cracovia,CRA,2,D,Rakow Czestochowa,RCZ,2,D
+5,Lechia Gdansk,LGD,4,W,Podbeskidzie Bielsko-Biala,POD,0,L
+5,Jagiellonia Bialystok,JAG,0,L,KGHM Zaglebie Lubin,ZAG,1,W
+5,PGE FKS Stal Mielec,STM,3,W,Piast Gliwice,PIA,2,L
+5,Legia Warszawa,LEG,2,W,Slask Wroclaw,SLA,1,L
+5,Lech Poznan,LPO,-,-,Pogon Szczecin,POG,-,-
+6,Rakow Czestochowa,RCZ,3,W,Wisla Plock,WPL,0,L
+6,Slask Wroclaw,SLA,3,W,Cracovia,CRA,1,L
+6,Podbeskidzie Bielsko-Biala,POD,1,W,PGE FKS Stal Mielec,STM,0,L
+6,KGHM Zaglebie Lubin,ZAG,2,W,Gornik Zabrze,GOR,0,L
+6,Piast Gliwice,PIA,1,L,Lech Poznan,LPO,4,W
+6,Wisla Krakow,WIS,1,L,Lechia Gdansk,LGD,3,W
+6,Pogon Szczecin,POG,3,W,Jagiellonia Bialystok,JAG,0,L
+6,Warta Poznan,WAR,0,L,Legia Warszawa,LEG,3,W
+7,Cracovia,CRA,1,W,Piast Gliwice,PIA,0,L
+7,Gornik Zabrze,GOR,1,L,Rakow Czestochowa,RCZ,3,W
+7,Jagiellonia Bialystok,JAG,2,W,Lech Poznan,LPO,1,L
+7,Wisla Plock,WPL,1,W,Slask Wroclaw,SLA,0,L
+7,PGE FKS Stal Mielec,STM,0,L,Wisla Krakow,WIS,6,W
+7,Legia Warszawa,LEG,2,W,KGHM Zaglebie Lubin,ZAG,1,L
+7,Podbeskidzie Bielsko-Biala,POD,1,L,Warta Poznan,WAR,2,W
+7,Lechia Gdansk,LGD,0,L,Pogon Szczecin,POG,1,W
+8,Piast Gliwice,PIA,2,D,Wisla Plock,WPL,2,D
+8,KGHM Zaglebie Lubin,ZAG,1,D,Lechia Gdansk,LGD,1,D
+8,Wisla Krakow,WIS,3,W,Podbeskidzie Bielsko-Biala,POD,0,L
+8,Slask Wroclaw,SLA,1,W,Jagiellonia Bialystok,JAG,0,L
+8,Pogon Szczecin,POG,0,D,Legia Warszawa,LEG,0,D
+8,Rakow Czestochowa,RCZ,2,W,PGE FKS Stal Mielec,STM,1,L
+8,Lech Poznan,LPO,1,D,Cracovia,CRA,1,D
+8,Warta Poznan,WAR,0,L,Gornik Zabrze,GOR,1,W
+9,PGE FKS Stal Mielec,STM,0,L,Warta Poznan,WAR,1,W
+9,Cracovia,CRA,3,W,Jagiellonia Bialystok,JAG,1,L
+9,Legia Warszawa,LEG,2,W,Lech Poznan,LPO,1,L
+9,Rakow Czestochowa,RCZ,0,D,Wisla Krakow,WIS,0,D
+9,Lechia Gdansk,LGD,3,W,Slask Wroclaw,SLA,2,L
+9,Gornik Zabrze,GOR,1,L,Piast Gliwice,PIA,2,W
+9,Podbeskidzie Bielsko-Biala,POD,2,W,KGHM Zaglebie Lubin,ZAG,1,L
+9,Wisla Plock,WPL,0,D,Pogon Szczecin,POG,0,D
+10,Slask Wroclaw,SLA,0,D,Gornik Zabrze,GOR,0,D
+10,Pogon Szczecin,POG,1,D,Podbeskidzie Bielsko-Biala,POD,1,D
+10,KGHM Zaglebie Lubin,ZAG,2,D,PGE FKS Stal Mielec,STM,2,D
+10,Warta Poznan,WAR,2,W,Wisla Krakow,WIS,1,L
+10,Lech Poznan,LPO,3,D,Rakow Czestochowa,RCZ,3,D
+10,Cracovia,CRA,0,L,Legia Warszawa,LEG,1,W
+10,Piast Gliwice,PIA,2,W,Lechia Gdansk,LGD,0,L
+10,Jagiellonia Bialystok,JAG,5,W,Wisla Plock,WPL,2,L
+11,Wisla Plock,WPL,0,L,Cracovia,CRA,1,W
+11,Gornik Zabrze,GOR,2,W,Pogon Szczecin,POG,1,L
+11,PGE FKS Stal Mielec,STM,3,W,Jagiellonia Bialystok,JAG,1,L
+11,Podbeskidzie Bielsko-Biala,POD,0,L,Slask Wroclaw,SLA,2,W
+11,Wisla Krakow,WIS,1,L,KGHM Zaglebie Lubin,ZAG,2,W
+11,Rakow Czestochowa,RCZ,1,W,Warta Poznan,WAR,0,L
+11,Legia Warszawa,LEG,2,D,Piast Gliwice,PIA,2,D
+11,Lechia Gdansk,LGD,0,L,Lech Poznan,LPO,1,W
+12,Cracovia,CRA,1,D,Wisla Krakow,WIS,1,D
+12,Jagiellonia Bialystok,JAG,4,W,Warta Poznan,WAR,3,L
+12,Slask Wroclaw,SLA,1,W,Rakow Czestochowa,RCZ,0,L
+12,Legia Warszawa,LEG,2,W,Lechia Gdansk,LGD,0,L
+12,Piast Gliwice,PIA,1,D,KGHM Zaglebie Lubin,ZAG,1,D
+12,Lech Poznan,LPO,4,W,Podbeskidzie Bielsko-Biala,POD,0,L
+12,Pogon Szczecin,POG,2,W,PGE FKS Stal Mielec,STM,0,L
+12,Wisla Plock,WPL,0,L,Gornik Zabrze,GOR,1,W
+13,Podbeskidzie Bielsko-Biala,POD,-,-,Piast Gliwice,PIA,-,-
+13,KGHM Zaglebie Lubin,ZAG,-,-,Slask Wroclaw,SLA,-,-
+13,Warta Poznan,WAR,-,-,Pogon Szczecin,POG,-,-
+13,Gornik Zabrze,GOR,-,-,Cracovia,CRA,-,-
+13,Wisla Krakow,WIS,-,-,Legia Warszawa,LEG,-,-
+13,PGE FKS Stal Mielec,STM,-,-,Lech Poznan,LPO,-,-
+13,Rakow Czestochowa,RCZ,-,-,Jagiellonia Bialystok,JAG,-,-
+13,Lechia Gdansk,LGD,-,-,Wisla Plock,WPL,-,-
+14,Slask Wroclaw,SLA,-,-,Warta Poznan,WAR,-,-
+14,Wisla Plock,WPL,-,-,Podbeskidzie Bielsko-Biala,POD,-,-
+14,Legia Warszawa,LEG,-,-,PGE FKS Stal Mielec,STM,-,-
+14,Pogon Szczecin,POG,-,-,KGHM Zaglebie Lubin,ZAG,-,-
+14,Cracovia,CRA,-,-,Lechia Gdansk,LGD,-,-
+14,Lech Poznan,LPO,-,-,Wisla Krakow,WIS,-,-
+14,Piast Gliwice,PIA,-,-,Rakow Czestochowa,RCZ,-,-
+14,Jagiellonia Bialystok,JAG,-,-,Gornik Zabrze,GOR,-,-
+15,KGHM Zaglebie Lubin,ZAG,-,-,Wisla Plock,WPL,-,-
+15,Warta Poznan,WAR,-,-,Cracovia,CRA,-,-
+15,Lechia Gdansk,LGD,-,-,Jagiellonia Bialystok,JAG,-,-
+15,Gornik Zabrze,GOR,-,-,Lech Poznan,LPO,-,-
+15,Rakow Czestochowa,RCZ,-,-,Pogon Szczecin,POG,-,-
+15,Wisla Krakow,WIS,-,-,Piast Gliwice,PIA,-,-
+15,Podbeskidzie Bielsko-Biala,POD,-,-,Legia Warszawa,LEG,-,-
+15,PGE FKS Stal Mielec,STM,-,-,Slask Wroclaw,SLA,-,-
+16,Lech Poznan,LPO,-,-,KGHM Zaglebie Lubin,ZAG,-,-
+16,Legia Warszawa,LEG,-,-,Rakow Czestochowa,RCZ,-,-
+16,Piast Gliwice,PIA,-,-,Slask Wroclaw,SLA,-,-
+16,Podbeskidzie Bielsko-Biala,POD,-,-,Gornik Zabrze,GOR,-,-
+16,Pogon Szczecin,POG,-,-,Cracovia,CRA,-,-
+16,PGE FKS Stal Mielec,STM,-,-,Wisla Plock,WPL,-,-
+16,Wisla Krakow,WIS,-,-,Jagiellonia Bialystok,JAG,-,-
+16,Lechia Gdansk,LGD,-,-,Warta Poznan,WAR,-,-
+17,Cracovia,CRA,-,-,Podbeskidzie Bielsko-Biala,POD,-,-
+17,Gornik Zabrze,GOR,-,-,PGE FKS Stal Mielec,STM,-,-
+17,Jagiellonia Bialystok,JAG,-,-,Legia Warszawa,LEG,-,-
+17,Pogon Szczecin,POG,-,-,Piast Gliwice,PIA,-,-
+17,Rakow Czestochowa,RCZ,-,-,Lechia Gdansk,LGD,-,-
+17,Wisla Plock,WPL,-,-,Lech Poznan,LPO,-,-
+17,Slask Wroclaw,SLA,-,-,Wisla Krakow,WIS,-,-
+17,Warta Poznan,WAR,-,-,KGHM Zaglebie Lubin,ZAG,-,-
+18,KGHM Zaglebie Lubin,ZAG,-,-,Rakow Czestochowa,RCZ,-,-
+18,Lech Poznan,LPO,-,-,Slask Wroclaw,SLA,-,-
+18,Lechia Gdansk,LGD,-,-,Gornik Zabrze,GOR,-,-
+18,Legia Warszawa,LEG,-,-,Wisla Plock,WPL,-,-
+18,Podbeskidzie Bielsko-Biala,POD,-,-,Jagiellonia Bialystok,JAG,-,-
+18,PGE FKS Stal Mielec,STM,-,-,Cracovia,CRA,-,-
+18,Wisla Krakow,WIS,-,-,Pogon Szczecin,POG,-,-
+18,Piast Gliwice,PIA,-,-,Warta Poznan,WAR,-,-
+19,Cracovia,CRA,-,-,KGHM Zaglebie Lubin,ZAG,-,-
+19,Gornik Zabrze,GOR,-,-,Legia Warszawa,LEG,-,-
+19,Jagiellonia Bialystok,JAG,-,-,Piast Gliwice,PIA,-,-
+19,Rakow Czestochowa,RCZ,-,-,Podbeskidzie Bielsko-Biala,POD,-,-
+19,PGE FKS Stal Mielec,STM,-,-,Lechia Gdansk,LGD,-,-
+19,Wisla Plock,WPL,-,-,Wisla Krakow,WIS,-,-
+19,Slask Wroclaw,SLA,-,-,Pogon Szczecin,POG,-,-
+19,Warta Poznan,WAR,-,-,Lech Poznan,LPO,-,-
+20,KGHM Zaglebie Lubin,ZAG,-,-,Jagiellonia Bialystok,JAG,-,-
+20,Piast Gliwice,PIA,-,-,PGE FKS Stal Mielec,STM,-,-
+20,Podbeskidzie Bielsko-Biala,POD,-,-,Lechia Gdansk,LGD,-,-
+20,Pogon Szczecin,POG,-,-,Lech Poznan,LPO,-,-
+20,Rakow Czestochowa,RCZ,-,-,Cracovia,CRA,-,-
+20,Wisla Krakow,WIS,-,-,Gornik Zabrze,GOR,-,-
+20,Slask Wroclaw,SLA,-,-,Legia Warszawa,LEG,-,-
+20,Warta Poznan,WAR,-,-,Wisla Plock,WPL,-,-
+21,Cracovia,CRA,-,-,Slask Wroclaw,SLA,-,-
+21,Gornik Zabrze,GOR,-,-,KGHM Zaglebie Lubin,ZAG,-,-
+21,Jagiellonia Bialystok,JAG,-,-,Pogon Szczecin,POG,-,-
+21,Lech Poznan,LPO,-,-,Piast Gliwice,PIA,-,-
+21,Lechia Gdansk,LGD,-,-,Wisla Krakow,WIS,-,-
+21,PGE FKS Stal Mielec,STM,-,-,Podbeskidzie Bielsko-Biala,POD,-,-
+21,Wisla Krakow,WIS,-,-,Rakow Czestochowa,RCZ,-,-
+21,Legia Warszawa,LEG,-,-,Warta Poznan,WAR,-,-
+22,KGHM Zaglebie Lubin,ZAG,-,-,Legia Warszawa,LEG,-,-
+22,Lech Poznan,LPO,-,-,Jagiellonia Bialystok,JAG,-,-
+22,Piast Gliwice,PIA,-,-,Cracovia,CRA,-,-
+22,Pogon Szczecin,POG,-,-,Lechia Gdansk,LGD,-,-
+22,Rakow Czestochowa,RCZ,-,-,Gornik Zabrze,GOR,-,-
+22,Wisla Krakow,WIS,-,-,PGE FKS Stal Mielec,STM,-,-
+22,Slask Wroclaw,SLA,-,-,Wisla Plock,WPL,-,-
+22,Warta Poznan,WAR,-,-,Podbeskidzie Bielsko-Biala,POD,-,-
+23,Cracovia,CRA,-,-,Lech Poznan,LPO,-,-
+23,Jagiellonia Bialystok,JAG,-,-,Slask Wroclaw,SLA,-,-
+23,Lechia Gdansk,LGD,-,-,KGHM Zaglebie Lubin,ZAG,-,-
+23,Legia Warszawa,LEG,-,-,Pogon Szczecin,POG,-,-
+23,Podbeskidzie Bielsko-Biala,POD,-,-,Wisla Krakow,WIS,-,-
+23,PGE FKS Stal Mielec,STM,-,-,Rakow Czestochowa,RCZ,-,-
+23,Wisla Plock,WPL,-,-,Piast Gliwice,PIA,-,-
+23,Gornik Zabrze,GOR,-,-,Warta Poznan,WAR,-,-
+24,Jagiellonia Bialystok,JAG,-,-,Cracovia,CRA,-,-
+24,KGHM Zaglebie Lubin,ZAG,-,-,Podbeskidzie Bielsko-Biala,POD,-,-
+24,Lech Poznan,LPO,-,-,Legia Warszawa,LEG,-,-
+24,Piast Gliwice,PIA,-,-,Gornik Zabrze,GOR,-,-
+24,Pogon Szczecin,POG,-,-,Wisla Plock,WPL,-,-
+24,Wisla Krakow,WIS,-,-,Rakow Czestochowa,RCZ,-,-
+24,Slask Wroclaw,SLA,-,-,Lechia Gdansk,LGD,-,-
+24,Warta Poznan,WAR,-,-,PGE FKS Stal Mielec,STM,-,-
+25,Gornik Zabrze,GOR,-,-,Slask Wroclaw,SLA,-,-
+25,Lechia Gdansk,LGD,-,-,Piast Gliwice,PIA,-,-
+25,Legia Warszawa,LEG,-,-,Cracovia,CRA,-,-
+25,Podbeskidzie Bielsko-Biala,POD,-,-,Pogon Szczecin,POG,-,-
+25,Rakow Czestochowa,RCZ,-,-,Lech Poznan,LPO,-,-
+25,PGE FKS Stal Mielec,STM,-,-,KGHM Zaglebie Lubin,ZAG,-,-
+25,Wisla Plock,WPL,-,-,Jagiellonia Bialystok,JAG,-,-
+25,Wisla Krakow,WIS,-,-,Warta Poznan,WAR,-,-
+26,Cracovia,CRA,-,-,Wisla Plock,WPL,-,-
+26,Jagiellonia Bialystok,JAG,-,-,PGE FKS Stal Mielec,STM,-,-
+26,KGHM Zaglebie Lubin,ZAG,-,-,Wisla Krakow,WIS,-,-
+26,Lech Poznan,LPO,-,-,Lechia Gdansk,LGD,-,-
+26,Piast Gliwice,PIA,-,-,Legia Warszawa,LEG,-,-
+26,Pogon Szczecin,POG,-,-,Gornik Zabrze,GOR,-,-
+26,Slask Wroclaw,SLA,-,-,Podbeskidzie Bielsko-Biala,POD,-,-
+26,Warta Poznan,WAR,-,-,Rakow Czestochowa,RCZ,-,-
+27,Gornik Zabrze,GOR,-,-,Wisla Plock,WPL,-,-
+27,KGHM Zaglebie Lubin,ZAG,-,-,Piast Gliwice,PIA,-,-
+27,Lechia Gdansk,LGD,-,-,Legia Warszawa,LEG,-,-
+27,Podbeskidzie Bielsko-Biala,POD,-,-,Lech Poznan,LPO,-,-
+27,Rakow Czestochowa,RCZ,-,-,Slask Wroclaw,SLA,-,-
+27,PGE FKS Stal Mielec,STM,-,-,Pogon Szczecin,POG,-,-
+27,Wisla Krakow,WIS,-,-,Cracovia,CRA,-,-
+27,Warta Poznan,WAR,-,-,Jagiellonia Bialystok,JAG,-,-
+28,Cracovia,CRA,-,-,Gornik Zabrze,GOR,-,-
+28,Jagiellonia Bialystok,JAG,-,-,Rakow Czestochowa,RCZ,-,-
+28,Lech Poznan,LPO,-,-,PGE FKS Stal Mielec,STM,-,-
+28,Legia Warszawa,LEG,-,-,Wisla Krakow,WIS,-,-
+28,Piast Gliwice,PIA,-,-,Podbeskidzie Bielsko-Biala,POD,-,-
+28,Wisla Plock,WPL,-,-,Lechia Gdansk,LGD,-,-
+28,Slask Wroclaw,SLA,-,-,KGHM Zaglebie Lubin,ZAG,-,-
+28,Pogon Szczecin,POG,-,-,Warta Poznan,WAR,-,-
+29,Gornik Zabrze,GOR,-,-,Jagiellonia Bialystok,JAG,-,-
+29,KGHM Zaglebie Lubin,ZAG,-,-,Pogon Szczecin,POG,-,-
+29,Lechia Gdansk,LGD,-,-,Cracovia,CRA,-,-
+29,Podbeskidzie Bielsko-Biala,POD,-,-,Wisla Plock,WPL,-,-
+29,Rakow Czestochowa,RCZ,-,-,Piast Gliwice,PIA,-,-
+29,PGE FKS Stal Mielec,STM,-,-,Legia Warszawa,LEG,-,-
+29,Wisla Krakow,WIS,-,-,Lech Poznan,LPO,-,-
+29,Warta Poznan,WAR,-,-,Slask Wroclaw,SLA,-,-
+30,Jagiellonia Bialystok,JAG,-,-,Lechia Gdansk,LGD,-,-
+30,Lech Poznan,LPO,-,-,Gornik Zabrze,GOR,-,-
+30,Legia Warszawa,LEG,-,-,Podbeskidzie Bielsko-Biala,POD,-,-
+30,Piast Gliwice,PIA,-,-,Wisla Krakow,WIS,-,-
+30,Pogon Szczecin,POG,-,-,Rakow Czestochowa,RCZ,-,-
+30,Wisla Plock,WPL,-,-,KGHM Zaglebie Lubin,ZAG,-,-
+30,Slask Wroclaw,SLA,-,-,PGE FKS Stal Mielec,STM,-,-
+30,Cracovia,CRA,-,-,Warta Poznan,WAR,-,-
