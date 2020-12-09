@@ -1,0 +1,481 @@
+round;team;team_abr;home_away;score;result
+1;KGHM Zaglebie Lubin;ZAG;H;02:01;W
+1;Lech Poznan;LPO;A;01:02;L
+1;Cracovia;CRA;H;02:01;W
+1;Pogon Szczecin;POG;A;01:02;L
+1;Slask Wroclaw;SLA;H;02:00;W
+1;Piast Gliwice;PIA;A;00:02;L
+1;Rakow Czestochowa;RCZ;H;01:02;L
+1;Legia Warszawa;LEG;A;02:01;W
+1;Wisla Plock;WPL;H;01:01;D
+1;PGE FKS Stal Mielec;STM;A;01:01;D
+1;Warta Poznan;WAR;H;00:01;L
+1;Lechia Gdansk;LGD;A;01:00;W
+1;Gornik Zabrze;GOR;H;04:02;W
+1;Podbeskidzie Bielsko-Biala;POD;A;02:04;L
+1;Jagiellonia Bialystok;JAG;H;01:01;D
+1;Wisla Krakow;WIS;A;01:01;D
+2;KGHM Zaglebie Lubin;ZAG;H;01:00;W
+2;Warta Poznan;WAR;A;00:01;L
+2;PGE FKS Stal Mielec;STM;H;00:02;L
+2;Gornik Zabrze;GOR;A;02:00;W
+2;Lechia Gdansk;LGD;H;01:03;L
+2;Rakow Czestochowa;RCZ;A;03:01;W
+2;Wisla Krakow;WIS;H;01:03;L
+2;Slask Wroclaw;SLA;A;03:01;W
+2;Legia Warszawa;LEG;H;01:02;L
+2;Jagiellonia Bialystok;JAG;A;02:01;W
+2;Piast Gliwice;PIA;H;00:01;L
+2;Pogon Szczecin;POG;A;01:00;W
+2;Podbeskidzie Bielsko-Biala;POD;H;02:02;D
+2;Cracovia;CRA;A;02:02;D
+2;Lech Poznan;LPO;H;02:02;D
+2;Wisla Plock;WPL;A;02:02;D
+3;Jagiellonia Bialystok;JAG;H;02:02;D
+3;Podbeskidzie Bielsko-Biala;POD;A;02:02;D
+3;Wisla Plock;WPL;H;00:01;L
+3;Legia Warszawa;LEG;A;01:00;W
+3;Cracovia;CRA;H;01:01;D
+3;PGE FKS Stal Mielec;STM;A;01:01;D
+3;Warta Poznan;WAR;H;00:00;D
+3;Piast Gliwice;PIA;A;00:00;D
+3;Slask Wroclaw;SLA;H;03:03;D
+3;Lech Poznan;LPO;A;03:03;D
+3;Pogon Szczecin;POG;H;02:02;D
+3;Wisla Krakow;WIS;A;02:02;D
+3;Gornik Zabrze;GOR;H;03:00;W
+3;Lechia Gdansk;LGD;A;00:03;L
+3;Rakow Czestochowa;RCZ;H;02:01;W
+3;KGHM Zaglebie Lubin;ZAG;A;01:02;L
+4;Podbeskidzie Bielsko-Biala;POD;H;01:04;L
+4;Rakow Czestochowa;RCZ;A;04:01;W
+4;Wisla Krakow;WIS;H;00:03;L
+4;Wisla Plock;WPL;A;03:00;W
+4;Lechia Gdansk;LGD;H;04:02;W
+4;PGE FKS Stal Mielec;STM;A;02:04;L
+4;Pogon Szczecin;POG;H;01:00;W
+4;Slask Wroclaw;SLA;A;00:01;L
+4;Legia Warszawa;LEG;H;01:03;L
+4;Gornik Zabrze;GOR;A;03:01;W
+4;KGHM Zaglebie Lubin;ZAG;H;01:01;D
+4;Cracovia;CRA;A;01:01;D
+4;Lech Poznan;LPO;H;01:00;W
+4;Warta Poznan;WAR;A;00:01;L
+4;Piast Gliwice;PIA;H;00:01;L
+4;Jagiellonia Bialystok;JAG;A;01:00;W
+5;Wisla Plock;WPL;H;01:03;L
+5;Warta Poznan;WAR;A;03:01;W
+5;Gornik Zabrze;GOR;H;00:00;D
+5;Wisla Krakow;WIS;A;00:00;D
+5;Cracovia;CRA;H;02:02;D
+5;Rakow Czestochowa;RCZ;A;02:02;D
+5;Lechia Gdansk;LGD;H;04:00;W
+5;Podbeskidzie Bielsko-Biala;POD;A;00:04;L
+5;Jagiellonia Bialystok;JAG;H;00:01;L
+5;KGHM Zaglebie Lubin;ZAG;A;01:00;W
+5;PGE FKS Stal Mielec;STM;H;03:02;W
+5;Piast Gliwice;PIA;A;02:03;L
+5;Legia Warszawa;LEG;H;02:01;W
+5;Slask Wroclaw;SLA;A;01:02;L
+5;Lech Poznan;LPO;H;- : -;-
+5;Pogon Szczecin;POG;A;- : -;-
+6;Rakow Czestochowa;RCZ;H;03:00;W
+6;Wisla Plock;WPL;A;00:03;L
+6;Slask Wroclaw;SLA;H;03:01;W
+6;Cracovia;CRA;A;01:03;L
+6;Podbeskidzie Bielsko-Biala;POD;H;01:00;W
+6;PGE FKS Stal Mielec;STM;A;00:01;L
+6;KGHM Zaglebie Lubin;ZAG;H;02:00;W
+6;Gornik Zabrze;GOR;A;00:02;L
+6;Piast Gliwice;PIA;H;01:04;L
+6;Lech Poznan;LPO;A;04:01;W
+6;Wisla Krakow;WIS;H;01:03;L
+6;Lechia Gdansk;LGD;A;03:01;W
+6;Pogon Szczecin;POG;H;03:00;W
+6;Jagiellonia Bialystok;JAG;A;00:03;L
+6;Warta Poznan;WAR;H;00:03;L
+6;Legia Warszawa;LEG;A;03:00;W
+7;Cracovia;CRA;H;01:00;W
+7;Piast Gliwice;PIA;A;00:01;L
+7;Gornik Zabrze;GOR;H;01:03;L
+7;Rakow Czestochowa;RCZ;A;03:01;W
+7;Jagiellonia Bialystok;JAG;H;02:01;W
+7;Lech Poznan;LPO;A;01:02;L
+7;Wisla Plock;WPL;H;01:00;W
+7;Slask Wroclaw;SLA;A;00:01;L
+7;PGE FKS Stal Mielec;STM;H;00:06;L
+7;Wisla Krakow;WIS;A;06:00;W
+7;Legia Warszawa;LEG;H;02:01;W
+7;KGHM Zaglebie Lubin;ZAG;A;01:02;L
+7;Podbeskidzie Bielsko-Biala;POD;H;01:02;L
+7;Warta Poznan;WAR;A;02:01;W
+7;Lechia Gdansk;LGD;H;00:01;L
+7;Pogon Szczecin;POG;A;01:00;W
+8;Piast Gliwice;PIA;H;02:02;D
+8;Wisla Plock;WPL;A;02:02;D
+8;KGHM Zaglebie Lubin;ZAG;H;01:01;D
+8;Lechia Gdansk;LGD;A;01:01;D
+8;Wisla Krakow;WIS;H;03:00;W
+8;Podbeskidzie Bielsko-Biala;POD;A;00:03;L
+8;Slask Wroclaw;SLA;H;01:00;W
+8;Jagiellonia Bialystok;JAG;A;00:01;L
+8;Pogon Szczecin;POG;H;00:00;D
+8;Legia Warszawa;LEG;A;00:00;D
+8;Rakow Czestochowa;RCZ;H;02:01;W
+8;PGE FKS Stal Mielec;STM;A;01:02;L
+8;Lech Poznan;LPO;H;01:01;D
+8;Cracovia;CRA;A;01:01;D
+8;Warta Poznan;WAR;H;00:01;L
+8;Gornik Zabrze;GOR;A;01:00;W
+9;PGE FKS Stal Mielec;STM;H;00:01;L
+9;Warta Poznan;WAR;A;01:00;W
+9;Cracovia;CRA;H;03:01;W
+9;Jagiellonia Bialystok;JAG;A;01:03;L
+9;Legia Warszawa;LEG;H;02:01;W
+9;Lech Poznan;LPO;A;01:02;L
+9;Rakow Czestochowa;RCZ;H;00:00;D
+9;Wisla Krakow;WIS;A;00:00;D
+9;Lechia Gdansk;LGD;H;03:02;W
+9;Slask Wroclaw;SLA;A;02:03;L
+9;Gornik Zabrze;GOR;H;01:02;L
+9;Piast Gliwice;PIA;A;02:01;W
+9;Podbeskidzie Bielsko-Biala;POD;H;02:01;W
+9;KGHM Zaglebie Lubin;ZAG;A;01:02;L
+9;Wisla Plock;WPL;H;00:00;D
+9;Pogon Szczecin;POG;A;00:00;D
+10;Slask Wroclaw;SLA;H;00:00;D
+10;Gornik Zabrze;GOR;A;00:00;D
+10;Pogon Szczecin;POG;H;01:01;D
+10;Podbeskidzie Bielsko-Biala;POD;A;01:01;D
+10;KGHM Zaglebie Lubin;ZAG;H;02:02;D
+10;PGE FKS Stal Mielec;STM;A;02:02;D
+10;Warta Poznan;WAR;H;02:01;W
+10;Wisla Krakow;WIS;A;01:02;L
+10;Lech Poznan;LPO;H;03:03;D
+10;Rakow Czestochowa;RCZ;A;03:03;D
+10;Cracovia;CRA;H;00:01;L
+10;Legia Warszawa;LEG;A;01:00;W
+10;Piast Gliwice;PIA;H;02:00;W
+10;Lechia Gdansk;LGD;A;00:02;L
+10;Jagiellonia Bialystok;JAG;H;05:02;W
+10;Wisla Plock;WPL;A;02:05;L
+11;Wisla Plock;WPL;H;00:01;L
+11;Cracovia;CRA;A;01:00;W
+11;Gornik Zabrze;GOR;H;02:01;W
+11;Pogon Szczecin;POG;A;01:02;L
+11;PGE FKS Stal Mielec;STM;H;03:01;W
+11;Jagiellonia Bialystok;JAG;A;01:03;L
+11;Podbeskidzie Bielsko-Biala;POD;H;00:02;L
+11;Slask Wroclaw;SLA;A;02:00;W
+11;Wisla Krakow;WIS;H;01:02;L
+11;KGHM Zaglebie Lubin;ZAG;A;02:01;W
+11;Rakow Czestochowa;RCZ;H;01:00;W
+11;Warta Poznan;WAR;A;00:01;L
+11;Legia Warszawa;LEG;H;02:02;D
+11;Piast Gliwice;PIA;A;02:02;D
+11;Lechia Gdansk;LGD;H;00:01;L
+11;Lech Poznan;LPO;A;01:00;W
+12;Cracovia;CRA;H;01:01;D
+12;Wisla Krakow;WIS;A;01:01;D
+12;Jagiellonia Bialystok;JAG;H;04:03;W
+12;Warta Poznan;WAR;A;03:04;L
+12;Slask Wroclaw;SLA;H;01:00;W
+12;Rakow Czestochowa;RCZ;A;00:01;L
+12;Legia Warszawa;LEG;H;02:00;W
+12;Lechia Gdansk;LGD;A;00:02;L
+12;Piast Gliwice;PIA;H;01:01;D
+12;KGHM Zaglebie Lubin;ZAG;A;01:01;D
+12;Lech Poznan;LPO;H;04:00;W
+12;Podbeskidzie Bielsko-Biala;POD;A;00:04;L
+12;Pogon Szczecin;POG;H;02:00;W
+12;PGE FKS Stal Mielec;STM;A;00:02;L
+12;Wisla Plock;WPL;H;00:01;L
+12;Gornik Zabrze;GOR;A;01:00;W
+13;Podbeskidzie Bielsko-Biala;POD;H;- : -;-
+13;Piast Gliwice;PIA;A;- : -;-
+13;KGHM Zaglebie Lubin;ZAG;H;- : -;-
+13;Slask Wroclaw;SLA;A;- : -;-
+13;Warta Poznan;WAR;H;- : -;-
+13;Pogon Szczecin;POG;A;- : -;-
+13;Gornik Zabrze;GOR;H;- : -;-
+13;Cracovia;CRA;A;- : -;-
+13;Wisla Krakow;WIS;H;- : -;-
+13;Legia Warszawa;LEG;A;- : -;-
+13;PGE FKS Stal Mielec;STM;H;- : -;-
+13;Lech Poznan;LPO;A;- : -;-
+13;Rakow Czestochowa;RCZ;H;- : -;-
+13;Jagiellonia Bialystok;JAG;A;- : -;-
+13;Lechia Gdansk;LGD;H;- : -;-
+13;Wisla Plock;WPL;A;- : -;-
+14;Slask Wroclaw;SLA;H;- : -;-
+14;Warta Poznan;WAR;A;- : -;-
+14;Wisla Plock;WPL;H;- : -;-
+14;Podbeskidzie Bielsko-Biala;POD;A;- : -;-
+14;Legia Warszawa;LEG;H;- : -;-
+14;PGE FKS Stal Mielec;STM;A;- : -;-
+14;Pogon Szczecin;POG;H;- : -;-
+14;KGHM Zaglebie Lubin;ZAG;A;- : -;-
+14;Cracovia;CRA;H;- : -;-
+14;Lechia Gdansk;LGD;A;- : -;-
+14;Lech Poznan;LPO;H;- : -;-
+14;Wisla Krakow;WIS;A;- : -;-
+14;Piast Gliwice;PIA;H;- : -;-
+14;Rakow Czestochowa;RCZ;A;- : -;-
+14;Jagiellonia Bialystok;JAG;H;- : -;-
+14;Gornik Zabrze;GOR;A;- : -;-
+15;KGHM Zaglebie Lubin;ZAG;H;- : -;-
+15;Wisla Plock;WPL;A;- : -;-
+15;Warta Poznan;WAR;H;- : -;-
+15;Cracovia;CRA;A;- : -;-
+15;Lechia Gdansk;LGD;H;- : -;-
+15;Jagiellonia Bialystok;JAG;A;- : -;-
+15;Gornik Zabrze;GOR;H;- : -;-
+15;Lech Poznan;LPO;A;- : -;-
+15;Rakow Czestochowa;RCZ;H;- : -;-
+15;Pogon Szczecin;POG;A;- : -;-
+15;Wisla Krakow;WIS;H;- : -;-
+15;Piast Gliwice;PIA;A;- : -;-
+15;Podbeskidzie Bielsko-Biala;POD;H;- : -;-
+15;Legia Warszawa;LEG;A;- : -;-
+15;PGE FKS Stal Mielec;STM;H;- : -;-
+15;Slask Wroclaw;SLA;A;- : -;-
+16;Lech Poznan;LPO;H;- : -;-
+16;KGHM Zaglebie Lubin;ZAG;A;- : -;-
+16;Legia Warszawa;LEG;H;- : -;-
+16;Rakow Czestochowa;RCZ;A;- : -;-
+16;Piast Gliwice;PIA;H;- : -;-
+16;Slask Wroclaw;SLA;A;- : -;-
+16;Podbeskidzie Bielsko-Biala;POD;H;- : -;-
+16;Gornik Zabrze;GOR;A;- : -;-
+16;Pogon Szczecin;POG;H;- : -;-
+16;Cracovia;CRA;A;- : -;-
+16;PGE FKS Stal Mielec;STM;H;- : -;-
+16;Wisla Plock;WPL;A;- : -;-
+16;Wisla Krakow;WIS;H;- : -;-
+16;Jagiellonia Bialystok;JAG;A;- : -;-
+16;Lechia Gdansk;LGD;H;- : -;-
+16;Warta Poznan;WAR;A;- : -;-
+17;Cracovia;CRA;H;- : -;-
+17;Podbeskidzie Bielsko-Biala;POD;A;- : -;-
+17;Gornik Zabrze;GOR;H;- : -;-
+17;PGE FKS Stal Mielec;STM;A;- : -;-
+17;Jagiellonia Bialystok;JAG;H;- : -;-
+17;Legia Warszawa;LEG;A;- : -;-
+17;Pogon Szczecin;POG;H;- : -;-
+17;Piast Gliwice;PIA;A;- : -;-
+17;Rakow Czestochowa;RCZ;H;- : -;-
+17;Lechia Gdansk;LGD;A;- : -;-
+17;Wisla Plock;WPL;H;- : -;-
+17;Lech Poznan;LPO;A;- : -;-
+17;Slask Wroclaw;SLA;H;- : -;-
+17;Wisla Krakow;WIS;A;- : -;-
+17;Warta Poznan;WAR;H;- : -;-
+17;KGHM Zaglebie Lubin;ZAG;A;- : -;-
+18;KGHM Zaglebie Lubin;ZAG;H;- : -;-
+18;Rakow Czestochowa;RCZ;A;- : -;-
+18;Lech Poznan;LPO;H;- : -;-
+18;Slask Wroclaw;SLA;A;- : -;-
+18;Lechia Gdansk;LGD;H;- : -;-
+18;Gornik Zabrze;GOR;A;- : -;-
+18;Legia Warszawa;LEG;H;- : -;-
+18;Wisla Plock;WPL;A;- : -;-
+18;Podbeskidzie Bielsko-Biala;POD;H;- : -;-
+18;Jagiellonia Bialystok;JAG;A;- : -;-
+18;PGE FKS Stal Mielec;STM;H;- : -;-
+18;Cracovia;CRA;A;- : -;-
+18;Wisla Krakow;WIS;H;- : -;-
+18;Pogon Szczecin;POG;A;- : -;-
+18;Piast Gliwice;PIA;H;- : -;-
+18;Warta Poznan;WAR;A;- : -;-
+19;Cracovia;CRA;H;- : -;-
+19;KGHM Zaglebie Lubin;ZAG;A;- : -;-
+19;Gornik Zabrze;GOR;H;- : -;-
+19;Legia Warszawa;LEG;A;- : -;-
+19;Jagiellonia Bialystok;JAG;H;- : -;-
+19;Piast Gliwice;PIA;A;- : -;-
+19;Rakow Czestochowa;RCZ;H;- : -;-
+19;Podbeskidzie Bielsko-Biala;POD;A;- : -;-
+19;PGE FKS Stal Mielec;STM;H;- : -;-
+19;Lechia Gdansk;LGD;A;- : -;-
+19;Wisla Plock;WPL;H;- : -;-
+19;Wisla Krakow;WIS;A;- : -;-
+19;Slask Wroclaw;SLA;H;- : -;-
+19;Pogon Szczecin;POG;A;- : -;-
+19;Warta Poznan;WAR;H;- : -;-
+19;Lech Poznan;LPO;A;- : -;-
+20;KGHM Zaglebie Lubin;ZAG;H;- : -;-
+20;Jagiellonia Bialystok;JAG;A;- : -;-
+20;Piast Gliwice;PIA;H;- : -;-
+20;PGE FKS Stal Mielec;STM;A;- : -;-
+20;Podbeskidzie Bielsko-Biala;POD;H;- : -;-
+20;Lechia Gdansk;LGD;A;- : -;-
+20;Pogon Szczecin;POG;H;- : -;-
+20;Lech Poznan;LPO;A;- : -;-
+20;Rakow Czestochowa;RCZ;H;- : -;-
+20;Cracovia;CRA;A;- : -;-
+20;Wisla Krakow;WIS;H;- : -;-
+20;Gornik Zabrze;GOR;A;- : -;-
+20;Slask Wroclaw;SLA;H;- : -;-
+20;Legia Warszawa;LEG;A;- : -;-
+20;Warta Poznan;WAR;H;- : -;-
+20;Wisla Plock;WPL;A;- : -;-
+21;Cracovia;CRA;H;- : -;-
+21;Slask Wroclaw;SLA;A;- : -;-
+21;Gornik Zabrze;GOR;H;- : -;-
+21;KGHM Zaglebie Lubin;ZAG;A;- : -;-
+21;Jagiellonia Bialystok;JAG;H;- : -;-
+21;Pogon Szczecin;POG;A;- : -;-
+21;Lech Poznan;LPO;H;- : -;-
+21;Piast Gliwice;PIA;A;- : -;-
+21;Lechia Gdansk;LGD;H;- : -;-
+21;Wisla Krakow;WIS;A;- : -;-
+21;PGE FKS Stal Mielec;STM;H;- : -;-
+21;Podbeskidzie Bielsko-Biala;POD;A;- : -;-
+21;Wisla Krakow;WIS;H;- : -;-
+21;Rakow Czestochowa;RCZ;A;- : -;-
+21;Legia Warszawa;LEG;H;- : -;-
+21;Warta Poznan;WAR;A;- : -;-
+22;KGHM Zaglebie Lubin;ZAG;H;- : -;-
+22;Legia Warszawa;LEG;A;- : -;-
+22;Lech Poznan;LPO;H;- : -;-
+22;Jagiellonia Bialystok;JAG;A;- : -;-
+22;Piast Gliwice;PIA;H;- : -;-
+22;Cracovia;CRA;A;- : -;-
+22;Pogon Szczecin;POG;H;- : -;-
+22;Lechia Gdansk;LGD;A;- : -;-
+22;Rakow Czestochowa;RCZ;H;- : -;-
+22;Gornik Zabrze;GOR;A;- : -;-
+22;Wisla Krakow;WIS;H;- : -;-
+22;PGE FKS Stal Mielec;STM;A;- : -;-
+22;Slask Wroclaw;SLA;H;- : -;-
+22;Wisla Plock;WPL;A;- : -;-
+22;Warta Poznan;WAR;H;- : -;-
+22;Podbeskidzie Bielsko-Biala;POD;A;- : -;-
+23;Cracovia;CRA;H;- : -;-
+23;Lech Poznan;LPO;A;- : -;-
+23;Jagiellonia Bialystok;JAG;H;- : -;-
+23;Slask Wroclaw;SLA;A;- : -;-
+23;Lechia Gdansk;LGD;H;- : -;-
+23;KGHM Zaglebie Lubin;ZAG;A;- : -;-
+23;Legia Warszawa;LEG;H;- : -;-
+23;Pogon Szczecin;POG;A;- : -;-
+23;Podbeskidzie Bielsko-Biala;POD;H;- : -;-
+23;Wisla Krakow;WIS;A;- : -;-
+23;PGE FKS Stal Mielec;STM;H;- : -;-
+23;Rakow Czestochowa;RCZ;A;- : -;-
+23;Wisla Plock;WPL;H;- : -;-
+23;Piast Gliwice;PIA;A;- : -;-
+23;Gornik Zabrze;GOR;H;- : -;-
+23;Warta Poznan;WAR;A;- : -;-
+24;Jagiellonia Bialystok;JAG;H;- : -;-
+24;Cracovia;CRA;A;- : -;-
+24;KGHM Zaglebie Lubin;ZAG;H;- : -;-
+24;Podbeskidzie Bielsko-Biala;POD;A;- : -;-
+24;Lech Poznan;LPO;H;- : -;-
+24;Legia Warszawa;LEG;A;- : -;-
+24;Piast Gliwice;PIA;H;- : -;-
+24;Gornik Zabrze;GOR;A;- : -;-
+24;Pogon Szczecin;POG;H;- : -;-
+24;Wisla Plock;WPL;A;- : -;-
+24;Wisla Krakow;WIS;H;- : -;-
+24;Rakow Czestochowa;RCZ;A;- : -;-
+24;Slask Wroclaw;SLA;H;- : -;-
+24;Lechia Gdansk;LGD;A;- : -;-
+24;Warta Poznan;WAR;H;- : -;-
+24;PGE FKS Stal Mielec;STM;A;- : -;-
+25;Gornik Zabrze;GOR;H;- : -;-
+25;Slask Wroclaw;SLA;A;- : -;-
+25;Lechia Gdansk;LGD;H;- : -;-
+25;Piast Gliwice;PIA;A;- : -;-
+25;Legia Warszawa;LEG;H;- : -;-
+25;Cracovia;CRA;A;- : -;-
+25;Podbeskidzie Bielsko-Biala;POD;H;- : -;-
+25;Pogon Szczecin;POG;A;- : -;-
+25;Rakow Czestochowa;RCZ;H;- : -;-
+25;Lech Poznan;LPO;A;- : -;-
+25;PGE FKS Stal Mielec;STM;H;- : -;-
+25;KGHM Zaglebie Lubin;ZAG;A;- : -;-
+25;Wisla Plock;WPL;H;- : -;-
+25;Jagiellonia Bialystok;JAG;A;- : -;-
+25;Wisla Krakow;WIS;H;- : -;-
+25;Warta Poznan;WAR;A;- : -;-
+26;Cracovia;CRA;H;- : -;-
+26;Wisla Plock;WPL;A;- : -;-
+26;Jagiellonia Bialystok;JAG;H;- : -;-
+26;PGE FKS Stal Mielec;STM;A;- : -;-
+26;KGHM Zaglebie Lubin;ZAG;H;- : -;-
+26;Wisla Krakow;WIS;A;- : -;-
+26;Lech Poznan;LPO;H;- : -;-
+26;Lechia Gdansk;LGD;A;- : -;-
+26;Piast Gliwice;PIA;H;- : -;-
+26;Legia Warszawa;LEG;A;- : -;-
+26;Pogon Szczecin;POG;H;- : -;-
+26;Gornik Zabrze;GOR;A;- : -;-
+26;Slask Wroclaw;SLA;H;- : -;-
+26;Podbeskidzie Bielsko-Biala;POD;A;- : -;-
+26;Warta Poznan;WAR;H;- : -;-
+26;Rakow Czestochowa;RCZ;A;- : -;-
+27;Gornik Zabrze;GOR;H;- : -;-
+27;Wisla Plock;WPL;A;- : -;-
+27;KGHM Zaglebie Lubin;ZAG;H;- : -;-
+27;Piast Gliwice;PIA;A;- : -;-
+27;Lechia Gdansk;LGD;H;- : -;-
+27;Legia Warszawa;LEG;A;- : -;-
+27;Podbeskidzie Bielsko-Biala;POD;H;- : -;-
+27;Lech Poznan;LPO;A;- : -;-
+27;Rakow Czestochowa;RCZ;H;- : -;-
+27;Slask Wroclaw;SLA;A;- : -;-
+27;PGE FKS Stal Mielec;STM;H;- : -;-
+27;Pogon Szczecin;POG;A;- : -;-
+27;Wisla Krakow;WIS;H;- : -;-
+27;Cracovia;CRA;A;- : -;-
+27;Warta Poznan;WAR;H;- : -;-
+27;Jagiellonia Bialystok;JAG;A;- : -;-
+28;Cracovia;CRA;H;- : -;-
+28;Gornik Zabrze;GOR;A;- : -;-
+28;Jagiellonia Bialystok;JAG;H;- : -;-
+28;Rakow Czestochowa;RCZ;A;- : -;-
+28;Lech Poznan;LPO;H;- : -;-
+28;PGE FKS Stal Mielec;STM;A;- : -;-
+28;Legia Warszawa;LEG;H;- : -;-
+28;Wisla Krakow;WIS;A;- : -;-
+28;Piast Gliwice;PIA;H;- : -;-
+28;Podbeskidzie Bielsko-Biala;POD;A;- : -;-
+28;Wisla Plock;WPL;H;- : -;-
+28;Lechia Gdansk;LGD;A;- : -;-
+28;Slask Wroclaw;SLA;H;- : -;-
+28;KGHM Zaglebie Lubin;ZAG;A;- : -;-
+28;Pogon Szczecin;POG;H;- : -;-
+28;Warta Poznan;WAR;A;- : -;-
+29;Gornik Zabrze;GOR;H;- : -;-
+29;Jagiellonia Bialystok;JAG;A;- : -;-
+29;KGHM Zaglebie Lubin;ZAG;H;- : -;-
+29;Pogon Szczecin;POG;A;- : -;-
+29;Lechia Gdansk;LGD;H;- : -;-
+29;Cracovia;CRA;A;- : -;-
+29;Podbeskidzie Bielsko-Biala;POD;H;- : -;-
+29;Wisla Plock;WPL;A;- : -;-
+29;Rakow Czestochowa;RCZ;H;- : -;-
+29;Piast Gliwice;PIA;A;- : -;-
+29;PGE FKS Stal Mielec;STM;H;- : -;-
+29;Legia Warszawa;LEG;A;- : -;-
+29;Wisla Krakow;WIS;H;- : -;-
+29;Lech Poznan;LPO;A;- : -;-
+29;Warta Poznan;WAR;H;- : -;-
+29;Slask Wroclaw;SLA;A;- : -;-
+30;Jagiellonia Bialystok;JAG;H;- : -;-
+30;Lechia Gdansk;LGD;A;- : -;-
+30;Lech Poznan;LPO;H;- : -;-
+30;Gornik Zabrze;GOR;A;- : -;-
+30;Legia Warszawa;LEG;H;- : -;-
+30;Podbeskidzie Bielsko-Biala;POD;A;- : -;-
+30;Piast Gliwice;PIA;H;- : -;-
+30;Wisla Krakow;WIS;A;- : -;-
+30;Pogon Szczecin;POG;H;- : -;-
+30;Rakow Czestochowa;RCZ;A;- : -;-
+30;Wisla Plock;WPL;H;- : -;-
+30;KGHM Zaglebie Lubin;ZAG;A;- : -;-
+30;Slask Wroclaw;SLA;H;- : -;-
+30;PGE FKS Stal Mielec;STM;A;- : -;-
+30;Cracovia;CRA;H;- : -;-
+30;Warta Poznan;WAR;A;- : -;-
