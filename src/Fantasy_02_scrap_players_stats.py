@@ -24,7 +24,9 @@ def main():
     # creating list with links
     link_list = links_df["Link"].tolist()
 
-    dataframes = []
+    # empty list with players dataframes
+    players_stats_dataframes = []
+
     # looping throgu links
     for link in link_list:
         # gettig the page with stats for player
@@ -37,11 +39,52 @@ def main():
         driver.quit()
 
         # PLAYER INFO
+        # getting elements with players info
+        player_info_1 = site.find_all('h2')
+        player_info_2 = site.find_all('h5', class_='mb-none')
+
+        # general info about player
+        player_id = link[39:]
+        player_name = player_info_1[1].text
+        player_club = player_info_1[0].text
+        player_position = site.find('h6').text
+
+        # players value
+        pattern_value = re.compile("([0-9]\.[0-9]\w)+")
+        player_value = player_info_2[0].text
+        player_value = re.search(pattern_value, player_value).group()
+
+        # players popularity
+        pattern_popularity = re.compile("([0-9])+")
+        player_popularity = player_info_2[1].text
+        player_popularity = re.search(pattern_popularity, player_popularity).group()
+
+        # players country
+        player_country = player_info_2[2].text
+        player_country = player_country[6:]
+
+        # players country
+        player_club_prev = player_info_2[3].text
+        player_club_prev = player_club_prev[16:]
+
+        # previous edition points
+        pattern_points_prev = re.compile("([0-9])+")
+        player_points_prev = player_info_2[4].text
+        player_points_prev = re.search(pattern_points_prev, player_points_prev).group()
 
         # TABLE DATA
         table_body = site.find('tbody')
         table_rows = table_body.find_all('tr')
         # empty lists
+        col_id = []
+        col_name = []
+        col_position = []
+        col_value = []
+        col_club = []
+        col_club_prev = []
+        col_country = []
+        col_popularity = []
+        col_points_prev = []
         col_round = []
         col_opponent = []
         col_time = []
@@ -57,29 +100,28 @@ def main():
         col_yellow = []
         col_red = []
         col_points = []
+
+        # looping through rows in table
         for row in table_rows:
+            # findin all columns
             col = row.find_all('td')
             if len(col) == 15:
+                # reg-ex patterns
                 pattern_lettes = re.compile("([A-Za-z])\w+")
                 pattern_numbers = re.compile("([0-9])+")
 
-                # round = col[0]
-                # opponent = col[1]
-                # gametime = row.find('td', title='Czas gry')
-                # goals = row.find('td', title='Bramki')
-                # assists = row.find('td', title='Asysty')
-                # own_goal = row.find('td', title='Bramki samobójcze')
-                # penalty = row.find('td', title='Karny wykorzystany')
-                # penalty_won = row.find('td', title='Karny wywalczony')
-                # penalty_given = row.find('td', title='Karny spowodowany')
-                # penalty_lost = row.find('td', title='Karny zmarnowany')
-                # penalty_defend = row.find('td', title='Karny obroniony')
-                # instat = row.find('td', title='InStat Index')
-                # yellow = row.find('td', title='Zółta kartka')
-                # red = row.find('td', title='Czerwona kartka')
-                # points = row.find('td', title='Punkty')
+                # appending columns with general info about player
+                col_id.append(player_id)
+                col_name.append(player_name)
+                col_position.append(player_position)
+                col_value.append(player_value)
+                col_club.append(player_club)
+                col_club_prev.append(player_club_prev)
+                col_country.append(player_country)
+                col_popularity.append(player_popularity)
+                col_points_prev.append(player_points_prev)
 
-
+                # getting text from columns and appending lists
                 round = col[0].text
                 round = re.search(pattern_numbers, round).group()
                 col_round.append(round)
@@ -144,19 +186,47 @@ def main():
                 pass
 
         # zipping lists
-        data_tuples = list(zip(col_round, col_opponent, col_time, col_goals, col_assists, col_own_goal, col_penalty,
-                               col_penalty_won, col_penalty_given, col_penalty_lost, col_penalty_defend, col_instat,
-                               col_yellow, col_red, col_points))
+        data_tuples = list(zip(col_id, col_name, col_position, col_value, col_club, col_club_prev, col_country,
+                               col_popularity, col_points_prev, col_round, col_opponent, col_time, col_goals,
+                               col_assists, col_own_goal, col_penalty, col_penalty_won, col_penalty_given,
+                               col_penalty_lost, col_penalty_defend, col_instat, col_yellow, col_red, col_points))
+
 
         # creating dataframe
-        player_stats = pd.DataFrame(data_tuples, columns=["Round", "Opponent", "Time", "Goals", "Assists", "Own_goal",
-                                                         "Penalty", "Penalty_won", "Penalty_given", "Penalty_lost",
-                                                         "Penalty_defended", "InStat", "Yellow_card", "Red_card",
-                                                         "Points"])
-        print(player_stats)
+        player_stats = pd.DataFrame(data_tuples, columns=["ID", "Name", "Position", "Value", "Club", "Club_prev",
+                                                          "Country", "Popularity", "Points_prev","Round", "Opponent",
+                                                          "Time", "Goals", "Assists", "Own_goal",
+                                                          "Penalty", "Penalty_won", "Penalty_given", "Penalty_lost",
+                                                          "Penalty_defended", "InStat", "Yellow_card", "Red_card", "Points"])
 
-        # saving dataframe
-        player_stats.to_csv(project_dir + r'\data\raw\Players_stats.csv', index=False, encoding='UTF-8')
+        # adding dataframe to list
+        players_stats_dataframes.append(player_stats)
+
+
+    # concatenating dataframes
+    players_stats = pd.concat(players_stats_dataframes, axis=0, sort=False)
+
+    # cleaning data
+    # getting corect value (replacing "." in the nymber with ",")
+    players_stats["Value"] = players_stats["Value"].apply(lambda value: value.replace(".", ","))
+
+    letters_dictionary = {'ą': 'a', "ę": "e", "ć": "c", "ł": "l", "ń": "n", "ó": "o", "ś": "s", "ź": "z", "ż": "z",
+                          'Ą': 'A', "Ę": "E", "Ć": "C", "Ł": "L", "N": "N", "Ó": "O", "Ś": "S", "Ż": "Z", "Ź": "Z",
+                          "á": "a", "Á": "A", "â": "a", "Â": "A", "ă": "a", "Ă": "A", "č": "c", "Č": "C", "đ": "d",
+                          "Đ": "D", "é": "e", "É": "E", "í": "i", "Í": "I", "ľ": "l", "Ľ": "L", "ñ": "n", "Ñ": "N",
+                          "ø": "o", "Ø": "O", "ö": "o", "Ö": "O", "ő": "o", "Ő": "O", "š": "s", "Š": "S", "ť": "t",
+                          "Ť": "T", "ú": "u", "Ú": "U", "ý": "y", "Ý": "Y", "ž": "z", "Ž": "Z"}
+
+    columns_list = ["Name", "Position", "Club", "Club_prev", "Country", "Opponent"]
+
+    # replacing special letters in columns:
+    for special_letter, normal_letter in letters_dictionary.items():
+        for column in columns_list:
+            players_stats[column] = players_stats[column].apply(lambda value: value.replace(special_letter, normal_letter))
+
+    print(players_stats)
+    # saving dataframe
+    players_stats.to_csv(project_dir + r'\data\raw\Players_stats.csv', index=False, encoding='UTF-8')
 
     # end time of program + duration
     end_time = time.time()
