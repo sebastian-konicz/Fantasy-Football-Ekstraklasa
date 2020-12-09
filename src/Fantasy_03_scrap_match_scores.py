@@ -18,7 +18,7 @@ def main():
     project_dir = str(Path(__file__).resolve().parents[1])
 
     # loading file with links
-    # links_df = pd.read_csv(project_dir + r'\data\raw\Players_links.csv', delimiter=',')
+    # links_df = pd.read_csv(project_dir + r'\data\raw\Players_links.csv')
     links_df = pd.read_csv(project_dir + r'\data\raw\Players_links_short.csv', delimiter=';')
 
     # creating list with links
@@ -36,8 +36,6 @@ def main():
         # getting the site html
         html = driver.page_source
         site = BeautifulSoup(html, 'html.parser')
-
-        # shutting down selenium driver
         driver.quit()
 
         # PLAYER INFO
@@ -49,7 +47,6 @@ def main():
         player_id = link[39:]
         player_name = player_info_1[1].text
         player_club = player_info_1[0].text
-        player_club_abr = ""
         player_position = site.find('h6').text
 
         # players value
@@ -71,20 +68,19 @@ def main():
         player_club_prev = player_club_prev[16:]
 
         # previous edition points
+        pattern_points_prev = re.compile("([0-9])+")
         player_points_prev = player_info_2[4].text
-        player_points_prev = player_points_prev[28:]
+        player_points_prev = re.search(pattern_points_prev, player_points_prev).group()
 
         # TABLE DATA
         table_body = site.find('tbody')
         table_rows = table_body.find_all('tr')
-
         # empty lists
         col_id = []
         col_name = []
         col_position = []
         col_value = []
         col_club = []
-        col_club_abr = []
         col_club_prev = []
         col_country = []
         col_popularity = []
@@ -120,7 +116,6 @@ def main():
                 col_position.append(player_position)
                 col_value.append(player_value)
                 col_club.append(player_club)
-                col_club_abr.append(player_club_abr)
                 col_club_prev.append(player_club_prev)
                 col_country.append(player_country)
                 col_popularity.append(player_popularity)
@@ -191,20 +186,18 @@ def main():
                 pass
 
         # zipping lists
-        data_tuples = list(zip(col_id, col_name, col_position, col_value, col_club, col_club_abr, col_club_prev,
-                               col_country, col_popularity, col_points_prev, col_round, col_opponent, col_time,
-                               col_goals, col_assists, col_own_goal, col_penalty, col_penalty_won, col_penalty_given,
+        data_tuples = list(zip(col_id, col_name, col_position, col_value, col_club, col_club_prev, col_country,
+                               col_popularity, col_points_prev, col_round, col_opponent, col_time, col_goals,
+                               col_assists, col_own_goal, col_penalty, col_penalty_won, col_penalty_given,
                                col_penalty_lost, col_penalty_defend, col_instat, col_yellow, col_red, col_points))
 
 
         # creating dataframe
-        player_stats = pd.DataFrame(data_tuples, columns=["ID", "Name", "Position", "Value", "Club", "Club_abr",
-                                                          "Club_prev", "Country", "Popularity", "Points_prev", "Round",
-                                                          "Opponent", "Time", "Goals", "Assists", "Own_goal", "Penalty",
-                                                          "Penalty_won", "Penalty_given", "Penalty_lost",
+        player_stats = pd.DataFrame(data_tuples, columns=["ID", "Name", "Position", "Value", "Club", "Club_prev",
+                                                          "Country", "Popularity", "Points_prev","Round", "Opponent",
+                                                          "Time", "Goals", "Assists", "Own_goal",
+                                                          "Penalty", "Penalty_won", "Penalty_given", "Penalty_lost",
                                                           "Penalty_defended", "InStat", "Yellow_card", "Red_card", "Points"])
-
-        print(player_stats)
 
         # adding dataframe to list
         players_stats_dataframes.append(player_stats)
@@ -216,19 +209,6 @@ def main():
     # cleaning data
     # getting corect value (replacing "." in the nymber with ",")
     players_stats["Value"] = players_stats["Value"].apply(lambda value: value.replace(".", ","))
-
-    # repairng opponent abbreviation
-    players_stats["Opponent"] = players_stats["Opponent"].apply(lambda value: "SLA" if value == "LA" else value)
-
-    club_dictionary = {"Cracovia": "CRA", "Gornik Zabrze": "GOR", "Jagiellonia Bialystok": "JAG",
-                       "Legia Warszawa": "LEG", "Lechia Gdansk": "LGD", "Lech Poznan": "LPO", "Piast Gliwice": "PIA",
-                       "Podbeskidzie Bielsko-Biala": "POD", "Pogon Szczecin": "POG", "Rakow Czestochowa": "RCZ",
-                       "Slask Wroclaw": "SLA", "PGE FKS Stal Mielec": "STM", "Warta Poznan": "WAR",
-                       "Wisla Krakow": "WIS", "Wisla Plock": "WPL", "Zaglebie Lubin": "ZAG"}
-
-    # adding club abbreviation to list
-    for club_name, club_abr in club_dictionary.items():
-        players_stats["Club_abr"] = players_stats.apply(lambda ps: club_abr if ps["Club"] == club_name else ps["Club_abr"])
 
     letters_dictionary = {'ą': 'a', "ę": "e", "ć": "c", "ł": "l", "ń": "n", "ó": "o", "ś": "s", "ź": "z", "ż": "z",
                           'Ą': 'A', "Ę": "E", "Ć": "C", "Ł": "L", "N": "N", "Ó": "O", "Ś": "S", "Ż": "Z", "Ź": "Z",
