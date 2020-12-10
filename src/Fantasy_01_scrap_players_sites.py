@@ -1,8 +1,9 @@
 from bs4 import BeautifulSoup
+from selenium import webdriver
 from pathlib import Path
 import pandas as pd
 import time
-from selenium import webdriver
+import datetime as dt
 
 PATH = r'C:\Users\kose9001\Desktop\JTM\chromedriver.exe'
 
@@ -58,8 +59,16 @@ def main():
     # creating dataframe
     players_links_df = pd.DataFrame(data_tuples, columns=['Player', 'Link'])
 
+    # time stamp
+    today = dt.date.today()
+    day = today.strftime("%d")
+    month = today.strftime("%b").upper()
+    year = today.strftime("%y")
+    time_stamp = day + month + year
+
     # saving dataframe
-    players_links_df.to_csv(project_dir + r'\data\raw\Players_links.csv', index=False, encoding='UTF-8')
+    players_links_df.to_csv(project_dir + r'\data\raw\Players_links_{date}.csv'.format(date=time_stamp),
+                            index=False, encoding='UTF-8')
 
     # shutting down selenium driver
     driver.quit()

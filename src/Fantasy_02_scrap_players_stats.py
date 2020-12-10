@@ -20,8 +20,8 @@ def main():
     project_dir = str(Path(__file__).resolve().parents[1])
 
     # loading file with links
-    # links_df = pd.read_csv(project_dir + r'\data\raw\Players_links.csv', delimiter=',')
-    links_df = pd.read_csv(project_dir + r'\data\raw\Players_links_short.csv', delimiter=';')
+    links_df = pd.read_csv(project_dir + r'\data\raw\Players_links.csv', delimiter=',')
+    # links_df = pd.read_csv(project_dir + r'\data\raw\Players_links_short.csv', delimiter=';')
 
     # creating list with links
     link_list = links_df["Link"].tolist()
