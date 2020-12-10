@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd0c45e6-9126-4229-b06e-9a58a6e5aff5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Fantasy_04_data_preparation_for_optimatisation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fantasy_01_scrap_players_sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fantasy_01_scrap_players_sites.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fantasy_02_scrap_players_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fantasy_02_scrap_players_stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fantasy_03_scrap_match_scores_copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fantasy_03_scrap_match_scores.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fantasy_03_scrap_match_scores.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,12 +15,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Fantasy_01_scrap_players_sites.py">
+        <entry file="file://$PROJECT_DIR$/src/Fantasy_04_data_preparation_for_optimatisation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="72" column="11" lean-forward="true" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+            <state relative-caret-position="158">
+              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -30,20 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Fantasy_02_scrap_players_stats.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="7" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Fantasy_03_scrap_match_scores.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="131" column="66" selection-start-line="131" selection-start-column="66" selection-end-line="131" selection-end-column="66" />
+            <state relative-caret-position="145">
+              <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="87" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -53,6 +40,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>patter</find>
@@ -60,6 +54,8 @@
       <find>player_points_prev</find>
       <find>driver.quit()</find>
       <find>time_s</find>
+      <find>print(</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -69,13 +65,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/Fantasy_03_scrap_match_scores.py" />
-        <option value="$PROJECT_DIR$/src/Fantasy_02_scrap_players_stats.py" />
         <option value="$PROJECT_DIR$/src/Fantasy_01_scrap_players_sites.py" />
+        <option value="$PROJECT_DIR$/src/Fantasy_02_scrap_players_stats.py" />
+        <option value="$PROJECT_DIR$/src/Fantasy_03_scrap_match_scores.py" />
+        <option value="$PROJECT_DIR$/src/Fantasy_04_data_preparation_for_optimatisation.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="1380" />
     <option name="height" value="735" />
@@ -125,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Fantasy_02_scrap_players_stats">
+  <component name="RunManager" selected="Python.Fantasy_04_data_preparation_for_optimatisation">
     <configuration name="Fantasy_01_scrap_players_sites" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,8 +186,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Fantasy_04_data_preparation_for_optimatisation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FantasyFootball" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Fantasy_04_data_preparation_for_optimatisation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Fantasy_04_data_preparation_for_optimatisation" />
         <item itemvalue="Python.Fantasy_02_scrap_players_stats" />
         <item itemvalue="Python.Fantasy_03_scrap_match_scores" />
         <item itemvalue="Python.Fantasy_01_scrap_players_sites" />
@@ -211,15 +230,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43371522" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43371522" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -234,6 +253,17 @@
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/Fantasy_04_data_preparation_for_optimatisation.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -253,32 +283,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fantasy_03_scrap_match_scores.py">
+    <entry file="file://$PROJECT_DIR$/src/Fantasy_01_scrap_players_sites.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="131" column="66" selection-start-line="131" selection-start-column="66" selection-end-line="131" selection-end-column="66" />
+        <state relative-caret-position="89">
+          <caret line="78" column="9" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="9" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Fantasy_03_scrap_match_scores.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Fantasy_02_scrap_players_stats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" />
+        <state relative-caret-position="145">
+          <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="87" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fantasy_01_scrap_players_sites.py">
+    <entry file="file://$PROJECT_DIR$/src/Fantasy_04_data_preparation_for_optimatisation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="72" column="11" lean-forward="true" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+        <state relative-caret-position="158">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
