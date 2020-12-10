@@ -20,6 +20,7 @@ def main():
     players_stats = players_stats[['name', 'position', 'value']]
 
     print(players_stats.columns)
+    print(players_stats.columns)
 
     # time stamp
     today = dt.date.today()
