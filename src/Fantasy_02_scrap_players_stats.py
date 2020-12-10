@@ -206,11 +206,8 @@ def main():
                                                           "penalty_won", "penalty_given", "penalty_lost",
                                                           "penalty_defended", "in_stat", "yellow_card", "red_card", "points"])
 
-        print(player_stats)
-
         # adding dataframe to list
         players_stats_dataframes.append(player_stats)
-
 
     # concatenating dataframes
     players_stats = pd.concat(players_stats_dataframes, axis=0, sort=False)
