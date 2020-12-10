@@ -18,7 +18,6 @@ def main():
     # project directory
     project_dir = str(Path(__file__).resolve().parents[1])
 
-
     # gettig the page with stats for player
     driver = webdriver.Chrome(PATH)
     driver.get('https://ekstraklasa.org/rozgrywki/terminarz/ekstraklasa-4')
