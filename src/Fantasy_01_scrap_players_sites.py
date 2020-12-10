@@ -21,8 +21,8 @@ def main():
     driver.get('https://fantasy.ekstraklasa.org/stats')
 
     site_list =[]
-    # looping throug pagination (only 28 sites - gave 30 to be sure)
-    for i in range(30):
+    # looping throug pagination (only 28 sites)
+    for i in range(28):
         # getting the site
         html = driver.page_source
         site = BeautifulSoup(html, 'html.parser')
