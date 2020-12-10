@@ -139,7 +139,6 @@ def main():
     year = today.strftime("%y")
     time_stamp = day + month + year
 
-    print(rounds_results)
     # saving dataframe
     rounds_results.to_csv(project_dir + r'\data\raw\Rounds_results_{date}.csv'.format(date=time_stamp),
                           index=False, encoding='UTF-8')
