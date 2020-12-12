@@ -114,6 +114,7 @@ def main():
                 # reg-ex patterns
                 pattern_lettes = re.compile("([A-Za-z])\w+")
                 pattern_numbers = re.compile("([0-9])+")
+                pattern_numbers_neg = re.compile("(\-)([0-9])+")
 
                 # appending columns with general info about player
                 col_id.append(player_id)
@@ -178,8 +179,13 @@ def main():
                 col_red.append(red)
 
                 points = col[13].text
-                points = re.search(pattern_numbers, points).group()
+                # catching negative points
+                try:
+                    points = re.search(pattern_numbers_neg, points).group()
+                except AttributeError:
+                    points = re.search(pattern_numbers, points).group()
                 col_points.append(points)
+
 
             else:
                 pass
@@ -215,7 +221,7 @@ def main():
                           "ø": "o", "Ø": "O", "ö": "o", "Ö": "O", "ő": "o", "Ő": "O", "š": "s", "Š": "S", "ť": "t",
                           "Ť": "T", "ú": "u", "Ú": "U", "ý": "y", "Ý": "Y", "ž": "z", "Ž": "Z"}
 
-    columns_list = ["name", "position", "club", "club_prev", "country"]
+    columns_list = ["name", "position", "club", "club_prev", "country", 'season']
 
     # replacing special letters in columns:
     for special_letter, normal_letter in letters_dictionary.items():
