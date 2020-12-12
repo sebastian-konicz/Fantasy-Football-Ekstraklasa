@@ -1,29 +1,71 @@
-id,name,position,value,club,club_abr,club_prev,country,popularity,points_prev,round,opponent,time,goals,assists,own_goal,penalty,penalty_won,penalty_given,penalty_lost,penalty_defended,in_stat,yellow_card,red_card,points
-191,Radoslaw Cierzniak, Bramkarz,"1,90",Legia Warszawa,LEG,Wisla Krakow,Polska,0, 12,1,RCZ,0,0,0,0,0,0,0,0,0,0,0,0,0
-191,Radoslaw Cierzniak, Bramkarz,"1,90",Legia Warszawa,LEG,Wisla Krakow,Polska,0, 12,2,JAG,0,0,0,0,0,0,0,0,0,0,1,0,-1
-191,Radoslaw Cierzniak, Bramkarz,"1,90",Legia Warszawa,LEG,Wisla Krakow,Polska,0, 12,3,WPL,0,0,0,0,0,0,0,0,0,0,0,0,0
-191,Radoslaw Cierzniak, Bramkarz,"1,90",Legia Warszawa,LEG,Wisla Krakow,Polska,0, 12,4,GOR,0,0,0,0,0,0,0,0,0,0,0,0,0
-191,Radoslaw Cierzniak, Bramkarz,"1,90",Legia Warszawa,LEG,Wisla Krakow,Polska,0, 12,5,SLA,0,0,0,0,0,0,0,0,0,0,0,0,0
-191,Radoslaw Cierzniak, Bramkarz,"1,90",Legia Warszawa,LEG,Wisla Krakow,Polska,0, 12,6,WAR,0,0,0,0,0,0,0,0,0,0,0,0,0
-191,Radoslaw Cierzniak, Bramkarz,"1,90",Legia Warszawa,LEG,Wisla Krakow,Polska,0, 12,7,ZAG,0,0,0,0,0,0,0,0,0,0,0,0,0
-191,Radoslaw Cierzniak, Bramkarz,"1,90",Legia Warszawa,LEG,Wisla Krakow,Polska,0, 12,8,POG,0,0,0,0,0,0,0,0,0,0,0,0,0
-191,Radoslaw Cierzniak, Bramkarz,"1,90",Legia Warszawa,LEG,Wisla Krakow,Polska,0, 12,9,LPO,0,0,0,0,0,0,0,0,0,0,0,0,0
-191,Radoslaw Cierzniak, Bramkarz,"1,90",Legia Warszawa,LEG,Wisla Krakow,Polska,0, 12,10,CRA,0,0,0,0,0,0,0,0,0,0,0,0,0
-191,Radoslaw Cierzniak, Bramkarz,"1,90",Legia Warszawa,LEG,Wisla Krakow,Polska,0, 12,11,PIA,0,0,0,0,0,0,0,0,0,0,0,0,0
-191,Radoslaw Cierzniak, Bramkarz,"1,90",Legia Warszawa,LEG,Wisla Krakow,Polska,0, 12,12,LGD,0,0,0,0,0,0,0,0,0,0,0,0,0
-191,Radoslaw Cierzniak, Bramkarz,"1,90",Legia Warszawa,LEG,Wisla Krakow,Polska,0, 12,13,WIS,0,0,0,0,0,0,0,0,0,0,0,0,0
-191,Radoslaw Cierzniak, Bramkarz,"1,90",Legia Warszawa,LEG,Wisla Krakow,Polska,0, 12,14,STM,0,0,0,0,0,0,0,0,0,0,0,0,0
-994,Lukas Klemenz, Obronca,"1,70",Wisla Krakow,WIS,Jagiellonia Bialystok,Polska,1, 39,1,JAG,0,0,0,0,0,0,0,0,0,0,0,0,0
-994,Lukas Klemenz, Obronca,"1,70",Wisla Krakow,WIS,Jagiellonia Bialystok,Polska,1, 39,2,SLA,97,0,0,0,0,0,1,0,0,0,0,0,-2
-994,Lukas Klemenz, Obronca,"1,70",Wisla Krakow,WIS,Jagiellonia Bialystok,Polska,1, 39,3,POG,46,0,0,1,0,0,0,0,0,0,0,0,-1
-994,Lukas Klemenz, Obronca,"1,70",Wisla Krakow,WIS,Jagiellonia Bialystok,Polska,1, 39,4,WPL,0,0,0,0,0,0,0,0,0,0,0,0,0
-994,Lukas Klemenz, Obronca,"1,70",Wisla Krakow,WIS,Jagiellonia Bialystok,Polska,1, 39,5,GOR,10,0,0,0,0,0,0,0,0,0,0,0,1
-994,Lukas Klemenz, Obronca,"1,70",Wisla Krakow,WIS,Jagiellonia Bialystok,Polska,1, 39,6,LGD,0,0,0,0,0,0,0,0,0,0,0,0,0
-994,Lukas Klemenz, Obronca,"1,70",Wisla Krakow,WIS,Jagiellonia Bialystok,Polska,1, 39,7,STM,0,0,0,0,0,0,0,0,0,0,0,0,0
-994,Lukas Klemenz, Obronca,"1,70",Wisla Krakow,WIS,Jagiellonia Bialystok,Polska,1, 39,8,POD,0,0,0,0,0,0,0,0,0,0,0,0,0
-994,Lukas Klemenz, Obronca,"1,70",Wisla Krakow,WIS,Jagiellonia Bialystok,Polska,1, 39,9,RCZ,0,0,0,0,0,0,0,0,0,0,0,0,0
-994,Lukas Klemenz, Obronca,"1,70",Wisla Krakow,WIS,Jagiellonia Bialystok,Polska,1, 39,10,WAR,0,0,0,0,0,0,0,0,0,0,0,0,0
-994,Lukas Klemenz, Obronca,"1,70",Wisla Krakow,WIS,Jagiellonia Bialystok,Polska,1, 39,11,ZAG,0,0,0,0,0,0,0,0,0,0,0,0,0
-994,Lukas Klemenz, Obronca,"1,70",Wisla Krakow,WIS,Jagiellonia Bialystok,Polska,1, 39,12,CRA,0,0,0,0,0,0,0,0,0,0,0,0,0
-994,Lukas Klemenz, Obronca,"1,70",Wisla Krakow,WIS,Jagiellonia Bialystok,Polska,1, 39,13,LEG,0,0,0,0,0,0,0,0,0,0,0,0,0
-994,Lukas Klemenz, Obronca,"1,70",Wisla Krakow,WIS,Jagiellonia Bialystok,Polska,1, 39,14,LPO,0,0,0,0,0,0,0,0,0,0,0,0,0
+id,name,position,value,club,club_abr,club_prev,country,popularity,points_prev,status,round,opponent,time,goals,assists,own_goal,penalty,penalty_won,penalty_given,penalty_lost,penalty_defended,in_stat,yellow_card,red_card,points
+722,Karol Angielski, Napastnik,"1,50",Wisla Plock,WPL,Piast Gliwice,Polska,0, 11,out of club,1,STM,0,0,0,0,0,0,0,0,0,0,0,0,0
+722,Karol Angielski, Napastnik,"1,50",Wisla Plock,WPL,Piast Gliwice,Polska,0, 11,out of club,2,LPO,0,0,0,0,0,0,0,0,0,0,0,0,0
+722,Karol Angielski, Napastnik,"1,50",Wisla Plock,WPL,Piast Gliwice,Polska,0, 11,out of club,3,LEG,0,0,0,0,0,0,0,0,0,0,0,0,0
+722,Karol Angielski, Napastnik,"1,50",Wisla Plock,WPL,Piast Gliwice,Polska,0, 11,out of club,4,WIS,0,0,0,0,0,0,0,0,0,0,0,0,0
+722,Karol Angielski, Napastnik,"1,50",Wisla Plock,WPL,Piast Gliwice,Polska,0, 11,out of club,5,WAR,0,0,0,0,0,0,0,0,0,0,0,0,0
+722,Karol Angielski, Napastnik,"1,50",Wisla Plock,WPL,Piast Gliwice,Polska,0, 11,out of club,6,RCZ,0,0,0,0,0,0,0,0,0,0,0,0,0
+722,Karol Angielski, Napastnik,"1,50",Wisla Plock,WPL,Piast Gliwice,Polska,0, 11,out of club,7,SLA,0,0,0,0,0,0,0,0,0,0,0,0,0
+722,Karol Angielski, Napastnik,"1,50",Wisla Plock,WPL,Piast Gliwice,Polska,0, 11,out of club,8,PIA,0,0,0,0,0,0,0,0,0,0,0,0,0
+722,Karol Angielski, Napastnik,"1,50",Wisla Plock,WPL,Piast Gliwice,Polska,0, 11,out of club,9,POG,0,0,0,0,0,0,0,0,0,0,0,0,0
+722,Karol Angielski, Napastnik,"1,50",Wisla Plock,WPL,Piast Gliwice,Polska,0, 11,out of club,10,JAG,0,0,0,0,0,0,0,0,0,0,0,0,0
+722,Karol Angielski, Napastnik,"1,50",Wisla Plock,WPL,Piast Gliwice,Polska,0, 11,out of club,11,CRA,0,0,0,0,0,0,0,0,0,0,0,0,0
+722,Karol Angielski, Napastnik,"1,50",Wisla Plock,WPL,Piast Gliwice,Polska,0, 11,out of club,12,GOR,0,0,0,0,0,0,0,0,0,0,0,0,0
+722,Karol Angielski, Napastnik,"1,50",Wisla Plock,WPL,Piast Gliwice,Polska,0, 11,out of club,13,LGD,0,0,0,0,0,0,0,0,0,0,0,0,0
+722,Karol Angielski, Napastnik,"1,50",Wisla Plock,WPL,Piast Gliwice,Polska,0, 11,out of club,14,POD,0,0,0,0,0,0,0,0,0,0,0,0,0
+785,Domagoj Antolic, Pomocnik,"2,50",Legia Warszawa,LEG,GNK Dinamo Zagrzeb,Chorwacja,1, 68,active,1,RCZ,78,0,0,0,0,0,0,0,0,0,0,0,3
+785,Domagoj Antolic, Pomocnik,"2,50",Legia Warszawa,LEG,GNK Dinamo Zagrzeb,Chorwacja,1, 68,active,2,JAG,53,0,0,0,0,0,0,0,0,0,0,0,1
+785,Domagoj Antolic, Pomocnik,"2,50",Legia Warszawa,LEG,GNK Dinamo Zagrzeb,Chorwacja,1, 68,active,3,WPL,0,0,0,0,0,0,0,0,0,0,0,0,0
+785,Domagoj Antolic, Pomocnik,"2,50",Legia Warszawa,LEG,GNK Dinamo Zagrzeb,Chorwacja,1, 68,active,4,GOR,63,0,0,0,0,0,0,0,0,0,0,0,2
+785,Domagoj Antolic, Pomocnik,"2,50",Legia Warszawa,LEG,GNK Dinamo Zagrzeb,Chorwacja,1, 68,active,5,SLA,17,0,0,0,0,0,0,0,0,0,0,0,2
+785,Domagoj Antolic, Pomocnik,"2,50",Legia Warszawa,LEG,GNK Dinamo Zagrzeb,Chorwacja,1, 68,active,6,WAR,91,0,0,0,0,0,0,0,0,0,1,0,3
+785,Domagoj Antolic, Pomocnik,"2,50",Legia Warszawa,LEG,GNK Dinamo Zagrzeb,Chorwacja,1, 68,active,7,ZAG,10,0,0,0,0,0,0,0,0,0,0,0,2
+785,Domagoj Antolic, Pomocnik,"2,50",Legia Warszawa,LEG,GNK Dinamo Zagrzeb,Chorwacja,1, 68,active,8,POG,27,0,0,0,0,0,0,0,0,0,0,0,1
+785,Domagoj Antolic, Pomocnik,"2,50",Legia Warszawa,LEG,GNK Dinamo Zagrzeb,Chorwacja,1, 68,active,9,LPO,0,0,0,0,0,0,0,0,0,0,0,0,0
+785,Domagoj Antolic, Pomocnik,"2,50",Legia Warszawa,LEG,GNK Dinamo Zagrzeb,Chorwacja,1, 68,active,10,CRA,0,0,0,0,0,0,0,0,0,0,0,0,0
+785,Domagoj Antolic, Pomocnik,"2,50",Legia Warszawa,LEG,GNK Dinamo Zagrzeb,Chorwacja,1, 68,active,11,PIA,14,0,0,0,0,0,0,0,0,0,0,0,1
+785,Domagoj Antolic, Pomocnik,"2,50",Legia Warszawa,LEG,GNK Dinamo Zagrzeb,Chorwacja,1, 68,active,12,LGD,0,0,0,0,0,0,0,0,0,0,0,0,0
+785,Domagoj Antolic, Pomocnik,"2,50",Legia Warszawa,LEG,GNK Dinamo Zagrzeb,Chorwacja,1, 68,active,13,WIS,0,0,0,0,0,0,0,0,0,0,0,0,0
+785,Domagoj Antolic, Pomocnik,"2,50",Legia Warszawa,LEG,GNK Dinamo Zagrzeb,Chorwacja,1, 68,active,14,STM,0,0,0,0,0,0,0,0,0,0,0,0,0
+307,Piotr Celeban, Obronca,"1,40",Slask Wroclaw,SLA,FC Vaslui,Polska,37, 6,uncertain,1,PIA,95,1,0,0,0,0,0,0,0,0,0,0,12
+307,Piotr Celeban, Obronca,"1,40",Slask Wroclaw,SLA,FC Vaslui,Polska,37, 6,uncertain,2,WIS,97,0,0,0,0,0,0,0,0,0,1,0,2
+307,Piotr Celeban, Obronca,"1,40",Slask Wroclaw,SLA,FC Vaslui,Polska,37, 6,uncertain,3,LPO,97,1,0,0,0,0,0,0,0,0,0,0,6
+307,Piotr Celeban, Obronca,"1,40",Slask Wroclaw,SLA,FC Vaslui,Polska,37, 6,uncertain,4,POG,95,0,0,0,0,0,0,0,0,0,0,0,2
+307,Piotr Celeban, Obronca,"1,40",Slask Wroclaw,SLA,FC Vaslui,Polska,37, 6,uncertain,5,LEG,97,0,0,0,0,0,0,0,0,0,0,0,1
+307,Piotr Celeban, Obronca,"1,40",Slask Wroclaw,SLA,FC Vaslui,Polska,37, 6,uncertain,6,CRA,99,0,0,0,0,0,0,0,0,0,0,0,3
+307,Piotr Celeban, Obronca,"1,40",Slask Wroclaw,SLA,FC Vaslui,Polska,37, 6,uncertain,7,WPL,94,0,0,0,0,0,0,0,0,0,0,0,2
+307,Piotr Celeban, Obronca,"1,40",Slask Wroclaw,SLA,FC Vaslui,Polska,37, 6,uncertain,8,JAG,95,0,0,0,0,0,0,0,0,0,0,0,6
+307,Piotr Celeban, Obronca,"1,40",Slask Wroclaw,SLA,FC Vaslui,Polska,37, 6,uncertain,9,GOR,93,0,0,0,0,0,0,0,0,0,0,0,5
+307,Piotr Celeban, Obronca,"1,40",Slask Wroclaw,SLA,FC Vaslui,Polska,37, 6,uncertain,9,LGD,93,0,0,0,0,0,0,0,0,0,1,0,-1
+307,Piotr Celeban, Obronca,"1,40",Slask Wroclaw,SLA,FC Vaslui,Polska,37, 6,uncertain,11,POD,95,0,0,0,0,0,0,0,0,0,1,0,5
+307,Piotr Celeban, Obronca,"1,40",Slask Wroclaw,SLA,FC Vaslui,Polska,37, 6,uncertain,12,RCZ,0,0,0,0,0,0,0,0,0,0,0,0,0
+307,Piotr Celeban, Obronca,"1,40",Slask Wroclaw,SLA,FC Vaslui,Polska,37, 6,uncertain,13,ZAG,0,0,0,0,0,0,0,0,0,0,0,0,0
+307,Piotr Celeban, Obronca,"1,40",Slask Wroclaw,SLA,FC Vaslui,Polska,37, 6,uncertain,14,WAR,0,0,0,0,0,0,0,0,0,0,0,0,0
+681,Michal Nalepa, Obronca,"1,80",Lechia Gdansk,LGD,Ferencvarosi TC,Polska,8, 29,suspended,1,WAR,95,0,1,0,0,0,0,0,0,0,0,0,10
+681,Michal Nalepa, Obronca,"1,80",Lechia Gdansk,LGD,Ferencvarosi TC,Polska,8, 29,suspended,2,RCZ,38,0,0,0,0,0,0,0,0,0,1,1,-4
+681,Michal Nalepa, Obronca,"1,80",Lechia Gdansk,LGD,Ferencvarosi TC,Polska,8, 29,suspended,3,GOR,0,0,0,0,0,0,0,0,0,0,0,0,0
+681,Michal Nalepa, Obronca,"1,80",Lechia Gdansk,LGD,Ferencvarosi TC,Polska,8, 29,suspended,4,STM,98,1,1,0,0,0,0,0,0,1,1,0,12
+681,Michal Nalepa, Obronca,"1,80",Lechia Gdansk,LGD,Ferencvarosi TC,Polska,8, 29,suspended,5,POD,94,0,0,0,0,0,0,0,0,0,0,0,6
+681,Michal Nalepa, Obronca,"1,80",Lechia Gdansk,LGD,Ferencvarosi TC,Polska,8, 29,suspended,6,WIS,93,1,0,0,0,0,0,0,0,0,0,0,9
+681,Michal Nalepa, Obronca,"1,80",Lechia Gdansk,LGD,Ferencvarosi TC,Polska,8, 29,suspended,7,POG,99,0,0,0,0,0,0,0,0,0,1,0,1
+681,Michal Nalepa, Obronca,"1,80",Lechia Gdansk,LGD,Ferencvarosi TC,Polska,8, 29,suspended,8,ZAG,95,0,0,0,0,0,0,0,0,0,0,0,2
+681,Michal Nalepa, Obronca,"1,80",Lechia Gdansk,LGD,Ferencvarosi TC,Polska,8, 29,suspended,9,SLA,93,0,0,0,0,0,0,0,0,0,1,0,1
+681,Michal Nalepa, Obronca,"1,80",Lechia Gdansk,LGD,Ferencvarosi TC,Polska,8, 29,suspended,10,PIA,0,0,0,0,0,0,0,0,0,0,0,0,0
+681,Michal Nalepa, Obronca,"1,80",Lechia Gdansk,LGD,Ferencvarosi TC,Polska,8, 29,suspended,11,LPO,82,0,0,0,0,0,1,0,0,0,0,1,-3
+681,Michal Nalepa, Obronca,"1,80",Lechia Gdansk,LGD,Ferencvarosi TC,Polska,8, 29,suspended,12,LEG,97,0,0,0,0,0,0,0,0,0,0,1,-2
+681,Michal Nalepa, Obronca,"1,80",Lechia Gdansk,LGD,Ferencvarosi TC,Polska,8, 29,suspended,13,WPL,0,0,0,0,0,0,0,0,0,0,0,0,0
+681,Michal Nalepa, Obronca,"1,80",Lechia Gdansk,LGD,Ferencvarosi TC,Polska,8, 29,suspended,14,CRA,0,0,0,0,0,0,0,0,0,0,0,0,0
+790,Frantisek Plach, Bramkarz,"2,30",Piast Gliwice,PIA,FK Senica,Slowacja,6, 72,active,1,SLA,95,0,0,0,0,0,0,0,0,0,0,0,2
+790,Frantisek Plach, Bramkarz,"2,30",Piast Gliwice,PIA,FK Senica,Slowacja,6, 72,active,2,POG,100,0,0,0,0,0,0,0,0,0,0,0,2
+790,Frantisek Plach, Bramkarz,"2,30",Piast Gliwice,PIA,FK Senica,Slowacja,6, 72,active,3,WAR,94,0,0,0,0,0,0,0,0,0,0,0,5
+790,Frantisek Plach, Bramkarz,"2,30",Piast Gliwice,PIA,FK Senica,Slowacja,6, 72,active,4,JAG,96,0,0,0,0,0,0,0,0,0,0,0,3
+790,Frantisek Plach, Bramkarz,"2,30",Piast Gliwice,PIA,FK Senica,Slowacja,6, 72,active,5,STM,97,0,0,0,0,0,0,0,0,0,0,0,0
+790,Frantisek Plach, Bramkarz,"2,30",Piast Gliwice,PIA,FK Senica,Slowacja,6, 72,active,6,LPO,94,0,0,0,0,0,0,0,0,0,0,0,0
+790,Frantisek Plach, Bramkarz,"2,30",Piast Gliwice,PIA,FK Senica,Slowacja,6, 72,active,7,CRA,97,0,0,0,0,0,0,0,0,0,0,0,2
+790,Frantisek Plach, Bramkarz,"2,30",Piast Gliwice,PIA,FK Senica,Slowacja,6, 72,active,8,WPL,96,0,0,0,0,0,0,0,0,0,0,0,1
+790,Frantisek Plach, Bramkarz,"2,30",Piast Gliwice,PIA,FK Senica,Slowacja,6, 72,active,9,GOR,96,0,0,0,0,0,0,0,0,0,0,0,4
+790,Frantisek Plach, Bramkarz,"2,30",Piast Gliwice,PIA,FK Senica,Slowacja,6, 72,active,10,LGD,97,0,0,0,0,0,0,0,0,1,0,0,8
+790,Frantisek Plach, Bramkarz,"2,30",Piast Gliwice,PIA,FK Senica,Slowacja,6, 72,active,11,LEG,98,0,0,0,0,0,0,0,0,0,0,0,3
+790,Frantisek Plach, Bramkarz,"2,30",Piast Gliwice,PIA,FK Senica,Slowacja,6, 72,active,12,ZAG,95,0,0,0,0,0,0,0,0,0,0,0,2
+790,Frantisek Plach, Bramkarz,"2,30",Piast Gliwice,PIA,FK Senica,Slowacja,6, 72,active,13,POD,96,0,0,0,0,0,0,0,0,0,0,0,6
+790,Frantisek Plach, Bramkarz,"2,30",Piast Gliwice,PIA,FK Senica,Slowacja,6, 72,active,14,RCZ,0,0,0,0,0,0,0,0,0,0,0,0,0

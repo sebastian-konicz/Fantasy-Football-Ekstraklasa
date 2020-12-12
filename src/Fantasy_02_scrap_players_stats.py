@@ -76,6 +76,17 @@ def main():
         player_points_prev = player_info_2[4].text
         player_points_prev = player_points_prev[28:]
 
+        # player status
+        player_status = site.find('div', class_='col-sm-8')
+        player_status = player_status.find('div', class_='mb-sm')
+        pattern_status = re.compile("([A-Za-z])\w+")
+        if player_status == None:
+            player_status = "active"
+        else:
+            player_status = player_status.text
+            player_status = player_status.replace(" ", "")
+            player_status = player_status.replace("\n", "")[7:]
+
         # TABLE DATA
         table_body = site.find('tbody')
         table_rows = table_body.find_all('tr')
@@ -88,6 +99,7 @@ def main():
         col_club = []
         col_club_abr = []
         col_club_prev = []
+        col_status = []
         col_country = []
         col_popularity = []
         col_points_prev = []
@@ -128,6 +140,7 @@ def main():
                 col_country.append(player_country)
                 col_popularity.append(player_popularity)
                 col_points_prev.append(player_points_prev)
+                col_status.append(player_status)
 
                 # getting text from columns and appending lists
                 round = col[0].text
@@ -199,16 +212,17 @@ def main():
 
         # zipping lists
         data_tuples = list(zip(col_id, col_name, col_position, col_value, col_club, col_club_abr, col_club_prev,
-                               col_country, col_popularity, col_points_prev, col_round, col_opponent, col_time,
-                               col_goals, col_assists, col_own_goal, col_penalty, col_penalty_won, col_penalty_given,
-                               col_penalty_lost, col_penalty_defend, col_instat, col_yellow, col_red, col_points))
+                               col_country, col_popularity, col_points_prev, col_status, col_round, col_opponent,
+                               col_time, col_goals, col_assists, col_own_goal, col_penalty, col_penalty_won,
+                               col_penalty_given, col_penalty_lost, col_penalty_defend, col_instat, col_yellow,
+                               col_red, col_points))
 
 
         # creating dataframe
         player_stats = pd.DataFrame(data_tuples, columns=["id", "name", "position", "value", "club", "club_abr",
-                                                          "club_prev", "country", "popularity", "points_prev", "round",
-                                                          "opponent", "time", "goals", "assists", "own_goal", "penalty",
-                                                          "penalty_won", "penalty_given", "penalty_lost",
+                                                          "club_prev", "country", "popularity", "points_prev", "status",
+                                                          "round", "opponent", "time", "goals", "assists", "own_goal",
+                                                          "penalty", "penalty_won", "penalty_given", "penalty_lost",
                                                           "penalty_defended", "in_stat", "yellow_card", "red_card", "points"])
 
         # adding dataframe to list
@@ -244,10 +258,17 @@ def main():
                        "Slask Wroclaw": "SLA", "PGE FKS Stal Mielec": "STM", "Warta Poznan": "WAR",
                        "Wisla Krakow": "WIS", "Wisla Plock": "WPL", "Zaglebie Lubin": "ZAG"}
 
-    # adding club abbreviation to list
+    # adding club abbreviation
     for club_name, club_abr in club_dictionary.items():
         players_stats["club_abr"] = players_stats.apply(
             lambda ps: club_abr if ps["club"] == club_name else ps["club_abr"], axis=1)
+
+    # changin names of status column
+    status_dictionary = {"Pozaklubem": "out of club", "Występniepewny": "uncertain", "Zawieszony": "suspended"}
+
+    for status_name_old, status_name_new in status_dictionary.items():
+        players_stats["status"] = players_stats.apply(
+            lambda ps: status_name_new if ps["status"] == status_name_old else ps["status"], axis=1)
 
     # time stamp
     today = dt.date.today()

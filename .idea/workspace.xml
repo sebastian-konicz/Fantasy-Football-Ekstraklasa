@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd0c45e6-9126-4229-b06e-9a58a6e5aff5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/raw/Players_links_short.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw/Players_links_short.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/Players_stats_12DEC20.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw/Players_stats_12DEC20.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Fantasy_02_scrap_players_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fantasy_02_scrap_players_stats.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Fantasy_02_scrap_players_stats.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="191" column="18" selection-start-line="191" selection-start-column="18" selection-end-line="191" selection-end-column="18" />
+            <state relative-caret-position="187">
+              <caret line="266" column="39" selection-start-line="266" selection-start-column="39" selection-end-line="266" selection-end-column="39" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -54,11 +54,11 @@
       <find>print(</find>
       <find>print</find>
       <find>round</find>
-      <find>pattern_lettes</find>
       <find>&quot;club_prev&quot;</find>
       <find>popula</find>
       <find>club_prev</find>
       <find>popu</find>
+      <find>pattern_lettes</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -74,6 +74,7 @@
         <option value="$PROJECT_DIR$/src/Fantasy_05_team_optimatisation_no_transfers.py" />
         <option value="$PROJECT_DIR$/src/Fantasy_04_data_preparation_for_optimatisation.py" />
         <option value="$PROJECT_DIR$/src/Fantasy_03_scrap_players_stats_hist.py" />
+        <option value="$PROJECT_DIR$/src/Fantasy_06_data_preparation_for_optimatisation.py" />
         <option value="$PROJECT_DIR$/src/Fantasy_02_scrap_players_stats.py" />
       </list>
     </option>
@@ -129,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Fantasy_06_data_preparation_for_optimatisation">
+  <component name="RunManager" selected="Python.Fantasy_02_scrap_players_stats">
     <configuration name="Fantasy_02_scrap_players_stats" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,8 +238,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Fantasy_06_data_preparation_for_optimatisation" />
         <item itemvalue="Python.Fantasy_02_scrap_players_stats" />
+        <item itemvalue="Python.Fantasy_06_data_preparation_for_optimatisation" />
         <item itemvalue="Python.Fantasy_07_team_optimatisation_no_transfers" />
         <item itemvalue="Python.Fantasy_03_scrap_players_stats_hist" />
         <item itemvalue="Python.Fantasy_05_team_optimatisation_no_transfers" />
@@ -339,16 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fantasy_06_data_preparation_for_optimatisation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Fantasy_07_team_optimatisation_no_transfers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -359,10 +350,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Fantasy_06_data_preparation_for_optimatisation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Fantasy_02_scrap_players_stats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="191" column="18" selection-start-line="191" selection-start-column="18" selection-end-line="191" selection-end-column="18" />
+        <state relative-caret-position="187">
+          <caret line="266" column="39" selection-start-line="266" selection-start-column="39" selection-end-line="266" selection-end-column="39" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
