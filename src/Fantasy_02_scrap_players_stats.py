@@ -20,8 +20,8 @@ def main():
     project_dir = str(Path(__file__).resolve().parents[1])
 
     # loading file with links
-    links_df = pd.read_csv(project_dir + r'\data\raw\Players_links.csv', delimiter=',')
-    # links_df = pd.read_csv(project_dir + r'\data\raw\Players_links_short.csv', delimiter=';')
+    # links_df = pd.read_csv(project_dir + r'\data\raw\Players_links.csv', delimiter=',')
+    links_df = pd.read_csv(project_dir + r'\data\raw\Players_links_short.csv', delimiter=';')
 
     # creating list with links
     link_list = links_df["Link"].tolist()
@@ -115,6 +115,7 @@ def main():
                 # reg-ex patterns
                 pattern_lettes = re.compile("([A-Za-z])\w+")
                 pattern_numbers = re.compile("([0-9])+")
+                pattern_numbers_neg = re.compile("(\-)([0-9])+")
 
                 # appending columns with general info about player
                 col_id.append(player_id)
@@ -186,7 +187,11 @@ def main():
                 col_red.append(red)
 
                 points = col[14].text
-                points = re.search(pattern_numbers, points).group()
+                # catching negative points
+                try:
+                    points = re.search(pattern_numbers_neg, points).group()
+                except AttributeError:
+                    points = re.search(pattern_numbers, points).group()
                 col_points.append(points)
 
             else:
