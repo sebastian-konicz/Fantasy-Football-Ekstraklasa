@@ -32,7 +32,11 @@ def main():
             if ps["club"] == club_name
             else ps["club"], axis=1)
 
-    players_stats["value"] = players_stats.apply(lambda ps: (int(ps['value'].replace(',', ''))) / 10, axis=1)
+    # changing the value
+    players_stats["value"] = players_stats.apply(
+        lambda ps: (int(ps['value'].replace(',', ''))) /10
+        if ps['value'].find(",") != -1
+        else int(ps['value']), axis=1)
 
     # position
     position_dictionary = {" Bramkarz": 1, " Obronca": 2, " Pomocnik": 3, " Napastnik": 4}
