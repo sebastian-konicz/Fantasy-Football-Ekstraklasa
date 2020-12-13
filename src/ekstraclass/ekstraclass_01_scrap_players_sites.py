@@ -1,11 +1,8 @@
+import src.ekstraclass.ekstraclass_00_variables as var
 from bs4 import BeautifulSoup
 from selenium import webdriver
-from pathlib import Path
 import pandas as pd
 import time
-import datetime as dt
-
-PATH = r'C:\Users\kose9001\Desktop\JTM\chromedriver.exe'
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
@@ -15,11 +12,11 @@ def main():
     start_time = time.time()
 
     # project directory
-    project_dir = str(Path(__file__).resolve().parents[2])
+    path = var.project_dir
 
     # gettig the main page with fantasy soccer stat
-    driver = webdriver.Chrome(PATH)
-    driver.get('https://fantasy.ekstraklasa.org/stats')
+    driver = webdriver.Chrome(var.chrome_driver)
+    driver.get(var.ekstraclass_players)
 
     site_list =[]
     # looping throug pagination (only 28 sites)
@@ -57,17 +54,10 @@ def main():
     data_tuples = list(zip(players_list, links_list))
 
     # creating dataframe
-    players_links_df = pd.DataFrame(data_tuples, columns=['Player', 'Link'])
-
-    # time stamp
-    today = dt.date.today()
-    day = today.strftime("%d")
-    month = today.strftime("%b").upper()
-    year = today.strftime("%y")
-    time_stamp = day + month + year
+    players_links_df = pd.DataFrame(data_tuples, columns=['player', 'link'])
 
     # saving dataframe
-    players_links_df.to_csv(project_dir + r'\data\raw\Players_links_{date}.csv'.format(date=time_stamp),
+    players_links_df.to_csv(path + r'\data\raw\ekstraclass\01_players_links_{date}.csv'.format(date=var.time_stamp),
                             index=False, encoding='UTF-8')
 
     # shutting down selenium driver

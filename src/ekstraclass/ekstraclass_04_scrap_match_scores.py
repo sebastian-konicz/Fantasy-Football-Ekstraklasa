@@ -1,12 +1,9 @@
+import src.ekstraclass.ekstraclass_00_variables as var
 from bs4 import BeautifulSoup
 from selenium import webdriver
-from pathlib import Path
 import re
 import pandas as pd
 import time
-import datetime as dt
-
-PATH = r'C:\Users\kose9001\Desktop\JTM\chromedriver.exe'
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
@@ -16,11 +13,11 @@ def main():
     start_time = time.time()
 
     # project directory
-    project_dir = str(Path(__file__).resolve().parents[2])
+    path = var.project_dir
 
     # gettig the page with stats for player
-    driver = webdriver.Chrome(PATH)
-    driver.get('https://ekstraklasa.org/rozgrywki/terminarz/ekstraklasa-4')
+    driver = webdriver.Chrome(var.chrome_driver)
+    driver.get(var.ekstraclass_current_match_scores)
 
     # getting the site html
     html = driver.page_source
@@ -51,7 +48,6 @@ def main():
         col_home_away = []
         col_score = []
         col_result = []
-
 
         for row in rows:
             # getting teams names and abreviations
@@ -89,8 +85,6 @@ def main():
                 else:
                     result_home = "L"
                     result_away = "W"
-
-
 
             # appending lists
             col_round.append(round)
@@ -131,15 +125,8 @@ def main():
             rounds_results[column] = rounds_results[column].apply(
                 lambda value: value.replace(special_letter, normal_letter))
 
-    # time stamp
-    today = dt.date.today()
-    day = today.strftime("%d")
-    month = today.strftime("%b").upper()
-    year = today.strftime("%y")
-    time_stamp = day + month + year
-
     # saving dataframe
-    rounds_results.to_csv(project_dir + r'\data\raw\Rounds_results_{date}.csv'.format(date=time_stamp),
+    rounds_results.to_csv(path + r'\data\raw\ekstraclass\04_rounds_results_{date}.csv'.format(date=var.time_stamp),
                           index=False, encoding='UTF-8')
 
     # end time of program + duration
