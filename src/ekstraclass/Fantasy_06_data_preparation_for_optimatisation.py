@@ -11,7 +11,7 @@ def main():
     start_time = time.time()
 
     # project directory
-    project_dir = str(Path(__file__).resolve().parents[1])
+    project_dir = str(Path(__file__).resolve().parents[2])
 
     # loading file with data
     players_stats = pd.read_csv(project_dir + r'\data\raw\Players_stats_12DEC20.csv', delimiter=',')

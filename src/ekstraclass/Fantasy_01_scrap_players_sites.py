@@ -15,7 +15,7 @@ def main():
     start_time = time.time()
 
     # project directory
-    project_dir = str(Path(__file__).resolve().parents[1])
+    project_dir = str(Path(__file__).resolve().parents[2])
 
     # gettig the main page with fantasy soccer stat
     driver = webdriver.Chrome(PATH)
