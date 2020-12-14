@@ -17,8 +17,8 @@ def main():
     path = var.project_dir
 
     # loading file with links
-    # links_df = pd.read_csv(path + r'\data\raw\first_league\01_players_links_{date}.csv'.format(date=var.time_stamp), delimiter=';')
-    links_df = pd.read_csv(path + r'\data\raw\first_league\01_players_links_short.csv', delimiter=';')
+    links_df = pd.read_csv(path + r'\data\raw\first_league\01_players_links_{date}.csv'.format(date=var.time_stamp), delimiter=',')
+    # links_df = pd.read_csv(path + r'\data\raw\first_league\01_players_links_short.csv', delimiter=';')
 
     # creating list with links
     link_list = links_df["link"].tolist()
@@ -231,7 +231,7 @@ def main():
 
     print(players_stats)
     # saving dataframe
-    players_stats.to_csv(path + r'\data\raw\ekstraclass\03_players_stats_hist_{date}.csv'.format(date=var.time_stamp),
+    players_stats.to_csv(path + r'\data\raw\first_league\03_players_stats_hist_{date}.csv'.format(date=var.time_stamp),
                          index=False, encoding='UTF-8')
 
     # end time of program + duration
