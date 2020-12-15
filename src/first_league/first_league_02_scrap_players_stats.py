@@ -259,7 +259,7 @@ def main():
 
     print(players_stats)
     # saving dataframe
-    players_stats.to_csv(path + r'\data\raw\ekstraclass\02_players_stats_{date}.csv'.format(date=var.time_stamp),
+    players_stats.to_csv(path + r'\data\raw\first_league\02_players_stats_{date}.csv'.format(date=var.time_stamp),
                          index=False, encoding='UTF-8')
 
     # end time of program + duration
