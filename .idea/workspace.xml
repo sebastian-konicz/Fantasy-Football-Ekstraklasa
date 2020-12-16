@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd0c45e6-9126-4229-b06e-9a58a6e5aff5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_13DEC20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/03_players_stats_hist_13DEC20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/Players_links_short.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/Players_stats_09DEC20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/Players_stats_10DEC20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/Players_stats_12DEC20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/Players_stats_hist_12DEC20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/Rounds_results_09DEC20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first_league/first_league_02_scrap_players_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_league/first_league_02_scrap_players_stats.py" afterDir="false" />
-    </list>
+    <list default="true" id="fd0c45e6-9126-4229-b06e-9a58a6e5aff5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,50 +10,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/first_league/first_league_02_scrap_players_stats.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4284">
-              <caret line="258" selection-start-line="258" selection-end-line="258" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ekstraclass/ekstraclass_04_scrap_match_scores.py">
+        <entry file="file://$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="128" column="74" selection-start-line="128" selection-start-column="57" selection-end-line="128" selection-end-column="74" />
+            <state relative-caret-position="121">
+              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/first_league/first_league_03_scrap_players_stats_hist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/first_league/first_league_06_data_prep_for_optimatisation_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/first_league/first_league_07_team_optimatisation_no_transfers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -128,7 +81,6 @@
         <option value="$PROJECT_DIR$/src/ekstraclass/01_scrap_players_sites.py" />
         <option value="$PROJECT_DIR$/src/ekstraclass/e_01_scrap_players_sites.py" />
         <option value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" />
         <option value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_03_scrap_players_stats_hist.py" />
         <option value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_00_variables.py" />
         <option value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_04_scrap_match_scores.py" />
@@ -140,10 +92,11 @@
         <option value="$PROJECT_DIR$/src/first_league/first_league_06_data_prep_for_optimatisation_2.py" />
         <option value="$PROJECT_DIR$/src/first_league/first_league_07_team_optimatisation_no_transfers.py" />
         <option value="$PROJECT_DIR$/src/first_league/first_league_02_scrap_players_stats.py" />
+        <option value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
     <option name="width" value="1380" />
     <option name="height" value="735" />
@@ -347,15 +300,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1380" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="1380" height="735" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2651515" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2689394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44019935" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44019935" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,16 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="273" column="25" selection-start-line="273" selection-start-column="25" selection-end-line="273" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -486,10 +429,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/first_league/first_league_06_data_prep_for_optimatisation.py" />
-    <entry file="file://$PROJECT_DIR$/src/first_league/first_league_02_scrap_players_stats.py">
+    <entry file="file://$PROJECT_DIR$/src/ekstraclass/ekstraclass_04_scrap_match_scores.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4284">
-          <caret line="258" selection-start-line="258" selection-end-line="258" />
+        <state relative-caret-position="248">
+          <caret line="128" column="74" selection-start-line="128" selection-start-column="57" selection-end-line="128" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -500,24 +446,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/first_league/first_league_02_scrap_players_stats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="234" column="9" lean-forward="true" selection-start-line="234" selection-start-column="9" selection-end-line="234" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/first_league/first_league_06_data_prep_for_optimatisation_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
+        <state relative-caret-position="520">
           <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/first_league/first_league_07_team_optimatisation_no_transfers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
+        <state relative-caret-position="520">
           <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ekstraclass/ekstraclass_04_scrap_match_scores.py">
+    <entry file="file://$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="128" column="74" selection-start-line="128" selection-start-column="57" selection-end-line="128" selection-end-column="74" />
+        <state relative-caret-position="121">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
