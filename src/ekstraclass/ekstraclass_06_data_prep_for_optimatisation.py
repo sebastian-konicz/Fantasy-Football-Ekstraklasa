@@ -14,10 +14,13 @@ def main():
     project_dir = str(Path(__file__).resolve().parents[2])
 
     # loading file with data
-    players_stats = pd.read_csv(project_dir + r'\data\raw\Players_stats_12DEC20.csv', delimiter=',')
+    players_stats = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_15DEC20.csv', delimiter=',')
 
     # restricting data to necessary columns
-    players_stats = players_stats[['id', 'name', 'position', 'club', 'value', 'points']]
+    players_stats = players_stats[['id', 'name', 'position', 'club', 'value', 'points', 'status']]
+
+    # restricting data to active payers only
+    players_stats = players_stats[players_stats["status"] == 'active']
 
     # changing text values to number values
     # club / team
@@ -34,7 +37,7 @@ def main():
 
     # changing the value
     players_stats["value"] = players_stats.apply(
-        lambda ps: (int(ps['value'].replace(',', ''))) /10
+        lambda ps: (int(ps['value'].replace(',', ''))) /100
         if ps['value'].find(",") != -1
         else int(ps['value']), axis=1)
 
@@ -57,7 +60,7 @@ def main():
     time_stamp = day + month + year
 
     # saving dataframe
-    players_stats_sum.to_csv(project_dir + r'\data\interim\Players_sum_stats_{date}.csv'.format(date=time_stamp),
+    players_stats_sum.to_csv(project_dir + r'\data\interim\ekstraclass\06_players_sum_stats_{date}.csv'.format(date=time_stamp),
                           index=False, encoding='UTF-8')
 
     # end time of program + duration

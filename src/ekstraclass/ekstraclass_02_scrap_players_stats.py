@@ -262,7 +262,8 @@ def main():
             lambda ps: club_abr if ps["club"] == club_name else ps["club_abr"], axis=1)
 
     # changin names of status column
-    status_dictionary = {"Pozaklubem": "out of club", "Występniepewny": "uncertain", "Zawieszony": "suspended"}
+    status_dictionary = {"Pozaklubem": "out of club", "Występniepewny": "uncertain",
+                         "Zawieszony": "suspended", "Kontuzjowany": "injury"}
 
     for status_name_old, status_name_new in status_dictionary.items():
         players_stats["status"] = players_stats.apply(
