@@ -14,7 +14,7 @@ def main():
     project_dir = str(Path(__file__).resolve().parents[2])
 
     # loading file with data
-    players_stats = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_15DEC20.csv', delimiter=',')
+    players_stats = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_02JAN21.csv', delimiter=',')
 
     # restricting data to necessary columns
     players_stats = players_stats[['id', 'name', 'position', 'club', 'value', 'points', 'status']]

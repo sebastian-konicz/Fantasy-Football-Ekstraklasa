@@ -19,7 +19,7 @@ def main():
     # loading file with links
     # links_df = pd.read_csv(path + r'\data\raw\ekstraclass\01_players_links_{date}.csv'.format(date=var.time_stamp),
     #                        delimiter=',')
-    links_df = pd.read_csv(path + r'\data\raw\ekstraclass\01_players_links_10DEC20.csv', delimiter=';')
+    links_df = pd.read_csv(path + r'\data\raw\ekstraclass\01_players_links_24JAN21.csv', delimiter=',')
 
     # creating list with links
     link_list = links_df["link"].tolist()
@@ -48,12 +48,14 @@ def main():
         # general info about player
         player_id = link[39:]
         player_name = player_info_1[1].text
+        print(player_name)
         player_club = player_info_1[0].text
         player_club_abr = ""
         player_position = site.find('h6').text
 
         # players value
         pattern_value = re.compile("([0-9]\.[0-9]\w)+")
+        print(player_info_2)
         player_value = player_info_2[0].text
         player_value = re.search(pattern_value, player_value).group()
 
@@ -186,7 +188,8 @@ def main():
                 col_penalty_defend.append(penalty_defend)
 
                 instat = col[11].text
-                instat = re.search(pattern_numbers, instat).group()
+                instat = instat.replace('\n', '')
+                # instat = re.search(pattern_numbers, instat).group()
                 col_instat.append(instat)
 
                 yellow = col[12].text

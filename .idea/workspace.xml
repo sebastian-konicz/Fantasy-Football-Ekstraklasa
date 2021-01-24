@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd0c45e6-9126-4229-b06e-9a58a6e5aff5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FantasyFootball.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FantasyFootball.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/Players_sum_stats_11DEC20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/Players_sum_stats_12DEC20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/Players_sum_stats_hist_13DEC20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/01_players_links_10DEC20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/01_players_links_short.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_10DEC20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_15DEC20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_00_variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_00_variables.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_06_data_prep_for_optimatisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_06_data_prep_for_optimatisation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_07_team_optimatisation_no_transfers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_07_team_optimatisation_no_transfers.py" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,128 +31,17 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>class</find>
-      <find>player_points_prev</find>
-      <find>driver.quit()</find>
-      <find>time_s</find>
-      <find>print(</find>
-      <find>print</find>
-      <find>round</find>
-      <find>&quot;club_prev&quot;</find>
-      <find>popula</find>
-      <find>club_prev</find>
-      <find>popu</find>
-      <find>patter</find>
-      <find>pattern_lettes</find>
-      <find>seas</find>
-      <find>link</find>
-      <find>points_prev</find>
-      <find>instat</find>
-      <find>insta</find>
-      <find>value</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/Fantasy_01_scrap_players_sites.py" />
-        <option value="$PROJECT_DIR$/src/Fantasy_03_scrap_match_scores.py" />
-        <option value="$PROJECT_DIR$/src/Fantasy_04_team_optimatisation_no_transfers.py" />
-        <option value="$PROJECT_DIR$/src/Fantasy_05_team_optimatisation_no_transfers.py" />
-        <option value="$PROJECT_DIR$/src/Fantasy_04_data_preparation_for_optimatisation.py" />
-        <option value="$PROJECT_DIR$/src/Fantasy_06_data_preparation_for_optimatisation.py" />
-        <option value="$PROJECT_DIR$/src/Fantasy_02_scrap_players_stats.py" />
-        <option value="$PROJECT_DIR$/src/Fantasy_03_scrap_players_stats_hist.py" />
-        <option value="$PROJECT_DIR$/src/Fantasy_07_team_optimatisation_no_transfers.py" />
-        <option value="$PROJECT_DIR$/src/Fantasy_06_data_preparation_for_optimatisation_@.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/Fantasy_01_scrap_players_sites.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/Fantasy_02_scrap_players_stats.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/Fantasy_03_scrap_players_stats_hist.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/Fantasy_04_scrap_match_scores.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/Fantasy_06_data_preparation_for_optimatisation.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/Fantasy_06_data_preparation_for_optimatisation_@.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/Fantasy_07_team_optimatisation_no_transfers.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/00_variables.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/01_scrap_players_sites.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/e_01_scrap_players_sites.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_03_scrap_players_stats_hist.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_00_variables.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_04_scrap_match_scores.py" />
-        <option value="$PROJECT_DIR$/src/first_league/first_class_01_scrap_players_sites.py" />
-        <option value="$PROJECT_DIR$/src/first_league/first_class_00_variables.py" />
-        <option value="$PROJECT_DIR$/src/first_league/first_league_01_scrap_players_sites.py" />
-        <option value="$PROJECT_DIR$/src/first_league/first_league_03_scrap_players_stats_hist.py" />
-        <option value="$PROJECT_DIR$/src/first_league/first_league_06_data_prep_for_optimatisation.py" />
-        <option value="$PROJECT_DIR$/src/first_league/first_league_06_data_prep_for_optimatisation_2.py" />
-        <option value="$PROJECT_DIR$/src/first_league/first_league_07_team_optimatisation_no_transfers.py" />
-        <option value="$PROJECT_DIR$/src/first_league/first_league_02_scrap_players_stats.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_06_data_prep_for_optimatisation.py" />
-        <option value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_07_team_optimatisation_no_transfers.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1380" />
-    <option name="height" value="735" />
-  </component>
   <component name="ProjectId" id="1mVQqBRLS0lAVoqG2Cux1uvIoKR" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="FantasyFootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FantasyFootball" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FantasyFootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FantasyFootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="interim" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FantasyFootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FantasyFootball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FantasyFootball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ekstraclass" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/first_league" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -154,7 +55,40 @@
       <recent name="C:\Users\kose9001\Desktop\FantasyFootball\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ekstraclass_02_scrap_players_stats">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.ekstraclass_07_team_optimatisation_no_transfers">
+    <configuration name="ekstraclass_01_scrap_players_sites" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FantasyFootball" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ekstraclass" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ekstraclass_02_scrap_players_stats" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,38 +173,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="first_league_07_team_optimatisation_no_transfers" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FantasyFootball" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/first_league" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/first_league/first_league_07_team_optimatisation_no_transfers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ekstraclass_02_scrap_players_stats" />
         <item itemvalue="Python.ekstraclass_07_team_optimatisation_no_transfers" />
         <item itemvalue="Python.ekstraclass_06_data_prep_for_optimatisation" />
+        <item itemvalue="Python.ekstraclass_02_scrap_players_stats" />
+        <item itemvalue="Python.ekstraclass_01_scrap_players_sites" />
         <item itemvalue="Python.first_league_02_scrap_players_stats" />
-        <item itemvalue="Python.first_league_07_team_optimatisation_no_transfers" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -284,29 +197,16 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43371522" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="R Packages" order="4" weight="0.32954547" />
-    </layout>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -323,143 +223,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Fantasy_03_scrap_match_scores_copy.py" />
-    <entry file="file://$PROJECT_DIR$/src/Fantasy_06_team_optimatisation_with_transfers.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="252">
-            <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="59" column="115" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="115" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ekstraclass/ekstraclass_00_variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ekstraclass/ekstraclass_03_scrap_players_stats_hist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="54" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/first_league/ekstraclass_02_scrap_players_stats.py" />
-    <entry file="file://$PROJECT_DIR$/src/first_league/first_league_00_variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/first_league/first_league_01_scrap_players_sites.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/first_league/first_league_06_data_prep_for_optimatisation.py" />
-    <entry file="file://$PROJECT_DIR$/src/ekstraclass/ekstraclass_04_scrap_match_scores.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="128" column="74" selection-start-line="128" selection-start-column="57" selection-end-line="128" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/first_league/first_league_03_scrap_players_stats_hist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/first_league/first_league_02_scrap_players_stats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="234" column="9" lean-forward="true" selection-start-line="234" selection-start-column="9" selection-end-line="234" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/first_league/first_league_06_data_prep_for_optimatisation_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/first_league/first_league_07_team_optimatisation_no_transfers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ekstraclass/ekstraclass_06_data_prep_for_optimatisation_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="273" column="72" selection-start-line="273" selection-start-column="56" selection-end-line="273" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ekstraclass/ekstraclass_06_data_prep_for_optimatisation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ekstraclass/ekstraclass_07_team_optimatisation_no_transfers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
