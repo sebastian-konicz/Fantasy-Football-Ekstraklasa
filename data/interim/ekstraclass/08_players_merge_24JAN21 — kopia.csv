@@ -1,0 +1,510 @@
+id,name_old,position_old,club_old,value_old,points_old,name_new,position_new,club_new,value_new,points_new,status
+1524,Dawid Abramowicz,2.0,14.0,1.7,34.0,Dawid Abramowicz,2,14,1.8,34.0,active
+15,Hubert Adamczyk,3.0,15.0,1.6,7.0,Hubert Adamczyk,3,15,1.6,7.0,active
+724,Zlatan Alomerovic,1.0,5.0,1.9,2.0,Zlatan Alomerovic,1,5,1.8,2.0,active
+1309,Tiago Alves,3.0,7.0,1.7,27.0,Tiago Alves,3,7,1.7,27.0,active
+1572,,,,,,Kacper Andrzejewski,2,6,0.5,,active
+1004,Jakub Arak,4.0,5.0,1.3,1.0,Jakub Arak,4,5,1.3,1.0,active
+753,Inaki Astiz,2.0,4.0,1.8,0.0,Inaki Astiz,2,4,1.5,0.0,active
+749,Blazej Augustyn,2.0,3.0,1.8,20.0,Blazej Augustyn,2,3,1.8,20.0,active
+1543,Mohammed Awaed,4.0,6.0,1.9,15.0,Mohammad Awwad,4,6,1.9,15.0,active
+236,Gerard Badia,3.0,7.0,1.9,27.0,Gerard Badia,3,7,1.9,27.0,active
+1191,Filip Bainovic,3.0,2.0,1.5,14.0,Filip Bainovic,3,2,1.5,14.0,active
+1448,Bartosz Bajorek,4.0,12.0,0.5,0.0,Bartosz Bajorek,4,12,0.5,0.0,active
+1586,,,,,,Makana Baku,3,13,1.7,,active
+1482,Filip Balcewicz,2.0,9.0,0.5,0.0,Filip Balcewicz,2,9,0.5,0.0,active
+745,Sasa Balic,2.0,16.0,1.9,38.0,Sasa Balic,2,16,1.9,38.0,active
+289,Przemyslaw Bargiel,3.0,11.0,0.8,5.0,Przemyslaw Bargiel,3,11,0.8,5.0,active
+553,Jakub Bartkowski,2.0,9.0,1.7,34.0,Jakub Bartkowski,2,9,1.8,34.0,active
+1262,Daniel Bartl,3.0,10.0,1.7,20.0,Daniel Bartl,3,10,1.5,20.0,active
+1505,Mateusz Bartolewski,2.0,16.0,1.0,11.0,Mateusz Bartolewski,2,16,1.0,11.0,active
+752,Vullnet Basha,3.0,14.0,1.8,18.0,Vullnet Basha,3,14,1.8,18.0,active
+1375,Jewgienij Baszkirow,3.0,16.0,1.9,33.0,Jewgienij Baszkirow,3,16,1.7,33.0,active
+1412,Dmytro Baszlaj,2.0,8.0,1.6,4.0,Dmytro Baszlaj,2,8,1.6,4.0,active
+1413,Michal Batelt,2.0,8.0,0.5,0.0,Michal Batelt,2,8,0.5,0.0,active
+1405,Tomasz Bala,4.0,1.0,0.5,0.0,Tomasz Bala,4,1,0.5,0.0,active
+1537,Jakub Bednarczyk,3.0,16.0,1.5,9.0,Jakub Bednarczyk,3,16,1.5,9.0,active
+1389,Filip Bednarek,1.0,6.0,2.1,36.0,Filip Bednarek,1,6,2.1,36.0,active
+858,Adrian Benedyczak,4.0,9.0,1.4,20.0,Adrian Benedyczak,4,9,1.7,20.0,active
+774,Sebastian Bergier,4.0,11.0,0.9,1.0,Sebastian Bergier,4,11,0.9,1.0,active
+1496,Fatos Beciraj,4.0,14.0,1.8,12.0,Fatos Beciraj,4,14,1.8,12.0,active
+810,Bartosz Bida,3.0,3.0,1.7,9.0,Bartosz Bida,4,3,1.7,9.0,active
+1578,,,,,,Jan Bieganski,3,5,0.5,,active
+1517,Daniel Bielica,1.0,13.0,1.3,16.0,Daniel Bielica,1,13,1.3,16.0,active
+1538,Kamil Bielikow,1.0,16.0,0.8,0.0,Kamil Bielikow,1,16,0.7,0.0,active
+1419,Jakub Bieronski,3.0,8.0,1.2,7.0,Jakub Bieronski,3,8,1.2,7.0,active
+325,Kamil Bilinski,4.0,8.0,1.8,40.0,Kamil Bilinski,4,8,1.8,40.0,active
+365,Rafal Boguski,3.0,14.0,1.7,3.0,Rafal Boguski,3,14,1.7,3.0,active
+1242,Remigiusz Borkala,3.0,7.0,0.5,0.0,Remigiusz Borkala,3,7,0.5,0.0,active
+1515,Maciej Bortniczuk,3.0,3.0,0.5,1.0,Maciej Bortniczuk,3,3,0.5,1.0,active
+1478,Artur Boruc,1.0,4.0,2.5,39.0,Artur Boruc,1,4,2.2,39.0,active
+1274,Bartosz Borun,3.0,11.0,0.6,0.0,Bartosz Borun,3,11,0.6,0.0,active
+548,Ariel Borysiuk,3.0,3.0,1.8,12.0,Ariel Borysiuk,3,3,1.8,12.0,active
+1277,Kamil Broda,1.0,14.0,0.5,0.0,Kamil Broda,1,14,0.5,0.0,active
+1061,Felicio Brown Forbes,4.0,14.0,1.9,35.0,Felicio Brown Forbes,4,14,1.9,35.0,active
+351,Michal Buchalik,1.0,14.0,1.7,8.0,Michal Buchalik,1,14,1.7,8.0,active
+1334,Conrado Buchanelli Holz,3.0,5.0,1.9,47.0,Conrado Buchanelli Holz,3,5,2.2,47.0,active
+1146,Aleksander Buksa,4.0,14.0,1.7,12.0,Aleksander Buksa,4,14,1.7,12.0,active
+58,Lukasz Burliga,2.0,14.0,1.6,15.0,Lukasz Burliga,2,14,1.6,15.0,active
+1587,,,,,,Bartlomiej Burman,3,13,0.5,,active
+712,Jakub Bursztyn,1.0,9.0,1.5,0.0,Jakub Bursztyn,1,9,1.5,0.0,active
+1370,Bohdan Butko,2.0,6.0,2.0,4.0,Bohdan Butko,2,6,1.9,4.0,active
+833,Bodvar Bodvarsson,2.0,3.0,1.3,14.0,Bodvar Bodvarsson,2,3,1.3,14.0,active
+1476,Krzysztof Bakowski,1.0,6.0,0.7,0.0,Krzysztof Bakowski,1,6,0.7,0.0,active
+1142,Jakub Blaszczykowski,3.0,14.0,2.5,28.0,Jakub Blaszczykowski,3,14,2.1,28.0,active
+1328,Wojciech Blyszko,2.0,12.0,0.5,0.0,Wojciech Blyszko,2,12,0.5,0.0,active
+1082,Airam Cabrera,4.0,15.0,1.9,4.0,Airam Cabrera,4,15,1.8,4.0,active
+111,Marcin Cebula,3.0,10.0,2.0,61.0,Marcin Cebula,3,10,2.5,61.0,uncertain
+1579,,,,,,Joseph Ceesay,3,5,1.8,,active
+307,Piotr Celeban,2.0,11.0,1.4,45.0,Piotr Celeban,2,11,1.9,45.0,active
+1566,,,,,,Slawomir Chmiel,3,14,0.5,,active
+1443,Mateusz Chmielowiec,3.0,12.0,0.5,0.0,Mateusz Chmielowiec,3,12,0.5,0.0,active
+1360,Kacper Chodyna,3.0,16.0,1.0,41.0,Kacper Chodyna,2,16,1.9,41.0,active
+851,Mateusz Cholewiak,3.0,4.0,2.0,5.0,Mateusz Cholewiak,3,4,2.0,5.0,active
+171,Michal Chrapek,3.0,7.0,1.8,21.0,Michal Chrapek,3,7,1.8,21.0,active
+1307,Victor Chuca,3.0,14.0,1.7,39.0,Victor Chuca,3,14,1.7,39.0,active
+1105,Martin Chudy,1.0,2.0,2.0,53.0,Martin Chudy,1,2,2.1,53.0,active
+1339,Pawel Cibicki,4.0,9.0,1.8,7.0,Pawel Cibicki,4,9,1.7,7.0,active
+1485,Kacper Cichon,3.0,9.0,0.6,0.0,Kacper Cichon,3,9,0.6,0.0,active
+1402,Radoslaw Cielemecki,3.0,4.0,0.8,0.0,Radoslaw Cielemecki,3,4,0.8,0.0,active
+1581,,,,,,Bartlomiej Ciepiela,3,4,0.7,,active
+191,Radoslaw Cierzniak,1.0,4.0,1.9,-1.0,Radoslaw Cierzniak,1,4,1.7,-1.0,active
+1349,Guillermo Cotugno,2.0,11.0,1.4,4.0,Guillermo Cotugno,2,11,1.4,4.0,active
+1208,Dorde Crnomarkovic,2.0,6.0,2.0,6.0,Dorde Crnomarkovic,2,16,1.8,6.0,active
+698,Alan Czerwinski,2.0,6.0,2.4,35.0,Alan Czerwinski,2,6,2.3,35.0,active
+256,Jakub Czerwinski,2.0,7.0,2.4,30.0,Jakub Czerwinski,2,7,2.2,30.0,active
+1560,Bozidar Czorbadzijski,2.0,12.0,1.8,7.0,Bozidar Czorbadzijski,2,12,1.8,7.0,active
+1457,Mateusz Czyzycki,3.0,13.0,1.5,21.0,Mateusz Czyzycki,3,13,1.5,21.0,active
+1444,Robert Dadok,3.0,12.0,1.4,18.0,Robert Dadok,3,12,1.4,18.0,active
+976,Karol Danielak,3.0,8.0,1.7,30.0,Karol Danielak,3,8,1.7,30.0,active
+926,,,,,,Jonathan de Amo,2,12,1.8,,active
+137,Tomasz Dejewski,2.0,6.0,1.4,4.0,Tomasz Dejewski,2,6,1.4,4.0,active
+21,Milan Dimun,3.0,1.0,1.8,31.0,Milan Dimun,3,1,1.8,31.0,active
+1263,Maciej Domanski,3.0,12.0,1.7,62.0,Maciej Domanski,3,12,2.1,62.0,active
+1376,Dejan Drazic,4.0,16.0,1.7,24.0,Dejan Drazic,4,16,1.7,24.0,active
+269,Kamil Drygas,3.0,9.0,1.8,47.0,Kamil Drygas,3,9,1.9,47.0,active
+1494,Kacper Duda,3.0,14.0,0.5,0.0,Kacper Duda,3,14,0.5,0.0,active
+1433,Mateusz Dudek,1.0,12.0,0.5,0.0,Mateusz Dudek,1,12,0.5,0.0,active
+1283,Daniel Dudzinski,3.0,16.0,0.5,0.0,Daniel Dudzinski,3,16,0.5,0.0,active
+740,Oleksij Dytiatjew,2.0,1.0,1.7,0.0,Oleksij Dytiatjew,2,1,1.6,0.0,active
+1400,Xavier Dziekonski,1.0,3.0,0.5,8.0,Xavier Dziekonski,1,3,0.5,8.0,active
+20,Damian Dabrowski,3.0,9.0,1.6,41.0,Damian Dabrowski,3,9,1.8,41.0,active
+1558,Stefanos Evangelou,2.0,2.0,1.8,14.0,Stefanos Evangelou,2,2,1.8,14.0,active
+1276,Erik Exposito,4.0,11.0,2.0,44.0,Erik Exposito,4,11,2.0,44.0,active
+479,Diego Ferraresso,2.0,1.0,1.7,8.0,Diego Ferraresso,2,1,1.7,8.0,active
+1518,Rivaldo Ferreira Junior,4.0,1.0,1.9,29.0,Rivaldo Ferreira Junior,4,1,1.9,29.0,active
+1083,Vinicius Ferreira,4.0,1.0,1.2,0.0,Vinicius Ferreira,4,1,1.2,0.0,active
+1551,Fernan Ferreiroa,3.0,3.0,1.9,11.0,Fernan Ferreiroa,3,3,1.9,11.0,active
+1458,Nikodem Fiedosewicz,3.0,13.0,1.2,0.0,Nikodem Fiedosewicz,3,13,1.2,0.0,active
+1005,Karol Fila,2.0,5.0,1.8,32.0,Karol Fila,2,5,1.8,32.0,active
+1356,Ivan Fiolic,3.0,1.0,1.9,26.0,Ivan Fiolic,3,1,1.7,26.0,active
+239,Marcin Flis,3.0,12.0,1.6,29.0,Marcin Flis,3,12,1.6,29.0,active
+381,Konrad Forenc,1.0,16.0,1.8,0.0,Konrad Forenc,1,16,1.6,0.0,active
+1529,Mariusz Fornalczyk,3.0,9.0,0.5,2.0,Mariusz Fornalczyk,3,9,0.5,2.0,active
+934,Petteri Forsell,3.0,12.0,2.0,25.0,Petteri Forsell,3,12,1.9,25.0,active
+1530,Dominik Frelek,3.0,8.0,0.5,0.0,Dominik Frelek,3,8,0.5,0.0,active
+1549,Michal Frydrych,2.0,14.0,1.8,33.0,Michal Frydrych,2,14,1.8,33.0,active
+258,Adam Fraczczak,4.0,9.0,1.7,15.0,Adam Fraczczak,4,9,1.7,15.0,active
+1414,Kacper Gach,2.0,8.0,1.6,8.0,Kacper Gach,2,8,1.6,8.0,active
+145,Maciej Gajos,3.0,5.0,1.8,34.0,Maciej Gajos,3,5,1.9,34.0,active
+1124,Angel Garcia,2.0,15.0,1.7,33.0,Angel Garcia,2,15,1.7,33.0,active
+729,Michael Gardawski,3.0,1.0,1.7,7.0,Michael Gardawski,3,1,1.7,7.0,suspended
+1498,Fryderyk Gerbowski,3.0,15.0,0.5,0.0,Fryderyk Gerbowski,3,15,0.5,0.0,active
+1438,Krystian Getinger,2.0,12.0,1.8,29.0,Krystian Getinger,2,12,1.8,29.0,active
+1344,Torgil Gjertsen,3.0,15.0,1.8,28.0,Torgil Gjertsen,3,15,1.6,28.0,active
+630,Michal Gliwa,1.0,12.0,1.8,7.0,Michal Gliwa,1,12,1.5,7.0,active
+1019,Wojciech Golla,2.0,11.0,1.5,31.0,Wojciech Golla,2,11,1.9,31.0,active
+1486,Alexander Gorgon,3.0,9.0,1.9,55.0,Alexander Gorgon,3,9,2.2,55.0,active
+1377,Hubert Gostomski,1.0,3.0,1.0,0.0,Hubert Gostomski,1,3,1.0,0.0,active
+1509,Bartlomiej Gradecki,1.0,15.0,0.7,0.0,Bartlomiej Gradecki,1,15,0.7,0.0,active
+1585,,,,,,Albin Granlund,2,12,1.8,,active
+1409,Mateusz Grudzinski,3.0,4.0,0.5,0.0,Mateusz Grudzinski,3,4,0.5,0.0,active
+1528,Konrad Gruszkowski,2.0,14.0,0.6,3.0,Konrad Gruszkowski,2,14,0.6,3.0,active
+844,Adrian Gryszkiewicz,2.0,2.0,1.5,42.0,Adrian Gryszkiewicz,2,2,1.9,42.0,active
+1225,Jan Grzesik,2.0,13.0,1.8,43.0,Jan Grzesik,2,13,1.8,43.0,active
+4,Filip Majchrowicz,1.0,1.0,0.5,0.0,Jakub Grzywaczewski,1,1,0.5,0.0,active
+1536,Jakub Gut,3.0,1.0,0.5,1.0,Jakub Gut,3,1,0.5,1.0,active
+346,Vladislavs Gutkovskis,4.0,10.0,1.9,51.0,Vladislavs Gutkovskis,4,10,2.2,51.0,active
+1556,Konrad Gutowski,3.0,8.0,0.9,6.0,Konrad Gutowski,3,8,0.9,6.0,active
+1106,Walerian Gwilia,3.0,4.0,2.9,29.0,Walerian Gwilia,3,4,2.5,29.0,active
+1568,,,,,,Jakub Goralczyk,2,1,0.5,,active
+1018,Damian Gaska,3.0,11.0,1.6,0.0,Damian Gaska,3,11,1.6,0.0,out of club
+807,Wojciech Hajda,3.0,2.0,0.5,6.0,Wojciech Hajda,3,2,0.5,6.0,active
+1588,,,,,,Tim Hall,2,14,1.8,,active
+1103,Sergiu Hanca,3.0,1.0,2.3,32.0,Sergiu Hanca,3,1,2.2,32.0,active
+208,Konrad Handzlik,3.0,13.0,0.5,4.0,Konrad Handzlik,3,13,0.5,4.0,active
+1365,Omran Haydary,4.0,5.0,1.7,37.0,Omran Haydary,4,5,1.9,37.0,active
+1590,,,,,,Dominik Holec,1,10,1.9,,active
+1243,Jakub Holubek,2.0,7.0,1.7,37.0,Jakub Holubek,2,7,1.7,37.0,active
+1584,,,,,,Jakub Hora,3,8,1.6,,active
+1095,Santeri Hostikka,3.0,9.0,1.6,21.0,Santeri Hostikka,3,9,1.6,21.0,active
+1170,Daniel Hoyo-Kowalski,2.0,14.0,1.2,2.0,Daniel Hoyo-Kowalski,2,14,1.0,2.0,active
+1008,Mateusz Holownia,2.0,4.0,1.7,1.0,Mateusz Holownia,2,4,1.7,1.0,active
+1138,Lukas Hrosso,1.0,1.0,1.7,0.0,Lukas Hrosso,1,1,1.7,0.0,active
+1241,Tomas Huk,2.0,7.0,1.7,17.0,Tomas Huk,2,7,1.7,17.0,active
+1481,Javier Ajenjo Hyjek,3.0,7.0,1.7,0.0,Javier Ajenjo Hyjek,3,7,1.7,0.0,active
+382,Dominik Hladun,1.0,16.0,2.0,46.0,Dominik Hladun,1,16,2.0,46.0,active
+765,Jesus Imaz,4.0,3.0,2.2,77.0,Jesus Imaz,3,3,3.1,77.0,active
+1475,Mikael Ishak,4.0,6.0,3.0,60.0,Mikael Ishak,4,6,4.0,60.0,active
+1535,Robert Ivanov,2.0,13.0,1.7,16.0,Robert Ivanov,2,13,1.7,16.0,active
+388,,,,,,Jaroslaw Jach,2,10,1.8,,active
+1460,Michal Jakobowski,3.0,13.0,1.7,34.0,Michal Jakobowski,3,13,1.7,34.0,active
+1491,Patryk Janasik,3.0,11.0,1.4,6.0,Patryk Janasik,3,11,1.4,6.0,active
+166,Rafal Janicki,2.0,14.0,1.8,3.0,Rafal Janicki,2,8,1.7,3.0,active
+1461,Robert Janicki,3.0,13.0,1.8,25.0,Robert Janicki,3,13,1.8,25.0,active
+240,,,,,,Maciej Jankowski,3,12,1.7,,active
+1192,Erik Janza,2.0,2.0,2.0,44.0,Erik Janza,2,2,2.1,44.0,active
+1415,Bartosz Jaroch,2.0,8.0,1.7,-5.0,Bartosz Jaroch,2,8,1.7,-5.0,out of club
+1466,Gracjan Jaroch,4.0,13.0,1.7,12.0,Gracjan Jaroch,4,13,1.7,12.0,active
+1562,,,,,,Jakub Jesionek,1,3,0.5,,active
+987,Jesus Jimenez,3.0,2.0,3.0,78.0,Jesus Jimenez,4,2,3.8,78.0,active
+209,Tomasz Jodlowiec,3.0,7.0,1.8,27.0,Tomasz Jodlowiec,3,7,1.8,27.0,active
+581,Dominik Jonczy,2.0,16.0,1.1,19.0,Dominik Jonczy,2,16,1.8,19.0,active
+1479,Josip Juranovic,2.0,4.0,2.6,54.0,Josip Juranovic,2,4,2.6,54.0,active
+535,Artur Jedrzejczyk,2.0,4.0,2.5,43.0,Artur Jedrzejczyk,2,4,2.4,43.0,suspended
+636,Nika Kaczarawa,4.0,6.0,1.8,15.0,Nika Kaczarawa,4,6,1.8,15.0,active
+1378,,,,,,Iwo Kaczmarski,3,10,0.9,,active
+1107,Andrej Kadlec,2.0,3.0,1.9,5.0,Andrej Kadlec,2,3,1.5,5.0,active
+1185,,,,,,Bartlomiej Kafel,3,1,0.5,,active
+1346,Dominik Kalinowski,1.0,16.0,0.5,0.0,Dominik Kalinowski,1,16,0.5,0.0,active
+1210,Jakub Kaminski,3.0,6.0,2.2,34.0,Jakub Kaminski,3,6,2.2,34.0,active
+1358,Krzysztof Kaminski,1.0,15.0,1.7,37.0,Krzysztof Kaminski,1,15,1.7,37.0,active
+22,Radoslaw Kanach,3.0,1.0,0.9,0.0,Radoslaw Kanach,3,1,0.9,0.0,active
+469,Jose Kante,4.0,4.0,2.5,9.0,Jose Kante,4,4,2.0,9.0,active
+1394,Przemyslaw Kapek,4.0,1.0,0.5,2.0,Przemyslaw Kapek,4,1,0.5,2.0,active
+1521,Bartosz Kapustka,3.0,4.0,2.6,33.0,Bartosz Kapustka,3,4,2.7,33.0,active
+1575,,,,,,Jakub Karbownik,3,6,0.6,,active
+1576,,,,,,Jesper Karlstrom,3,6,2.2,,active
+1382,Jakub Kaluzinski,3.0,5.0,0.8,13.0,Jakub Kaluzinski,3,5,1.0,13.0,active
+1452,Bartosz Kieliba,2.0,13.0,1.6,29.0,Bartosz Kieliba,2,13,1.6,29.0,active
+1453,Jakub Kielb,2.0,13.0,1.7,18.0,Jakub Kielb,2,13,1.7,18.0,active
+994,Lukas Klemenz,2.0,14.0,1.7,4.0,Lukas Klemenz,2,14,1.7,4.0,out of club
+846,Tymoteusz Klups,4.0,6.0,1.7,0.0,Tymoteusz Klups,4,6,1.5,0.0,active
+1422,Gergo Kocsis,3.0,8.0,1.5,19.0,Gergo Kocsis,3,8,1.5,19.0,active
+1345,Dawid Kocyla,4.0,15.0,1.6,29.0,Dawid Kocyla,4,15,1.6,29.0,active
+285,Michal Koj,2.0,2.0,1.6,26.0,Michal Koj,2,2,1.6,26.0,active
+687,,,,,,Aleksandyr Kolew,4,12,1.7,,active
+286,Martin Konczkowski,3.0,7.0,1.8,31.0,Martin Konczkowski,2,7,1.8,31.0,active
+1580,,,,,,Patryk Konik,2,4,0.5,,active
+640,Bartosz Kopacz,2.0,5.0,1.9,28.0,Bartosz Kopacz,2,5,1.9,28.0,active
+210,Michal Kopczynski,3.0,13.0,1.6,0.0,Michal Kopczynski,3,13,1.6,0.0,active
+1218,Kacper Kostorz,3.0,4.0,1.5,0.0,Kacper Kostorz,3,4,1.5,0.0,active
+1385,Grzegorz Kotowicz,3.0,11.0,0.5,0.0,Grzegorz Kotowicz,3,11,0.5,0.0,active
+580,Sebastian Kowalczyk,3.0,9.0,1.9,53.0,Sebastian Kowalczyk,3,9,2.0,53.0,active
+1439,Jan Kozlowski,2.0,12.0,1.2,0.0,Jan Kozlowski,2,12,1.2,0.0,active
+277,Kacper Kozlowski,3.0,9.0,0.8,28.0,Kacper Kozlowski,3,9,1.6,28.0,active
+1321,Kamil Koscielny,2.0,12.0,1.7,24.0,Kamil Koscielny,2,12,1.7,24.0,injury
+1445,Adam Kramarz,3.0,12.0,0.5,0.0,Adam Kramarz,3,12,0.5,0.0,active
+1193,Piotr Krawczyk,4.0,2.0,1.2,33.0,Piotr Krawczyk,4,2,1.5,33.0,active
+1547,Wasyl Krawec,2.0,6.0,1.9,21.0,Wasyl Krawec,2,6,2.0,21.0,active
+1393,Kamil Kruk,2.0,16.0,0.5,8.0,Kamil Kruk,2,16,0.5,8.0,active
+1366,Egzon Kryeziu,3.0,5.0,1.5,4.0,Egzon Kryeziu,3,5,1.5,4.0,active
+1248,Dariusz Krzysztofek,1.0,9.0,0.7,0.0,Dariusz Krzysztofek,1,9,0.7,0.0,active
+1257,Oskar Krzyzak,2.0,10.0,0.5,0.0,Oskar Krzyzak,2,10,0.5,0.0,active
+1118,Patryk Krolczyk,1.0,7.0,0.8,0.0,Patryk Krolczyk,1,7,0.8,0.0,active
+988,Krzysztof Kubica,3.0,2.0,0.5,11.0,Krzysztof Kubica,3,2,0.5,11.0,active
+395,Jaroslaw Kubicki,3.0,5.0,1.7,33.0,Jaroslaw Kubicki,3,5,1.8,33.0,active
+211,Michal Kucharczyk,3.0,9.0,2.0,56.0,Michal Kucharczyk,3,9,2.3,56.0,active
+558,Dusan Kuciak,1.0,5.0,2.1,37.0,Dusan Kuciak,1,5,2.1,37.0,active
+948,Dawid Kudla,1.0,2.0,1.4,0.0,Dawid Kudla,1,2,1.4,0.0,active
+701,Patryk Kun,3.0,10.0,1.7,48.0,Patryk Kun,3,10,2.0,48.0,active
+340,Mateusz Kupczak,3.0,13.0,1.7,26.0,Mateusz Kupczak,3,13,1.7,26.0,active
+1342,Nikola Kuveljic,3.0,14.0,1.4,14.0,Nikola Kuveljic,3,14,1.4,14.0,active
+1462,Jakub Kuzdra,2.0,13.0,1.5,33.0,Jakub Kuzdra,2,13,1.5,33.0,active
+1520,Mateusz Kuzimski,4.0,13.0,1.9,50.0,Mateusz Kuzimski,4,13,2.0,50.0,active
+115,,,,,,Bartosz Kwiecien,2,3,1.8,,active
+1512,Dusan Lagator,3.0,15.0,1.8,36.0,Dusan Lagator,3,15,1.7,36.0,active
+1454,Adrian Laskowski,2.0,13.0,1.3,15.0,Adrian Laskowski,2,13,1.3,15.0,active
+1423,Filip Laskowski,3.0,8.0,1.4,10.0,Filip Laskowski,3,8,1.4,10.0,out of club
+1373,Ben Lederman,3.0,10.0,0.7,8.0,Ben Lederman,3,10,1.0,8.0,active
+1500,Filip Lesniak,3.0,15.0,1.8,34.0,Filip Lesniak,3,15,1.7,34.0,active
+1410,Arkadiusz Leszczynski,1.0,8.0,0.5,0.0,Arkadiusz Leszczynski,1,8,0.5,0.0,active
+1411,Rafal Leszczynski,1.0,8.0,0.9,8.0,Rafal Leszczynski,1,8,0.9,8.0,active
+1501,Mateusz Lewandowski,4.0,15.0,1.4,13.0,Mateusz Lewandowski,4,15,1.4,13.0,active
+200,Igor Lewczuk,2.0,4.0,2.2,32.0,Igor Lewczuk,2,4,2.4,32.0,active
+1550,Szymon Lewkot,3.0,11.0,0.5,1.0,Szymon Lewkot,3,11,0.5,1.0,active
+293,Patryk Lipski,3.0,7.0,1.7,15.0,Patryk Lipski,3,7,1.7,15.0,active
+1450,Adrian Lis,1.0,13.0,1.7,22.0,Adrian Lis,1,13,1.7,22.0,active
+1026,Mateusz Lis,1.0,14.0,1.7,37.0,Mateusz Lis,1,14,1.8,37.0,active
+1440,Wojciech Lisowski,2.0,12.0,1.6,2.0,Wojciech Lisowski,2,12,1.6,2.0,active
+1189,Rafael Lopes,4.0,4.0,2.3,18.0,Rafael Lopes,4,4,2.0,18.0,active
+1330,Florian Loshaj,3.0,1.0,1.9,36.0,Florian Loshaj,3,1,1.8,36.0,active
+1471,Kamil Lukoszek,4.0,2.0,0.5,0.0,Kamil Lukoszek,4,2,0.5,0.0,active
+1285,Lucas Luquinhas,3.0,4.0,2.6,40.0,Lucas Luquinhas,3,4,2.9,40.0,active
+757,Sylwester Lusiusz,3.0,1.0,1.7,0.0,Sylwester Lusiusz,3,1,1.4,0.0,active
+1539,Ivan Lopez,4.0,10.0,2.0,45.0,Ivan Lopez,4,10,2.4,45.0,active
+1582,,,,,,Jehor Macenko,3,4,0.8,,active
+1564,,,,,,Przemyslaw Maj,3,12,0.5,,active
+1571,,,,,,Jan Majsterek,2,3,0.5,,active
+243,Mateusz Mak,3.0,12.0,1.8,38.0,Mateusz Mak,3,12,1.8,38.0,active
+179,Michal Mak,3.0,14.0,1.7,5.0,Michal Mak,3,14,1.7,5.0,active
+963,Rafal Makowski,3.0,11.0,1.6,6.0,Rafal Makowski,3,11,1.6,6.0,active
+1055,Tomasz Makowski,3.0,5.0,1.8,17.0,Tomasz Makowski,3,5,1.8,17.0,suspended
+150,Maciej Makuszewski,3.0,3.0,1.7,43.0,Maciej Makuszewski,3,3,1.8,43.0,active
+501,Piotr Malarczyk,2.0,7.0,1.2,33.0,Piotr Malarczyk,2,7,1.6,33.0,active
+1015,Mariusz Malec,2.0,9.0,1.5,31.0,Mariusz Malec,2,9,1.7,31.0,active
+1265,Piotr Malinowski,3.0,10.0,1.7,17.0,Piotr Malinowski,3,10,1.5,17.0,active
+167,Mario Maloca,2.0,5.0,1.9,-1.0,Mario Maloca,2,5,1.7,-1.0,active
+1546,Petar Mamic,2.0,10.0,1.8,0.0,Petar Mamic,2,8,1.8,0.0,active
+1300,Alasana Manneh,3.0,2.0,1.8,39.0,Alasana Manneh,3,2,1.8,39.0,active
+1094,Filip Marchwinski,3.0,6.0,1.8,23.0,Filip Marchwinski,3,6,1.8,23.0,active
+1087,Andre Martins,3.0,4.0,2.0,25.0,Andre Martins,3,4,2.1,25.0,active
+1424,Mateusz Marzec,3.0,8.0,1.3,20.0,Mateusz Marzec,3,8,1.3,20.0,active
+1534,Giannis Massouras,2.0,2.0,1.6,36.0,Giannis Massouras,2,2,1.6,36.0,active
+1483,Luis Mata,2.0,9.0,1.7,4.0,Luis Mata,2,9,1.7,4.0,active
+272,Mateusz Matras,3.0,12.0,1.5,23.0,Mateusz Matras,3,12,1.5,23.0,active
+260,Hubert Matynia,2.0,9.0,1.8,39.0,Hubert Matynia,2,9,2.2,39.0,active
+1372,Mateusz Mackowiak,2.0,11.0,1.0,0.0,Mateusz Mackowiak,2,11,1.0,0.0,active
+1516,Adi Mehremic,2.0,14.0,1.6,22.0,Adi Mehremic,2,14,1.6,22.0,active
+487,Giorgi Merebaszwili,3.0,15.0,2.0,14.0,Giorgi Merebaszwili,3,15,2.0,14.0,active
+1552,Serhij Miakuszko,3.0,8.0,1.8,9.0,Serhij Miakuszko,3,8,1.8,9.0,active
+1280,Damian Michalski,2.0,15.0,1.5,16.0,Damian Michalski,2,15,1.5,16.0,active
+1037,Kacper Michalski,2.0,2.0,1.4,3.0,Kacper Michalski,2,2,1.4,3.0,active
+532,Jaroslav Mihalik,3.0,5.0,1.8,21.0,Jaroslav Mihalik,3,5,1.8,21.0,active
+1006,Daniel Mikolajewski,2.0,10.0,1.5,0.0,Daniel Mikolajewski,2,10,1.5,0.0,active
+964,Sebastian Milewski,3.0,7.0,1.9,36.0,Sebastian Milewski,3,7,1.9,36.0,active
+1573,,,,,,Antonio Milic,2,6,2.1,,active
+1577,,,,,,Eryk Mirus,1,5,0.5,,active
+1217,Cezary Miszta,1.0,4.0,0.5,8.0,Cezary Miszta,1,4,0.5,8.0,active
+786,Filip Mladenovic,2.0,4.0,2.5,68.0,Filip Mladenovic,2,4,2.8,68.0,active
+1417,Filip Modelski,2.0,8.0,1.2,4.0,Filip Modelski,2,8,1.2,4.0,active
+231,Tomasz Mokwa,2.0,7.0,1.5,2.0,Tomasz Mokwa,2,7,1.5,2.0,active
+1278,Patryk Moskiewicz,3.0,14.0,0.5,0.0,Patryk Moskiewicz,3,14,0.5,0.0,active
+1386,Ariel Mosor,2.0,4.0,0.7,0.0,Ariel Mosor,2,4,0.7,0.0,active
+1418,Szymon Mroczko,2.0,8.0,0.5,5.0,Szymon Mroczko,2,8,1.2,5.0,active
+1484,Bartlomiej Mruk,2.0,9.0,0.7,2.0,Bartlomiej Mruk,2,9,0.7,2.0,active
+1522,Samuel Mraz,4.0,16.0,1.9,35.0,Samuel Mraz,4,16,1.9,35.0,active
+1212,Karlo Muhar,3.0,6.0,1.8,10.0,Karlo Muhar,3,6,1.8,10.0,out of club
+1563,,,,,,Mykola Musolitin,2,5,1.7,,active
+1137,Lubambo Musonda,3.0,11.0,1.7,31.0,Lubambo Musonda,3,11,1.7,31.0,active
+1289,Wojciech Muzyk,1.0,4.0,1.0,0.0,Wojciech Muzyk,1,4,1.0,0.0,active
+81,Przemyslaw Mystkowski,3.0,3.0,1.7,25.0,Przemyslaw Mystkowski,3,3,1.7,25.0,active
+1469,Jakub Myszor,3.0,1.0,0.5,0.0,Jakub Myszor,3,1,0.5,0.0,active
+1072,Ivan Marquez,2.0,1.0,1.7,9.0,Ivan Marquez,2,1,1.7,9.0,active
+371,Krzysztof Maczynski,3.0,11.0,1.9,30.0,Krzysztof Maczynski,3,11,1.9,30.0,active
+681,Michal Nalepa,2.0,5.0,1.8,38.0,Michal Nalepa,2,5,1.9,38.0,active
+996,Mikolaj Nawrocki,3.0,3.0,0.7,0.0,Mikolaj Nawrocki,3,3,0.7,0.0,active
+991,Bartosz Neugebauer,1.0,2.0,0.5,0.0,Bartosz Neugebauer,1,2,0.5,0.0,active
+23,Karol Niemczycki,1.0,1.0,0.8,47.0,Karol Niemczycki,1,1,2.0,47.0,active
+262,David Niepsuj,2.0,14.0,1.7,6.0,David Niepsuj,2,14,1.7,6.0,active
+1519,Jakub Niewiadomski,2.0,6.0,0.5,0.0,Jakub Niewiadomski,2,6,0.5,0.0,active
+1258,Andrzej Niewulis,2.0,10.0,1.6,27.0,Andrzej Niewulis,2,10,2.0,27.0,active
+1404,Nikodem Niski,2.0,4.0,0.5,0.0,Nikodem Niski,2,4,0.5,0.0,active
+480,Bartosz Nowak,3.0,2.0,1.9,68.0,Bartosz Nowak,3,2,2.4,68.0,active
+967,Tomasz Nowak,3.0,8.0,1.6,28.0,Tomasz Nowak,3,8,1.6,28.0,active
+1554,Milan Obradovic,2.0,15.0,1.7,18.0,Milan Obradovic,2,15,1.7,18.0,active
+829,Damian Oko,2.0,16.0,1.6,0.0,Damian Oko,2,16,1.6,0.0,active
+63,Pawel Olszewski,2.0,3.0,0.7,32.0,Pawel Olszewski,2,3,1.7,32.0,active
+927,Kornel Osyra,2.0,8.0,1.6,7.0,Kornel Osyra,2,8,1.6,7.0,active
+1541,Piotr Owczarek,3.0,10.0,0.5,0.0,Piotr Owczarek,3,10,0.5,0.0,active
+985,Robert Ozog,3.0,1.0,0.5,0.0,Robert Ozog,3,1,0.5,0.0,active
+172,Flavio Paixao,4.0,5.0,2.7,61.0,Flavio Paixao,4,5,2.5,61.0,active
+831,Dawid Pakulski,3.0,16.0,1.5,1.0,Dawid Pakulski,3,16,1.5,1.0,active
+1194,Aleksander Paluszek,2.0,2.0,0.5,6.0,Aleksander Paluszek,2,2,0.5,6.0,active
+1561,Szymon Pankiewicz,2.0,3.0,0.5,3.0,Szymon Pankiewicz,2,3,0.5,3.0,active
+1514,Ioannis Papanikolaou,3.0,10.0,2.0,8.0,Ioannis Papanikolaou,3,10,1.7,8.0,active
+311,Mariusz Pawelec,2.0,11.0,1.5,15.0,Mariusz Pawelec,2,11,1.5,15.0,active
+1369,Aleksander Pawlak,3.0,15.0,0.5,5.0,Aleksander Pawlak,3,15,0.5,5.0,active
+181,Bartlomiej Pawlowski,3.0,11.0,2.0,38.0,Bartlomiej Pawlowski,3,11,2.0,38.0,active
+819,Damian Pawlowski,3.0,12.0,1.0,8.0,Damian Pawlowski,3,12,1.0,8.0,active
+653,Dariusz Pawlowski,4.0,2.0,0.5,9.0,Dariusz Pawlowski,2,2,0.9,9.0,active
+321,Maciej Palaszewski,3.0,11.0,1.5,24.0,Maciej Palaszewski,3,11,1.5,24.0,active
+1362,Tomas Pekhart,4.0,4.0,3.0,85.0,Tomas Pekhart,4,4,4.5,85.0,active
+10,Kamil Pestka,2.0,1.0,1.9,3.0,Kamil Pestka,2,1,1.7,3.0,active
+1295,Adrian Petk,3.0,5.0,0.5,0.0,Adrian Petk,3,5,0.5,0.0,active
+1259,Tomas Petrasek,2.0,10.0,2.1,32.0,Tomas Petrasek,2,10,2.4,32.0,uncertain
+100,Michal Peskovic,1.0,8.0,1.9,4.0,Michal Peskovic,1,8,1.7,4.0,active
+942,Fabian Piasecki,4.0,11.0,1.7,26.0,Fabian Piasecki,4,11,1.7,26.0,active
+322,Robert Pich,3.0,11.0,2.4,68.0,Robert Pich,3,11,2.5,68.0,active
+361,Rafal Pietrzak,2.0,5.0,1.8,55.0,Rafal Pietrzak,2,5,2.2,55.0,active
+1184,Mateusz Pienczak,2.0,1.0,0.5,0.0,Mateusz Pienczak,2,1,0.5,0.0,active
+806,Daniel Pik,3.0,1.0,0.8,3.0,Daniel Pik,3,1,0.8,3.0,active
+1489,Branislav Pindroch,1.0,10.0,1.8,7.0,Branislav Pindroch,1,10,1.8,7.0,active
+625,Filip Piszczek,4.0,1.0,1.6,22.0,Filip Piszczek,4,1,1.6,22.0,active
+1468,Dorian Pitula,2.0,1.0,0.5,0.0,Dorian Pitula,2,1,0.5,0.0,active
+1126,Kamil Piatkowski,2.0,10.0,1.7,47.0,Kamil Piatkowski,2,10,2.2,47.0,active
+790,Frantisek Plach,1.0,7.0,2.3,43.0,Frantisek Plach,1,7,2.0,43.0,active
+1043,Patryk Plewka,3.0,14.0,1.2,36.0,Patryk Plewka,3,14,1.5,36.0,active
+1076,Tomas Podstawski,3.0,9.0,1.8,23.0,Tomas Podstawski,3,9,1.8,23.0,active
+383,Martin Polacek,1.0,8.0,1.8,2.0,Martin Polacek,1,8,1.7,2.0,active
+1091,Marko Poletanovic,3.0,10.0,1.5,27.0,Marko Poletanovic,3,10,1.5,27.0,active
+769,Konrad Poprawa,2.0,11.0,0.5,0.0,Konrad Poprawa,2,11,0.5,0.0,active
+1088,Lukasz Poreba,3.0,16.0,1.6,39.0,Lukasz Poreba,3,16,1.8,39.0,active
+713,Martin Pospisil,3.0,3.0,2.1,49.0,Martin Pospisil,3,3,2.3,49.0,active
+1136,Mateusz Praszelik,3.0,11.0,1.2,51.0,Mateusz Praszelik,3,11,2.2,51.0,active
+1287,Tomas Prikryl,3.0,3.0,1.8,35.0,Tomas Prikryl,3,3,1.8,35.0,active
+1434,Damian Primel,1.0,12.0,1.2,1.0,Damian Primel,1,12,1.2,1.0,active
+1348,Roman Prochazka,3.0,2.0,1.9,40.0,Roman Prochazka,3,2,1.9,40.0,active
+1446,Andreja Prokic,3.0,12.0,1.4,37.0,Andreja Prokic,3,12,1.6,37.0,active
+556,Tymoteusz Puchacz,2.0,6.0,2.0,21.0,Tymoteusz Puchacz,2,6,2.2,21.0,active
+1272,Israel Puerto,2.0,11.0,1.9,35.0,Israel Puerto,2,11,1.9,35.0,active
+1351,Jakov Puljic,4.0,3.0,2.5,67.0,Jakov Puljic,4,3,2.7,67.0,active
+133,Matus Putnocky,1.0,11.0,2.0,40.0,Matus Putnocky,1,11,2.0,40.0,active
+1232,Piotr Pyrdol,3.0,15.0,0.5,11.0,Piotr Pyrdol,3,15,1.0,11.0,active
+1480,Arkadiusz Pyrka,3.0,7.0,0.5,15.0,Arkadiusz Pyrka,3,7,1.0,15.0,active
+1245,Michal Rakowiecki,3.0,7.0,0.5,1.0,Michal Rakowiecki,3,7,0.5,1.0,active
+1233,Dani Ramirez,3.0,6.0,3.2,57.0,Dani Ramirez,3,6,3.2,57.0,active
+705,Damian Rasak,3.0,15.0,1.6,39.0,Damian Rasak,3,15,1.7,39.0,active
+1234,Adam Ratajczyk,3.0,16.0,1.5,5.0,Adam Ratajczyk,3,16,1.5,5.0,active
+1113,Luis Rocha,2.0,4.0,1.9,3.0,Luis Rocha,2,4,1.9,3.0,active
+1545,Matej Rodin,2.0,1.0,1.9,30.0,Matej Rodin,2,1,1.9,30.0,active
+1331,Thiago Rodrigues de Souza,3.0,1.0,1.7,27.0,Thiago Rodrigues de Souza,3,1,1.7,27.0,active
+1559,Julio Rodriguez,2.0,15.0,1.6,0.0,Julio Rodriguez,2,15,1.6,0.0,active
+1548,Mario Rodriguez,3.0,13.0,1.9,12.0,Mario Rodriguez,3,13,1.8,12.0,active
+1432,Marko Roginic,4.0,8.0,1.8,16.0,Marko Roginic,4,8,1.6,16.0,active
+783,Thomas Rogne,2.0,6.0,2.0,28.0,Thomas Rogne,2,6,2.1,28.0,active
+1593,,,,,,Kacper Rogozinski,4,15,0.5,,active
+86,Taras Romanczuk,3.0,3.0,1.9,36.0,Taras Romanczuk,3,3,1.8,36.0,active
+1196,Michal Rostkowski,3.0,2.0,1.0,6.0,Michal Rostkowski,3,2,1.0,6.0,active
+1506,Milan Rundic,2.0,8.0,1.8,1.0,Milan Rundic,2,8,1.6,1.0,active
+65,Ivan Runje,2.0,3.0,1.9,17.0,Ivan Runje,2,3,2.0,17.0,active
+121,Mariusz Rybicki,3.0,13.0,1.3,17.0,Mariusz Rybicki,3,13,1.4,17.0,active
+989,Adam Ryczkowski,4.0,2.0,1.4,4.0,Adam Ryczkowski,4,2,1.4,4.0,active
+107,Bartosz Rymaniak,2.0,7.0,1.9,15.0,Bartosz Rymaniak,2,7,1.8,15.0,active
+202,Jakub Rzezniczak,2.0,15.0,1.6,26.0,Jakub Rzezniczak,2,15,1.6,26.0,active
+1425,Michal Rzuchowski,3.0,8.0,1.8,29.0,Michal Rzuchowski,3,8,1.8,29.0,active
+508,Cornel Rapa,2.0,1.0,2.0,40.0,Cornel Rapa,2,1,2.0,40.0,active
+1555,Damir Sadikovic,3.0,1.0,1.8,21.0,Damir Sadikovic,3,1,1.8,21.0,active
+362,Maciej Sadlok,2.0,14.0,2.0,21.0,Maciej Sadlok,2,14,2.0,21.0,active
+1449,Kacper Sadlocha,4.0,12.0,1.0,1.0,Kacper Sadlocha,4,12,1.0,1.0,active
+1367,Kenny Saief,3.0,5.0,1.8,24.0,Kenny Saief,3,5,1.8,24.0,active
+1574,,,,,,Bartosz Salamon,2,6,2.1,,active
+1092,Piotr Samiec-Talar,4.0,11.0,0.5,12.0,Piotr Samiec-Talar,4,11,1.0,12.0,active
+1084,Matheus Santos,3.0,1.0,1.0,0.0,Matheus Santos,3,1,1.0,0.0,active
+245,Igor Sapala,3.0,10.0,1.8,38.0,Igor Sapala,3,10,1.8,38.0,active
+1495,Stefan Savic,3.0,14.0,1.9,26.0,Stefan Savic,3,14,1.9,26.0,active
+773,Mathieu Scalet,3.0,11.0,1.2,16.0,Mathieu Scalet,3,11,1.2,16.0,active
+1268,Petr Schwarz,3.0,10.0,2.1,58.0,Petr Schwarz,3,10,2.3,58.0,active
+1441,Lukasz Seweryn,2.0,12.0,1.0,1.0,Lukasz Seweryn,2,12,1.0,1.0,active
+576,Cillian Sheridan,4.0,15.0,1.7,22.0,Cillian Sheridan,4,15,1.6,22.0,active
+445,Bartlomiej Sielewski,2.0,15.0,1.4,0.0,Bartlomiej Sielewski,2,15,1.4,0.0,active
+1426,Konrad Sieracki,3.0,8.0,1.0,0.0,Konrad Sieracki,3,8,1.0,0.0,active
+1427,Lukasz Sierpina,3.0,8.0,1.8,30.0,Lukasz Sierpina,3,8,1.8,30.0,active
+1299,Jean Carlos Silva,3.0,14.0,1.7,49.0,Jean Carlos Silva,3,14,1.9,49.0,active
+720,Michal Siplak,2.0,1.0,1.8,27.0,Michal Siplak,2,1,1.8,27.0,active
+1284,Rok Sirk,4.0,16.0,1.5,26.0,Rok Sirk,4,16,1.5,26.0,active
+1525,Maksymilian Sitek,3.0,8.0,1.4,22.0,Maksymilian Sitek,3,8,1.4,22.0,active
+1219,Kacper Skibicki,3.0,4.0,0.7,11.0,Kacper Skibicki,3,4,1.0,11.0,active
+1442,Adrian Skrzyniak,2.0,12.0,0.5,0.0,Adrian Skrzyniak,2,12,0.5,0.0,active
+1213,Michal Skoras,3.0,6.0,1.5,24.0,Michal Skoras,3,6,1.9,24.0,active
+574,Bartosz Slisz,3.0,4.0,1.8,38.0,Bartosz Slisz,3,4,2.1,38.0,active
+1591,,,,,,Karol Smajdor,2,6,0.5,,active
+1251,Kacper Smolinski,3.0,9.0,0.9,22.0,Kacper Smolinski,3,9,1.5,22.0,active
+1463,Dominik Smykowski,3.0,13.0,1.2,0.0,Dominik Smykowski,3,13,1.2,0.0,active
+1472,Alex Sobczyk,4.0,2.0,1.8,47.0,Alex Sobczyk,4,2,1.9,47.0,active
+1096,,,,,,Hubert Sobol,4,6,0.5,,active
+1492,Waldemar Sobota,3.0,11.0,2.0,41.0,Waldemar Sobota,3,11,2.3,41.0,active
+1012,Patryk Sokolowski,3.0,7.0,1.7,33.0,Patryk Sokolowski,3,7,1.7,33.0,active
+1049,Mateusz Sopocko,3.0,5.0,0.9,4.0,Mateusz Sopocko,3,5,0.9,4.0,active
+1199,Mateusz Spychala,2.0,13.0,1.5,3.0,Mateusz Spychala,2,13,1.5,3.0,active
+1081,Karol Stanek,4.0,7.0,0.5,0.0,Karol Stanek,4,7,0.5,0.0,active
+399,Filip Starzynski,3.0,16.0,3.0,44.0,Filip Starzynski,3,16,2.4,44.0,active
+1447,Szymon Stasik,3.0,12.0,1.5,4.0,Szymon Stasik,3,12,1.5,4.0,active
+1359,Aleksander Stawiarz,4.0,3.0,0.5,0.0,Aleksander Stawiarz,4,3,0.5,0.0,active
+1016,David Stec,2.0,9.0,1.8,38.0,David Stec,2,9,2.0,38.0,active
+1292,Dominik Steczyk,4.0,7.0,1.2,33.0,Dominik Steczyk,4,7,1.6,33.0,active
+1247,Dante Stipica,1.0,9.0,2.0,68.0,Dante Stipica,1,9,2.3,68.0,active
+168,Pawel Stolarski,2.0,4.0,1.8,5.0,Pawel Stolarski,2,9,1.8,5.0,active
+776,Sebastian Strozik,4.0,1.0,1.3,0.0,Sebastian Strozik,4,1,1.3,0.0,active
+1435,Rafal Straczek,1.0,12.0,0.9,18.0,Rafal Straczek,1,12,1.7,18.0,active
+1428,Michal Studnicki,3.0,8.0,0.5,0.0,Michal Studnicki,3,8,0.5,0.0,active
+1323,Mateusz Supryn,3.0,1.0,0.5,0.0,Mateusz Supryn,3,1,0.5,0.0,active
+1542,Martin Sus,2.0,12.0,1.6,4.0,Martin Sus,2,12,1.6,4.0,active
+1398,Jakub Sypek,3.0,16.0,0.5,0.0,Jakub Sypek,3,16,0.5,0.0,active
+816,Milosz Szczepanski,3.0,10.0,1.7,0.0,Milosz Szczepanski,3,10,1.7,0.0,active
+1023,Dariusz Szczerbal,1.0,11.0,0.6,0.0,Dariusz Szczerbal,1,11,0.6,0.0,active
+1508,Adrian Szczutowski,4.0,15.0,0.5,0.0,Adrian Szczutowski,4,15,0.5,0.0,active
+1203,Daniel Szelagowski,3.0,10.0,1.5,12.0,Daniel Szelagowski,3,10,1.5,12.0,active
+224,Jakub Szmatula,1.0,7.0,1.8,0.0,Jakub Szmatula,1,7,1.8,0.0,active
+1464,Kajetan Szmyt,3.0,13.0,0.9,9.0,Kajetan Szmyt,3,13,0.9,9.0,active
+1152,Dawid Szot,2.0,14.0,0.6,25.0,Dawid Szot,2,14,1.5,25.0,active
+830,,,,,,Serafin Szota,2,14,0.5,,active
+1383,Marcin Szpakowski,3.0,11.0,0.5,1.0,Marcin Szpakowski,3,11,0.5,1.0,active
+1592,,,,,,Lukasz Szramowski,3,6,0.5,,active
+1493,Michal Szromnik,1.0,11.0,1.5,9.0,Michal Szromnik,1,11,1.5,9.0,active
+1502,Wojciech Szumilas,2.0,15.0,1.5,3.0,Wojciech Szumilas,2,15,1.5,3.0,active
+431,Mateusz Szwoch,3.0,15.0,1.9,55.0,Mateusz Szwoch,3,15,2.0,55.0,active
+1001,Karol Szymanski,1.0,7.0,1.3,0.0,Karol Szymanski,1,7,1.3,0.0,active
+1214,Filip Szymczak,4.0,6.0,0.7,1.0,Filip Szymczak,4,6,0.7,1.0,active
+88,Dawid Szymonowicz,2.0,1.0,1.0,33.0,Dawid Szymonowicz,2,1,1.8,33.0,active
+1128,Patryk Szysz,4.0,16.0,1.7,33.0,Patryk Szysz,4,16,1.7,33.0,active
+1567,,,,,,Wiktor Szywacz,3,14,0.5,,active
+1532,Jan Sykora,3.0,6.0,2.2,17.0,Jan Sykora,3,6,2.0,17.0,active
+1368,Mark Tamas,2.0,11.0,1.7,28.0,Mark Tamas,2,11,1.7,28.0,active
+1000,Pedro Tiba,3.0,6.0,2.4,53.0,Pedro Tiba,3,6,2.6,53.0,active
+1340,David Tijanic,3.0,10.0,2.0,70.0,David Tijanic,3,10,2.5,70.0,active
+1355,Bogdan Tiru,2.0,3.0,1.8,18.0,Bogdan Tiru,2,3,1.8,18.0,active
+1335,Kristers Tobers,3.0,5.0,1.6,14.0,Kristers Tobers,2,5,1.6,14.0,active
+1503,Adrian Tokarski,1.0,15.0,0.5,0.0,Adrian Tokarski,1,15,0.5,0.0,active
+432,Grzegorz Tomasiewicz,3.0,12.0,1.5,38.0,Grzegorz Tomasiewicz,3,12,1.7,38.0,active
+69,Piotr Tomasik,2.0,15.0,1.8,22.0,Piotr Tomasik,2,15,1.8,22.0,active
+1326,Krzysztof Toporkiewicz,4.0,3.0,0.5,1.0,Krzysztof Toporkiewicz,4,3,0.5,1.0,active
+154,Lukasz Tralka,3.0,13.0,1.5,43.0,Lukasz Tralka,3,13,1.7,43.0,active
+1490,Kacper Trelowski,1.0,10.0,0.5,0.0,Kacper Trelowski,1,10,0.5,0.0,active
+1249,Kostas Triantafyllopoulos,2.0,9.0,1.8,38.0,Kostas Triantafyllopoulos,2,9,2.3,38.0,active
+1341,Fran Tudor,3.0,10.0,2.0,47.0,Fran Tudor,3,10,2.0,47.0,active
+1353,Alon Turgeman,4.0,14.0,2.1,0.0,Alon Turgeman,4,14,2.1,0.0,out of club
+1388,Hubert Turski,4.0,9.0,0.9,1.0,Hubert Turski,4,9,0.9,1.0,active
+755,Patryk Tuszynski,4.0,15.0,1.8,26.0,Patryk Tuszynski,4,15,1.8,26.0,active
+1557,Kris Twardek,3.0,3.0,1.6,10.0,Kris Twardek,3,3,1.6,10.0,active
+1429,Desley Ubbink,3.0,8.0,1.5,17.0,Desley Ubbink,3,8,1.5,17.0,active
+958,Zarko Udovicic,3.0,5.0,1.6,6.0,Zarko Udovicic,3,5,1.6,6.0,active
+299,Maciej Urbanczyk,3.0,12.0,1.5,19.0,Maciej Urbanczyk,3,12,1.5,19.0,active
+1327,Kacper Urbanski,3.0,5.0,0.5,1.0,Kacper Urbanski,3,5,0.5,1.0,active
+374,Alan Uryga,2.0,15.0,1.9,43.0,Alan Uryga,2,15,1.9,43.0,active
+742,Joel Valencia,3.0,4.0,2.7,18.0,Joel Valencia,3,4,2.2,18.0,active
+1187,Pelle van Amersfoort,4.0,1.0,1.9,56.0,Pelle van Amersfoort,3,1,2.3,56.0,active
+1207,Mickey van der Hart,1.0,6.0,2.0,0.0,Mickey van der Hart,1,6,1.8,0.0,active
+31,Tomas Vestenicky,3.0,1.0,1.7,28.0,Tomas Vestenicky,3,1,1.7,28.0,active
+788,Marko Vesovic,3.0,4.0,2.3,0.0,Marko Vesovic,2,4,2.2,0.0,active
+1374,Kristopher Vida,3.0,7.0,1.8,10.0,Kristopher Vida,3,7,1.8,10.0,active
+1047,Egy Maulana Vikri,3.0,5.0,0.8,7.0,Egy Maulana Vikri,3,5,0.8,7.0,active
+1363,Bartlomiej Wdowik,2.0,3.0,1.2,18.0,Bartlomiej Wdowik,2,3,1.6,18.0,active
+491,Mateusz Wieteska,2.0,4.0,2.0,2.0,Mateusz Wieteska,2,4,1.9,2.0,active
+5,Adam Wilk,1.0,1.0,0.8,0.0,Adam Wilk,1,1,0.8,0.0,active
+142,Maciej Wilusz,2.0,10.0,1.7,26.0,Maciej Wilusz,2,11,1.9,26.0,active
+1583,,,,,,Mateusz Winciersz,3,7,1.0,,active
+986,Michal Wisniewski,3.0,1.0,0.9,0.0,Michal Wisniewski,3,1,0.9,0.0,active
+992,Przemyslaw Wisniewski,2.0,2.0,1.8,51.0,Przemyslaw Wisniewski,2,2,2.1,51.0,active
+1465,Mateusz Wojciechowski,3.0,13.0,0.5,0.0,Mateusz Wojciechowski,3,13,0.5,0.0,active
+706,Kamil Wojtkowski,3.0,3.0,1.7,7.0,Kamil Wojtkowski,3,3,1.7,7.0,active
+1540,Norbert Wojtuszek,3.0,2.0,0.5,9.0,Norbert Wojtuszek,3,2,0.5,9.0,active
+184,Rafal Wolski,3.0,15.0,1.7,0.0,Rafal Wolski,3,15,1.6,0.0,active
+691,Jakub Wrabel,1.0,15.0,1.3,0.0,Jakub Wrabel,1,15,1.3,0.0,active
+1319,Pawel Wszolek,3.0,4.0,3.2,49.0,Pawel Wszolek,3,4,3.2,49.0,active
+1510,Mateusz Wyjadlowski,3.0,3.0,0.5,4.0,Mateusz Wyjadlowski,3,3,0.5,4.0,active
+14,Jakub Wojcicki,2.0,16.0,1.7,16.0,Jakub Wojcicki,2,16,1.7,16.0,active
+1569,,,,,,Oskar Wojcik,2,1,0.5,,active
+1252,Marcel Wedrychowski,3.0,9.0,0.6,0.0,Marcel Wedrychowski,3,9,0.6,0.0,active
+57,Damian Weglarz,1.0,3.0,1.8,7.0,Damian Weglarz,1,3,1.8,7.0,active
+1406,Szymon Wlodarczyk,4.0,4.0,0.5,0.0,Szymon Wlodarczyk,4,4,0.5,0.0,active
+1513,Yaw Yeboah,3.0,14.0,1.9,47.0,Yaw Yeboah,3,14,1.9,47.0,active
+1553,Luka Zahovic,4.0,9.0,2.0,42.0,Luka Zahovic,4,9,2.1,42.0,active
+1188,Patryk Zaucha,3.0,1.0,0.5,11.0,Patryk Zaucha,3,1,0.7,11.0,active
+795,Oskar Zawada,4.0,10.0,1.6,16.0,Oskar Zawada,4,10,1.6,16.0,active
+391,Damian Zbozien,2.0,15.0,1.6,17.0,Damian Zbozien,2,15,1.6,17.0,active
+1311,,,,,,Przemyslaw Zdybowicz,4,14,1.1,,active
+1250,Benedikt Zech,2.0,9.0,1.9,56.0,Benedikt Zech,2,9,2.3,56.0,active
+1507,Lukasz Zjawinski,4.0,12.0,0.7,28.0,Lukasz Zjawinski,4,12,1.6,28.0,active
+279,Lukasz Zwolinski,4.0,5.0,2.1,35.0,Lukasz Zwolinski,4,5,2.1,35.0,active
+1544,Marcel Zylla,3.0,11.0,1.7,21.0,Marcel Zylla,3,11,1.7,21.0,active
+1470,Marcos Alvarez,4.0,1.0,2.2,24.0,Marcos Alvarez,4,1,1.8,24.0,active
+71,Fedor Cernych,3.0,3.0,2.5,16.0,Fedor Cernych,3,3,2.2,16.0,active
+1589,,,,,,Lukasz Lakomy,3,16,0.7,,active
+723,Igor Lasicki,2.0,9.0,1.7,0.0,Igor Lasicki,2,9,1.7,0.0,active
+1455,Aleks Lawniczak,2.0,13.0,1.5,19.0,Aleks Lawniczak,2,13,1.5,19.0,active
+583,Adrian Lyszczarz,3.0,11.0,1.4,0.0,Adrian Lyszczarz,3,11,1.4,0.0,active
+1305,Daniel Scislak,3.0,2.0,1.6,21.0,Daniel Scislak,3,2,1.6,21.0,active
+700,Jakub Swierczok,4.0,7.0,2.9,45.0,Jakub Swierczok,4,7,2.7,45.0,active
+1209,Lubomir Satka,2.0,6.0,2.3,25.0,Lubomir Satka,2,6,2.1,25.0,active
+1523,Lorenco Simic,2.0,16.0,1.9,40.0,Lorenco Simic,2,16,2.1,40.0,active
+412,Pavels Steinbors,1.0,3.0,2.0,23.0,Pavels Steinbors,1,3,2.0,23.0,active
+1273,Dino Stiglec,2.0,11.0,2.1,29.0,Dino Stiglec,2,11,2.1,29.0,active
+531,Jakub Zubrowski,3.0,16.0,1.5,22.0,Jakub Zubrowski,3,16,1.5,22.0,suspended
+1325,Gieorgij Zukow,3.0,14.0,1.8,26.0,Gieorgij Zukow,3,14,1.8,26.0,active
+777,Mateusz Zukowski,4.0,5.0,0.7,8.0,Mateusz Zukowski,4,5,1.0,8.0,active
+1121,Maciej Zurawski,3.0,9.0,1.4,22.0,Maciej Zurawski,3,13,1.6,22.0,active
+1533,Marcel Zurek,3.0,10.0,0.5,0.0,Marcel Zurek,3,10,0.5,0.0,active
+813,Mateusz Zyro,2.0,12.0,1.6,14.0,Mateusz Zyro,2,12,1.6,14.0,suspended
+1085,Michal Zyro,4.0,7.0,1.8,31.0,Michal Zyro,4,7,1.9,31.0,active
+248,Sasa Zivec,3.0,16.0,2.5,41.0,Sasa Zivec,3,16,2.2,41.0,active
