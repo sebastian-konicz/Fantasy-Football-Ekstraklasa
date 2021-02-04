@@ -17,8 +17,9 @@ def main():
 
     # loading file with data
     # players_stats = pd.read_csv(project_dir + r'\data\interim\ekstraclass\06_players_sum_stats_24JAN21.csv', delimiter=',')
-    players_stats = pd.read_csv(project_dir + r'\data\interim\ekstraclass\08_players_updated_values_24JAN21.csv', delimiter=',')
+    players_stats = pd.read_csv(project_dir + r'\data\interim\ekstraclass\08_players_updated_values_29JAN21.csv', delimiter=',')
 
+    print(players_stats)
     # geting columns with values
     expected_scores = players_stats['points']
     prices = players_stats['value']

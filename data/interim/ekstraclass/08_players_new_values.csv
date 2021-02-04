@@ -265,7 +265,7 @@ id,name,position,club,value,points,status
 964,Sebastian Milewski,3,7,1.9,0,active
 1573,Antonio Milic,2,6,2.1,0,active
 1577,Eryk Mirus,1,5,0.5,0,active
-1217,Cezary Miszta,1,4,0.5,0,active
+1217,Cezary Miszta,1,4,0.5,0,inactive
 786,Filip Mladenovic,2,4,2.8,0,active
 1417,Filip Modelski,2,8,1.2,0,active
 231,Tomasz Mokwa,2,7,1.5,0,active
@@ -369,7 +369,7 @@ id,name,position,club,value,points,status
 1449,Kacper Sadlocha,4,12,1.0,0,active
 1367,Kenny Saief,3,5,1.8,0,active
 1574,Bartosz Salamon,2,6,2.1,0,active
-1092,Piotr Samiec-Talar,4,11,1.0,0,active
+1092,Piotr Samiec-Talar,4,11,1.0,0,inactive
 1084,Matheus Santos,3,1,1.0,0,active
 245,Igor Sapala,3,10,1.8,0,active
 1495,Stefan Savic,3,14,1.9,0,active

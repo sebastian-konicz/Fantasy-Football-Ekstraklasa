@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd0c45e6-9126-4229-b06e-9a58a6e5aff5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_08_data_prep_for_optimatisation_updated_prices.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_02JAN21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_24JAN21.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/08_players_new_values.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/interim/ekstraclass/08_players_new_values.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/08_players_updated_values_24JAN21.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/interim/ekstraclass/08_players_updated_values_24JAN21.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_15_first_round_spring.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_15_first_round_spring.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_07_team_optimatisation_no_transfers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_07_team_optimatisation_no_transfers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_08_data_prep_for_optimatisation_updated_prices.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_08_data_prep_for_optimatisation_updated_prices.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +194,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

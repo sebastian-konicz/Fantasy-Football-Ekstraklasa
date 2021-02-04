@@ -16,6 +16,6 @@ ekstraclass_current_match_scores = 'https://ekstraklasa.org/rozgrywki/terminarz/
 # time stamp
 today = dt.date.today()
 day = today.strftime("%d")
-month = today.strftime("%b").upper()
+month = today.strftime("%m").upper()
 year = today.strftime("%y")
 time_stamp = day + month + year

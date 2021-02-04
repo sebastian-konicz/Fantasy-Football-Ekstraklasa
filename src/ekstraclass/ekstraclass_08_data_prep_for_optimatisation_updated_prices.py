@@ -50,7 +50,8 @@ def main():
     players_stats_sum = pd.DataFrame(players_stats.groupby(['id', 'name', 'position', 'club', 'value'])['points'].sum()).reset_index()
 
     # loading file with data
-    players_value = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_15_first_round_spring.csv', delimiter=',')
+    players_value = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_15_first_round_spring.csv', sep=',')
+    print(players_value.head())
 
     # getting new values for the players
     players_value = players_value[players_value['round'] == 15]
