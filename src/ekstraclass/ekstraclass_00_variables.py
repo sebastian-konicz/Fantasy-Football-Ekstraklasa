@@ -18,4 +18,4 @@ today = dt.date.today()
 day = today.strftime("%d")
 month = today.strftime("%m").upper()
 year = today.strftime("%y")
-time_stamp = day + month + year
+time_stamp = year + "_" + month + "_" + day
