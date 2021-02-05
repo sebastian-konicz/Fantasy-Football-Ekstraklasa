@@ -14,7 +14,7 @@ def main():
     project_dir = str(Path(__file__).resolve().parents[2])
 
     # loading file with data
-    players_stats = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_02JAN21.csv', delimiter=',')
+    players_stats = pd.read_csv(project_dir + r'\data\interim\ekstraclass\05_players_concat.csv', delimiter=',')
 
     # restricting data to necessary columns
     players_stats = players_stats[['id', 'name', 'position', 'club', 'value', 'points', 'status']]
@@ -37,7 +37,7 @@ def main():
 
     # changing the value
     players_stats["value"] = players_stats.apply(
-        lambda ps: (int(ps['value'].replace(',', ''))) /100
+        lambda ps: (int(ps['value'].replace(',', ''))) / 10
         if ps['value'].find(",") != -1
         else int(ps['value']), axis=1)
 

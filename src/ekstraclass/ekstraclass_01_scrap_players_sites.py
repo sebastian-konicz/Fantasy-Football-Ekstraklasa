@@ -19,8 +19,8 @@ def main():
     driver.get(var.ekstraclass_players)
 
     site_list =[]
-    # looping throug pagination (only 28 sites)
-    for i in range(28):
+    # looping throug pagination (only 27 sites)
+    for i in range(27):
         # getting the site
         html = driver.page_source
         site = BeautifulSoup(html, 'html.parser')
