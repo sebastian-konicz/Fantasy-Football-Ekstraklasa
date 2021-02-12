@@ -37,7 +37,7 @@ def main():
 
     # changing the value
     players_stats["value"] = players_stats.apply(
-        lambda ps: (int(ps['value'].replace(',', ''))) / 10
+        lambda ps: (int(ps['value'].replace(',', ''))) / 100
         if ps['value'].find(",") != -1
         else int(ps['value']), axis=1)
 

@@ -17,7 +17,7 @@ def main():
     players_stats_prev = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_14_final_round_autumn.csv', delimiter=',')
 
     # loading file with data concerning current season
-    players_stats_curr = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_21_02_04_round_15.csv', delimiter=';')
+    players_stats_curr = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_21_02_12_round_16.csv', delimiter=',')
 
     # concatenating two dataframes
     players_stats = pd.concat([players_stats_prev, players_stats_curr])

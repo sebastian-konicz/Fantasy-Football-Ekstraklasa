@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fd0c45e6-9126-4229-b06e-9a58a6e5aff5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/06_players_sum_stats_16DEC20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/06_players_sum_stats_24JAN21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/08_players_merge_24JAN21 — kopia.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/08_players_new_values.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/08_players_updated_values_24JAN21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/01_players_links_21_02_04.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_02_04.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/05_players_concat.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/interim/ekstraclass/05_players_concat.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_05_ data_concatenation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_05_ data_concatenation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_06_data_prep_for_optimatisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_06_data_prep_for_optimatisation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_07_team_optimatisation_no_transfers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_07_team_optimatisation_no_transfers.py" afterDir="false" />
     </list>
@@ -64,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ekstraclass_07_team_optimatisation_no_transfers2">
+  <component name="RunManager" selected="Python.ekstraclass_07_team_optimatisation_no_transfers">
     <configuration name="ekstraclass_01_scrap_players_sites" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,6 +73,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ekstraclass_02_scrap_players_stats" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FantasyFootball" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ekstraclass" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,33 +165,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ekstraclass_07_team_optimatisation_no_transfers2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FantasyFootball" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ekstraclass" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_07_team_optimatisation_no_transfers2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ekstraclass_07_team_optimatisation_no_transfers2" />
         <item itemvalue="Python.ekstraclass_07_team_optimatisation_no_transfers" />
         <item itemvalue="Python.ekstraclass_06_data_prep_for_optimatisation" />
         <item itemvalue="Python.ekstraclass_05_ data_concatenation" />
+        <item itemvalue="Python.ekstraclass_02_scrap_players_stats" />
         <item itemvalue="Python.ekstraclass_01_scrap_players_sites" />
       </list>
     </recent_temporary>
