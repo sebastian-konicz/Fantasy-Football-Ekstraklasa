@@ -20,7 +20,7 @@ def main():
 
     site_list =[]
     # looping throug pagination (only 28 sites)
-    for i in range(29):
+    for i in range(27):
         # getting around cookie acceptance button
         if i == 0:
             cookie_button = driver.find_element_by_partial_link_text("OK,")
@@ -35,7 +35,7 @@ def main():
         # getting the button for the next site
         next_button = driver.find_element_by_link_text('Następny')
         # going to the next site
-        if i < 28:
+        if i < 27:
             next_button.click()
         else:
             pass

@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="fd0c45e6-9126-4229-b06e-9a58a6e5aff5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/05_players_concat.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/interim/ekstraclass/05_players_concat.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_02_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_05_ data_concatenation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_05_ data_concatenation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_07_team_optimatisation_no_transfers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_07_team_optimatisation_no_transfers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_league/first_league_01_scrap_players_sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_league/first_league_01_scrap_players_sites.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ekstraclass_02_scrap_players_stats">
+  <component name="RunManager" selected="Python.first_league_01_scrap_players_sites">
     <configuration name="ekstraclass_01_scrap_players_sites" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ekstraclass_02_scrap_players_stats" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ekstraclass_06_data_prep_for_optimatisation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,7 +93,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_06_data_prep_for_optimatisation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ekstraclass_02_scrap_players_stats" />
+        <item itemvalue="Python.first_league_01_scrap_players_sites" />
         <item itemvalue="Python.ekstraclass_01_scrap_players_sites" />
         <item itemvalue="Python.first_league_02_scrap_players_stats" />
-        <item itemvalue="Python.first_league_01_scrap_players_sites" />
         <item itemvalue="Python.ekstraclass_07_team_optimatisation_no_transfers" />
+        <item itemvalue="Python.ekstraclass_06_data_prep_for_optimatisation" />
       </list>
     </recent_temporary>
   </component>
