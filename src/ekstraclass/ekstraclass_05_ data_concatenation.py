@@ -17,7 +17,7 @@ def main():
     players_stats_prev = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_14_final_round_autumn.csv', delimiter=',')
 
     # loading file with data concerning current season
-    players_stats_curr = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_21_02_16_round_17.csv', delimiter=',')
+    players_stats_curr = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_21_02_25_round_18.csv', delimiter=',')
 
     # concatenating two dataframes
     players_stats = pd.concat([players_stats_prev, players_stats_curr])
@@ -26,7 +26,7 @@ def main():
     players_stats.sort_values(by=['id', 'round'], inplace=True)
 
     # players current status
-    players_status = players_stats_curr[players_stats_curr['round'] == 15]
+    players_status = players_stats_curr[players_stats_curr['round'] == 18]
 
     # restricting dataframe
     players_status = players_status[['name', 'status', 'value']]

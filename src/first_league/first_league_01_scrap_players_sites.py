@@ -35,7 +35,7 @@ def main():
         # getting the button for the next site
         next_button = driver.find_element_by_link_text('Następny')
         # going to the next site
-        if i < 27:
+        if i < 26:
             next_button.click()
         else:
             pass

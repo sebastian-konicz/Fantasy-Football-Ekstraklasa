@@ -16,7 +16,7 @@ def main():
     project_dir = str(Path(__file__).resolve().parents[2])
 
     # loading file with data
-    players_stats = pd.read_csv(project_dir + r'\data\interim\first_league\06_players_sum_stats_hist_13DEC20.csv', delimiter=',')
+    players_stats = pd.read_csv(project_dir + r'\data\interim\first_league\08_players_updated_values_25FEB21.csv', delimiter=',')
 
     print(players_stats.dtypes)
 
@@ -28,7 +28,7 @@ def main():
     names = players_stats['name']
 
     decisions, captain_decisions, sub_decisions = select_team(expected_scores.values, prices.values, positions.values,
-                                                              clubs.values, sub_factor=0.2)
+                                                              clubs.values, sub_factor=1)
 
     # print results
     for i in range(players_stats.shape[0]):
