@@ -20,7 +20,7 @@ def main():
 
     site_list =[]
     # looping throug pagination (only 27 sites)
-    for i in range(27):
+    for i in range(28):
         # getting the site
         html = driver.page_source
         site = BeautifulSoup(html, 'html.parser')

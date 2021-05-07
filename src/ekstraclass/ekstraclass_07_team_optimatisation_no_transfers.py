@@ -16,7 +16,7 @@ def main():
     project_dir = str(Path(__file__).resolve().parents[2])
 
     # loading file with data
-    players_stats = pd.read_csv(project_dir + r'\data\interim\ekstraclass\06_players_sum_stats_26FEB21.csv', delimiter=',')
+    players_stats = pd.read_csv(project_dir + r'\data\interim\ekstraclass\06_players_sum_stats_05MAR21.csv', delimiter=',')
     # players_stats = pd.read_csv(project_dir + r'\data\interim\ekstraclass\08_players_updated_values_29JAN21.csv', delimiter=',')
 
     print(players_stats)

@@ -13,8 +13,12 @@ def main():
     # project directory
     project_dir = str(Path(__file__).resolve().parents[2])
 
-    # loading file with data
-    players_stats = pd.read_csv(project_dir + r'\data\interim\ekstraclass\05_players_concat.csv', delimiter=',')
+    # # loading file with data
+    # players_stats = pd.read_csv(project_dir + r'\data\interim\ekstraclass\05_players_concat.csv', delimiter=',')
+
+    # loading file with data concerning current season
+    players_stats = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_21_03_05_round_19.csv',
+                                     delimiter=',')
 
     # restricting data to necessary columns
     players_stats = players_stats[['id', 'name', 'position', 'club', 'value', 'points', 'status']]
