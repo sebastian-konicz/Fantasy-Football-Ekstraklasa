@@ -4,6 +4,7 @@ from selenium import webdriver
 import re
 import pandas as pd
 import time
+from webdriver_manager.chrome import ChromeDriverManager
 import datetime as dt
 
 pd.set_option('display.max_columns', None)
@@ -30,7 +31,8 @@ def main():
     # looping throgu links
     for link in link_list:
         # gettig the page with stats for player
-        driver = webdriver.Chrome(var.chrome_driver)
+        driver = webdriver.Chrome(ChromeDriverManager().install())
+        # driver = webdriver.Chrome(var.chrome_driver)
         driver.get(link)
 
         # getting the site html
