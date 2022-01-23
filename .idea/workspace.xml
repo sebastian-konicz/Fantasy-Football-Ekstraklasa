@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd0c45e6-9126-4229-b06e-9a58a6e5aff5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/FantasyFootball.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FantasyFootball.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_09_data_prep_for_optimatisation_old_prices.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/08_players_updated_values_29JAN21.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/interim/ekstraclass/08_players_updated_values_29JAN21.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_03_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_03_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_03_26.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_04_09.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_04_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_04_23.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_04_30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_05_07.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_05_14.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_00_variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_00_variables.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first_league/first_league_02_scrap_players_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_league/first_league_02_scrap_players_stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_06_data_prep_for_optimatisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_06_data_prep_for_optimatisation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_07_team_optimatisation_no_transfers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_07_team_optimatisation_no_transfers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_08_data_prep_for_optimatisation_updated_prices.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_08_data_prep_for_optimatisation_updated_prices.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,24 +44,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ekstraclass" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kose9001\Desktop\FantasyFootball\data\interim\ekstraclass" />
-      <recent name="C:\Users\kose9001\Desktop\FantasyFootball\data\raw\ekstraclass" />
-      <recent name="C:\Users\kose9001\Desktop\FantasyFootball\src\ekstraclass" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sebastian\Desktop\Fantasy-Fotball-Ekstraklasa\src\ekstraclass" />
       <recent name="C:\Users\sebas\OneDrive\Pulpit\Fantasy-Fotball-Ekstraklasa\src\first_league" />
       <recent name="C:\Users\sebas\OneDrive\Pulpit\Fantasy-Fotball-Ekstraklasa\src\ekstraclass" />
       <recent name="C:\Users\kose9001\Desktop\FantasyFootball\src\first_league" />
       <recent name="C:\Users\kose9001\Desktop\FantasyFootball\src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kose9001\Desktop\FantasyFootball\data\interim\ekstraclass" />
+      <recent name="C:\Users\kose9001\Desktop\FantasyFootball\data\raw\ekstraclass" />
+      <recent name="C:\Users\kose9001\Desktop\FantasyFootball\src\ekstraclass" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.first_league_02_scrap_players_stats">
-    <configuration name="ekstraclass_01_scrap_players_sites" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ekstraclass_07_team_optimatisation_no_transfers">
+    <configuration name="ekstraclass_01_scrap_players_sites" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,7 +83,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ekstraclass_02_scrap_players_stats" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ekstraclass_02_scrap_players_stats" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ekstraclass_07_team_optimatisation_no_transfers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ekstraclass_07_team_optimatisation_no_transfers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,7 +125,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="first_league_01_scrap_players_sites" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ekstraclass_08_data_prep_for_optimatisation_updated_prices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FantasyFootball" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ekstraclass" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_08_data_prep_for_optimatisation_updated_prices.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="first_league_01_scrap_players_sites" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,34 +167,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="first_league_02_scrap_players_stats" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FantasyFootball" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/first_league" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/first_league/first_league_02_scrap_players_stats.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.first_league_02_scrap_players_stats" />
+        <item itemvalue="Python.ekstraclass_07_team_optimatisation_no_transfers" />
+        <item itemvalue="Python.ekstraclass_08_data_prep_for_optimatisation_updated_prices" />
         <item itemvalue="Python.ekstraclass_02_scrap_players_stats" />
         <item itemvalue="Python.ekstraclass_01_scrap_players_sites" />
         <item itemvalue="Python.first_league_01_scrap_players_sites" />
-        <item itemvalue="Python.ekstraclass_07_team_optimatisation_no_transfers" />
       </list>
     </recent_temporary>
   </component>

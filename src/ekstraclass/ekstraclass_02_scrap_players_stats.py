@@ -20,7 +20,7 @@ def main():
     # loading file with links
     # links_df = pd.read_csv(path + r'\data\raw\ekstraclass\01_players_links_{date}.csv'.format(date=var.time_stamp),
     #                        delimiter=',')
-    links_df = pd.read_csv(path + r'\data\raw\ekstraclass\01_players_links_21_03_05.csv', delimiter=',')
+    links_df = pd.read_csv(path + r'\data\raw\ekstraclass\01_players_links_21_07_22.csv', delimiter=',')
 
     # creating list with links
     link_list = links_df["link"].tolist()

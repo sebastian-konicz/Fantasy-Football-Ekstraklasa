@@ -2,7 +2,7 @@ from pathlib import Path
 import datetime as dt
 
 # chrome driver path
-chrome_driver = r'C:\Users\Sebastian\Desktop\chromedriver_win32.exe'
+chrome_driver = r'C:\Users\Sebastian\Desktop\chromedriver.exe'
 # chrome_driver = r'C:\Users\sebas\OneDrive\Pulpit\chromedriver.exe'
 
 # project directory

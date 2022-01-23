@@ -14,7 +14,7 @@ def main():
     project_dir = str(Path(__file__).resolve().parents[2])
 
     # loading file with data
-    players_stats = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_14_final_round_autumn.csv', delimiter=',')
+    players_stats = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_final_round_spirng_2021.csv', delimiter=',')
 
     # restricting data to necessary columns
     players_stats = players_stats[['id', 'name', 'position', 'club', 'value', 'points', 'status']]
@@ -24,6 +24,11 @@ def main():
     club_dictionary = {"Cracovia": 1, "Gornik Zabrze": 2, "Jagiellonia Bialystok": 3, "Legia Warszawa": 4,
                        "Lechia Gdansk": 5, "Lech Poznan": 6, "Piast Gliwice": 7, "Podbeskidzie Bielsko-Biala": 8,
                        "Pogon Szczecin": 9, "Rakow Czestochowa": 10,"Slask Wroclaw": 11, "PGE FKS Stal Mielec": 12,
+                       "Warta Poznan": 13, "Wisla Krakow": 14, "Wisla Plock": 15, "Zaglebie Lubin": 16}
+
+    club_dictionary = {"Cracovia": 1, "Gornik Zabrze": 2, "Jagiellonia Bialystok": 3, "Legia Warszawa": 4,
+                       "Lechia Gdansk": 5, "Lech Poznan": 6, "Piast Gliwice": 7, "Podbeskidzie Bielsko-Biala": 8,
+                       "Pogon Szczecin": 9, "Rakow Czestochowa": 10, "Slask Wroclaw": 11, "PGE FKS Stal Mielec": 12,
                        "Warta Poznan": 13, "Wisla Krakow": 14, "Wisla Plock": 15, "Zaglebie Lubin": 16}
 
     for club_name, club_no in club_dictionary.items():
@@ -50,7 +55,7 @@ def main():
     players_stats_sum = pd.DataFrame(players_stats.groupby(['id', 'name', 'position', 'club', 'value'])['points'].sum()).reset_index()
 
     # loading file with data
-    players_value = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_15_first_round_spring.csv', sep=',')
+    players_value = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_first_round_autumn_2021.csv', sep=',')
     print(players_value.head())
 
     # getting new values for the players
@@ -81,11 +86,13 @@ def main():
             else pv["position"], axis=1)
 
     players_value.to_csv(
-        project_dir + r'\data\interim\ekstraclass\08_players_new_values.csv', index=False, encoding='UTF-8')
+        project_dir + r'\data\interim\ekstraclass\08_players_new_values_autumn.csv', index=False, encoding='UTF-8')
 
     players_merged = players_stats_sum.merge(players_value, how='right', left_on='id', right_on='id', suffixes=['_old', '_new'])
 
     players_merged.drop_duplicates(keep='first', inplace=True)
+
+    print(players_merged)
 
     players_merged['points_new'] = players_merged.apply(
         lambda pm: pm['points_old']

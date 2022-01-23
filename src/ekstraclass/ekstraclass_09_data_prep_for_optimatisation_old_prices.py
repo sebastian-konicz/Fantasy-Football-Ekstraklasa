@@ -17,9 +17,28 @@ def main():
     # players_stats = pd.read_csv(project_dir + r'\data\interim\ekstraclass\05_players_concat.csv', delimiter=',')
 
     # loading file with data concerning current season
-    players_stats = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_21_05_17_round_29.csv',
+    players_stats = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_21_05_21.csv',
                                      delimiter=',')
 
+    players_stats_old = pd.read_csv(project_dir + r'\data\raw\ekstraclass\02_players_stats_15_first_round_spring.csv',
+                                     delimiter=',')
+    # restricting columns
+    players_stats_old = players_stats_old[['id', 'value']].drop_duplicates(keep="first")
+
+    stats_merged = players_stats.merge(players_stats_old, how='left', left_on=['id'], right_on=['id'])
+
+    print(stats_merged.head())
+
+    # saving dataframe
+    stats_merged.to_csv(project_dir + r'\data\interim\ekstraclass\06_players_sum_stats_merged.csv',
+                          index=False, encoding='UTF-8')
+
+    stats_merged.drop(columns='value_x', inplace=True)
+    stats_merged.rename(columns={'value_y': 'value'}, inplace=True)
+    stats_merged['value'].fillna(value=0, inplace=True)
+    stats_merged = stats_merged[stats_merged['value'] != 0]
+    stats_merged['value'] = stats_merged['value'].apply(lambda x: str(x))
+    players_stats = stats_merged
     # restricting data to necessary columns
     players_stats = players_stats[['id', 'name', 'position', 'club', 'value', 'points', 'status']]
 
