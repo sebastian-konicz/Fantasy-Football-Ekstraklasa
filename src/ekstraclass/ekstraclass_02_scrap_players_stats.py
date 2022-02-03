@@ -20,7 +20,7 @@ def main():
     # loading file with links
     # links_df = pd.read_csv(path + r'\data\raw\ekstraclass\01_players_links_{date}.csv'.format(date=var.time_stamp),
     #                        delimiter=',')
-    links_df = pd.read_csv(path + r'\data\raw\ekstraclass\01_players_links_21_07_22.csv', delimiter=',')
+    links_df = pd.read_csv(path + r'\data\raw\ekstraclass\01_players_links_22_01_31.csv', delimiter=',')
 
     # creating list with links
     link_list = links_df["link"].tolist()
@@ -31,8 +31,8 @@ def main():
     # looping throgu links
     for link in link_list:
         # gettig the page with stats for player
-        driver = webdriver.Chrome(ChromeDriverManager().install())
-        # driver = webdriver.Chrome(var.chrome_driver)
+        # driver = webdriver.Chrome(ChromeDriverManager().install())
+        driver = webdriver.Chrome(var.chrome_driver)
         driver.get(link)
 
         # getting the site html
@@ -44,53 +44,53 @@ def main():
 
         # PLAYER INFO
         # getting elements with players info
-        player_info_1 = site.find_all('h2')
+        player_info_name = site.find_all('h1')
+        player_info_club = site.find('div', class_='post-meta')
         player_info_2 = site.find_all('h5', class_='mb-none')
 
         # general info about player
         player_id = link[39:]
-        player_name = player_info_1[1].text
-        print(player_name)
-        player_club = player_info_1[0].text
+        player_name = player_info_name[0].text
+
+        player_club_text = player_info_club.text
+        player_club = player_club_text.split(',', 1)[0].strip()
+
         player_club_abr = ""
-        player_position = site.find('h6').text
+        player_position = player_club_text.split(',', 1)[1].strip()
 
-        # players value
-        pattern_value = re.compile("([0-9]\.[0-9]\w)+")
-        print(player_info_2)
-        player_value = player_info_2[0].text
-        player_value = re.search(pattern_value, player_value).group()
+        print(player_name)
 
-        # players popularity
-        pattern_popularity = re.compile("([0-9])+")
-        player_popularity = player_info_2[1].text
-        player_popularity = re.search(pattern_popularity, player_popularity).group()
+        # players info table
+        player_info_table = site.find('div', class_='player-inf').find('tbody')
+        player_table_rows = player_info_table.find_all('tr')
 
-        # players country
-        player_country = player_info_2[2].text
-        player_country = player_country[6:]
-
-        # players country
-        player_club_prev = player_info_2[3].text
-        player_club_prev = player_club_prev[16:]
-
-        # previous edition points
-        player_points_prev = player_info_2[4].text
-        player_points_prev = player_points_prev[28:]
+        # looping through rows in table
+        for row in player_table_rows:
+            # find in all columns
+            col = row.find_all('td')
+            if col[0].text == "Cena:":
+                player_value = col[1].text.strip()
+            elif col[0].text == "Popularność:":
+                player_popularity = col[1].text.strip()
+            elif col[0].text == "Kraj:":
+                player_country = col[1].text.strip()
+            elif col[0].text == "Poprzedni klub:":
+                player_club_prev = col[1].text.strip()
 
         # player status
-        player_status = site.find('div', class_='col-sm-8')
-        player_status = player_status.find('div', class_='mb-sm')
-        pattern_status = re.compile("([A-Za-z])\w+")
-        if player_status == None:
+        player_status = site.find('div', class_='col-sm-6 col-md-5 text-center').text.strip()
+        print(player_status)
+        if player_status == '':
             player_status = "active"
         else:
-            player_status = player_status.text
+            player_status = player_status.split(':', 1)[1]
             player_status = player_status.replace(" ", "")
-            player_status = player_status.replace("\n", "")[7:]
+        print(player_status)
 
         # TABLE DATA
-        table_body = site.find('tbody')
+        # players info table
+        table_data = site.find('div', class_='table-responsive')
+        table_body = table_data.find('tbody')
         table_rows = table_body.find_all('tr')
 
         # empty lists
@@ -104,12 +104,13 @@ def main():
         col_status = []
         col_country = []
         col_popularity = []
-        col_points_prev = []
+        # col_points_prev = []
         col_round = []
         col_opponent = []
         col_time = []
         col_goals = []
         col_assists = []
+        col_assists_lotto = []
         col_own_goal = []
         col_penalty = []
         col_penalty_won = []
@@ -123,9 +124,9 @@ def main():
 
         # looping through rows in table
         for row in table_rows:
-            # findin all columns
+            # find in all columns
             col = row.find_all('td')
-            if len(col) == 15:
+            if len(col) == 16:
                 # reg-ex patterns
                 pattern_lettes = re.compile("([A-Za-z])\w+")
                 pattern_numbers = re.compile("([0-9])+")
@@ -141,7 +142,7 @@ def main():
                 col_club_prev.append(player_club_prev)
                 col_country.append(player_country)
                 col_popularity.append(player_popularity)
-                col_points_prev.append(player_points_prev)
+                # col_points_prev.append(player_points_prev)
                 col_status.append(player_status)
 
                 # getting text from columns and appending lists
@@ -165,44 +166,48 @@ def main():
                 assists = re.search(pattern_numbers, assists).group()
                 col_assists.append(assists)
 
-                own_goal = col[5].text
+                assists_lotto = col[5].text
+                assists_lotto = re.search(pattern_numbers, assists_lotto).group()
+                col_assists_lotto.append(assists_lotto)
+
+                own_goal = col[6].text
                 own_goal = re.search(pattern_numbers, own_goal).group()
                 col_own_goal.append(own_goal)
 
-                penalty = col[6].text
+                penalty = col[7].text
                 penalty = re.search(pattern_numbers, penalty).group()
                 col_penalty.append(penalty)
 
-                penalty_won = col[7].text
+                penalty_won = col[8].text
                 penalty_won = re.search(pattern_numbers, penalty_won).group()
                 col_penalty_won.append(penalty_won)
 
-                penalty_given = col[8].text
+                penalty_given = col[9].text
                 penalty_given = re.search(pattern_numbers, penalty_given).group()
                 col_penalty_given.append(penalty_given)
 
-                penalty_lost = col[9].text
+                penalty_lost = col[10].text
                 penalty_lost = re.search(pattern_numbers, penalty_lost).group()
                 col_penalty_lost.append(penalty_lost)
 
-                penalty_defend = col[10].text
+                penalty_defend = col[11].text
                 penalty_defend = re.search(pattern_numbers, penalty_defend).group()
                 col_penalty_defend.append(penalty_defend)
 
-                instat = col[11].text
+                instat = col[12].text
                 instat = instat.replace('\n', '')
                 # instat = re.search(pattern_numbers, instat).group()
                 col_instat.append(instat)
 
-                yellow = col[12].text
+                yellow = col[13].text
                 yellow = re.search(pattern_numbers, yellow).group()
                 col_yellow.append(yellow)
 
-                red = col[13].text
+                red = col[14].text
                 red = re.search(pattern_numbers, red).group()
                 col_red.append(red)
 
-                points = col[14].text
+                points = col[15].text
                 # catching negative points
                 try:
                     points = re.search(pattern_numbers_neg, points).group()
@@ -215,18 +220,19 @@ def main():
 
         # zipping lists
         data_tuples = list(zip(col_id, col_name, col_position, col_value, col_club, col_club_abr, col_club_prev,
-                               col_country, col_popularity, col_points_prev, col_status, col_round, col_opponent,
-                               col_time, col_goals, col_assists, col_own_goal, col_penalty, col_penalty_won,
+                               col_country, col_popularity, col_status, col_round, col_opponent,
+                               col_time, col_goals, col_assists, col_assists_lotto, col_own_goal, col_penalty, col_penalty_won,
                                col_penalty_given, col_penalty_lost, col_penalty_defend, col_instat, col_yellow,
                                col_red, col_points))
-
+        # col_points_prev,
 
         # creating dataframe
         player_stats = pd.DataFrame(data_tuples, columns=["id", "name", "position", "value", "club", "club_abr",
-                                                          "club_prev", "country", "popularity", "points_prev", "status",
-                                                          "round", "opponent", "time", "goals", "assists", "own_goal",
+                                                          "club_prev", "country", "popularity", "status",
+                                                          "round", "opponent", "time", "goals", "assists", "assists_lotto", "own_goal",
                                                           "penalty", "penalty_won", "penalty_given", "penalty_lost",
                                                           "penalty_defended", "in_stat", "yellow_card", "red_card", "points"])
+        # "points_prev",
 
         # adding dataframe to list
         players_stats_dataframes.append(player_stats)
@@ -255,11 +261,24 @@ def main():
         for column in columns_list:
             players_stats[column] = players_stats[column].apply(lambda value: value.replace(special_letter, normal_letter))
 
-    club_dictionary = {"Cracovia": "CRA", "Gornik Zabrze": "GOR", "Jagiellonia Bialystok": "JAG",
-                       "Legia Warszawa": "LEG", "Lechia Gdansk": "LGD", "Lech Poznan": "LPO", "Piast Gliwice": "PIA",
-                       "Podbeskidzie Bielsko-Biala": "POD", "Pogon Szczecin": "POG", "Rakow Czestochowa": "RCZ",
-                       "Slask Wroclaw": "SLA", "PGE FKS Stal Mielec": "STM", "Warta Poznan": "WAR",
-                       "Wisla Krakow": "WIS", "Wisla Plock": "WPL", "Zaglebie Lubin": "ZAG"}
+    club_dictionary = {"Bruk-Bet Termalica Nieciecza": "BBT",
+                       "Cracovia": "CRA",
+                       "Gornik Leczna": "GKL",
+                       "Gornik Zabrze": "GOR",
+                       "Jagiellonia Bialystok": "JAG",
+                       "Lech Poznan": "LPO",
+                       "Lechia Gdansk": "LGD",
+                       "Legia Warszawa": "LEG",
+                       "PGE FKS Stal Mielec": "STM",
+                       "Piast Gliwice": "PIA",
+                       "Pogon Szczecin": "POG",
+                       "Radomiak Radom": "RAD",
+                       "Rakow Czestochowa": "RCZ",
+                       "Slask Wroclaw": "SLA",
+                       "Warta Poznan": "WAR",
+                       "Wisla Krakow": "WIS",
+                       "Wisla Plock": "WPL",
+                       "Zaglebie Lubin": "ZAG"}
 
     # adding club abbreviation
     for club_name, club_abr in club_dictionary.items():

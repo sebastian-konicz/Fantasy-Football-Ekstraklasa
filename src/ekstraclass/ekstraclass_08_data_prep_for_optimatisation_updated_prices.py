@@ -23,11 +23,6 @@ def main():
     # club / team
     club_dictionary = {"Cracovia": 1, "Gornik Zabrze": 2, "Jagiellonia Bialystok": 3, "Legia Warszawa": 4,
                        "Lechia Gdansk": 5, "Lech Poznan": 6, "Piast Gliwice": 7, "Podbeskidzie Bielsko-Biala": 8,
-                       "Pogon Szczecin": 9, "Rakow Czestochowa": 10,"Slask Wroclaw": 11, "PGE FKS Stal Mielec": 12,
-                       "Warta Poznan": 13, "Wisla Krakow": 14, "Wisla Plock": 15, "Zaglebie Lubin": 16}
-
-    club_dictionary = {"Cracovia": 1, "Gornik Zabrze": 2, "Jagiellonia Bialystok": 3, "Legia Warszawa": 4,
-                       "Lechia Gdansk": 5, "Lech Poznan": 6, "Piast Gliwice": 7, "Podbeskidzie Bielsko-Biala": 8,
                        "Pogon Szczecin": 9, "Rakow Czestochowa": 10, "Slask Wroclaw": 11, "PGE FKS Stal Mielec": 12,
                        "Warta Poznan": 13, "Wisla Krakow": 14, "Wisla Plock": 15, "Zaglebie Lubin": 16}
 
