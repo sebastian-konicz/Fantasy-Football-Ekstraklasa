@@ -8,6 +8,14 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
 def main():
+    # variables
+    season = '2021_2022'
+    round = 20
+
+    # output files
+    # players_links_path = r'\data\raw\ekstraclass\01_players_links_{date}.csv'.format(date=var.time_stamp)
+    players_links_path = r'\data\raw\01_players_links_{s}_round_{r}.csv'.format(s=season, r=round)
+
     # start time of function
     start_time = time.time()
 
@@ -57,8 +65,7 @@ def main():
     players_links_df = pd.DataFrame(data_tuples, columns=['player', 'link'])
 
     # saving dataframe
-    players_links_df.to_csv(path + r'\data\raw\ekstraclass\01_players_links_{date}.csv'.format(date=var.time_stamp),
-                            index=False, encoding='UTF-8')
+    players_links_df.to_csv(path + players_links_path, index=False, encoding='UTF-8')
 
     # shutting down selenium driver
     driver.quit()

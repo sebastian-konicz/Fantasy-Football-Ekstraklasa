@@ -11,6 +11,16 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
 def main():
+    # variables
+    season = '2021_2022'
+    round = 20
+
+    # input files
+    players_links_path = r'\data\raw\01_players_links_{s}_round_{r}.csv'.format(s=season, r=round)
+
+    # output files
+    players_stats_path = r'\data\raw\02_players_stats_{s}_round_{r}.csv'.format(s=season, r=round)
+
     # start time of function
     start_time = time.time()
 
@@ -20,7 +30,7 @@ def main():
     # loading file with links
     # links_df = pd.read_csv(path + r'\data\raw\ekstraclass\01_players_links_{date}.csv'.format(date=var.time_stamp),
     #                        delimiter=',')
-    links_df = pd.read_csv(path + r'\data\raw\ekstraclass\01_players_links_22_01_31.csv', delimiter=',')
+    links_df = pd.read_csv(path + players_links_path, delimiter=',')
 
     # creating list with links
     link_list = links_df["link"].tolist()
@@ -295,8 +305,7 @@ def main():
 
     print(players_stats)
     # saving dataframe
-    players_stats.to_csv(path + r'\data\raw\ekstraclass\02_players_stats_{date}.csv'.format(date=var.time_stamp),
-                         index=False, encoding='UTF-8')
+    players_stats.to_csv(path + players_stats_path, index=False, encoding='UTF-8')
 
     # end time of program + duration
     end_time = time.time()
