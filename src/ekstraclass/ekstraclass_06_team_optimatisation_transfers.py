@@ -249,8 +249,8 @@ class TransferOptimiser:
     #     the transfer budget cannot drop below zero
     def apply_transfer_constraints(self, model, transfer_in_decisions_free, transfer_in_decisions,
                                    transfer_out_decisions, budget_now):
-        # only 1 free transfer
-        model += sum(transfer_in_decisions_free) <= 1
+        # only 2 free transfers
+        model += sum(transfer_in_decisions_free) <= 2
 
         # budget constraint
         transfer_in_cost = sum(transfer_in_decisions * self.buy_prices)

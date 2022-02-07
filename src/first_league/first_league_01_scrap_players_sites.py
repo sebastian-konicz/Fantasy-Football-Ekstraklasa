@@ -4,6 +4,12 @@ from selenium import webdriver
 import pandas as pd
 import time
 
+from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import StaleElementReferenceException
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions
+
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
@@ -17,10 +23,13 @@ def main():
     # gettig the main page with fantasy soccer stat
     driver = webdriver.Chrome(var.chrome_driver)
     driver.get(var.first_league_players)
+    next_button = driver.find_element_by_link_text('Następny')
+    next_button.click()
 
     site_list =[]
     # looping throug pagination (only 28 sites)
-    for i in range(28):
+    for i in range(31):
+        print(i)
         # getting around cookie acceptance button
         if i == 0:
             cookie_button = driver.find_element_by_partial_link_text("OK,")
@@ -34,8 +43,14 @@ def main():
         site_list.append(site)
         # getting the button for the next site
         next_button = driver.find_element_by_link_text('Następny')
-        # going to the next site
-        if i < 27:
+        next_button.click()
+
+        # ignored_exceptions = (NoSuchElementException, StaleElementReferenceException,)
+        # your_element = WebDriverWait(driver, 10, ignored_exceptions=ignored_exceptions).until(expected_conditions.presence_of_element_located((By.LINK_TEXT, text)))
+
+        print(next_button)
+
+        if i < 31:
             next_button.click()
         else:
             pass
@@ -64,6 +79,8 @@ def main():
 
     # creating dataframe
     players_links_df = pd.DataFrame(data_tuples, columns=['player', 'link'])
+
+    print(players_links_df)
 
     # saving dataframe
     players_links_df.to_csv(path + r'\data\raw\first_league\01_players_links_{date}.csv'.format(date=var.time_stamp),

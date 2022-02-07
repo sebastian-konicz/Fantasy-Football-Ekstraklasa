@@ -2,49 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd0c45e6-9126-4229-b06e-9a58a6e5aff5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_04_data_prep_for_optimatisation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_05_team_optimatisation_no_transfers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/05_players_concat.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/interim/ekstraclass/05_players_concat.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/06_players_sum_stats_05FEB21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/06_players_sum_stats_05MAR21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/06_players_sum_stats_12FEB21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/06_players_sum_stats_19FEB21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/06_players_sum_stats_20MAY21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/06_players_sum_stats_21MAY21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/06_players_sum_stats_26FEB21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/06_players_sum_stats_merged.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/08_players_new_values_autumn.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/08_players_updated_values_22JUL21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/08_players_updated_values_29JAN21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/old/08_players_updated_values_29JAN21.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/interim/ekstraclass/old/08_players_updated_values_29JAN21.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/01_players_links_22_01_31_short.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_02_04_round_15.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_02_12_round_16.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_02_16_round_17.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_02_25_round_18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_03_05_round_19.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_03_12_round_20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_03_19_round_21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_03_26_round_22.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_04_09_round_23.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_04_16_round_24.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_04_23_round_25.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_04_30_round_26.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_05_07_round_27.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_05_14_round_28.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_21_05_17_round_29.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_22_01_24.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/ekstraclass/02_players_stats_22_01_31.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_03_scrap_players_stats_hist.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/other/ekstraclass_03_scrap_players_stats_hist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_04_scrap_match_scores.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/other/ekstraclass_04_scrap_match_scores.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_05_ data_concatenation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_03_ data_concatenation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_06_data_prep_for_optimatisation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_07_team_optimatisation_no_transfers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_08_team_optimatisation_transfers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_08_data_prep_for_optimatisation_updated_prices.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/other/ekstraclass_08_data_prep_for_optimatisation_updated_prices.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_09_data_prep_for_optimatisation_old_prices.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/other/ekstraclass_09_data_prep_for_optimatisation_old_prices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_08_team_optimatisation_transfers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_06_team_optimatisation_transfers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_league/first_league_00_variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_league/first_league_00_variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_league/first_league_01_scrap_players_sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_league/first_league_01_scrap_players_sites.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,28 +57,7 @@
       <recent name="C:\Users\kose9001\Desktop\FantasyFootball\src\ekstraclass" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ekstraclass_04_data_prep_for_optimatisation (1)">
-    <configuration name="ekstraclass_01_scrap_players_sites" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="FantasyFootball" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ekstraclass" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.first_league_01_scrap_players_sites">
     <configuration name="ekstraclass_03_ data_concatenation (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ekstraclass_05_team_optimatisation_no_transfers (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ekstraclass_06_team_optimatisation_transfers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,7 +112,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_05_team_optimatisation_no_transfers.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Sebastian\Desktop\Projects\Fantasy-Fotball-Ekstraklasa\src\ekstraclass\ekstraclass_06_team_optimatisation_transfers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ekstraclass_08_team_optimatisation_transfers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="first_league_00_variables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,11 +129,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ekstraclass" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/first_league" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_08_team_optimatisation_transfers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/first_league/first_league_00_variables.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="first_league_01_scrap_players_sites" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FantasyFootball" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/first_league" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/first_league/first_league_01_scrap_players_sites.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.first_league_01_scrap_players_sites" />
+        <item itemvalue="Python.first_league_00_variables" />
         <item itemvalue="Python.ekstraclass_04_data_prep_for_optimatisation (1)" />
         <item itemvalue="Python.ekstraclass_03_ data_concatenation (1)" />
-        <item itemvalue="Python.ekstraclass_08_team_optimatisation_transfers" />
-        <item itemvalue="Python.ekstraclass_05_team_optimatisation_no_transfers (1)" />
-        <item itemvalue="Python.ekstraclass_01_scrap_players_sites" />
+        <item itemvalue="Python.ekstraclass_06_team_optimatisation_transfers" />
       </list>
     </recent_temporary>
   </component>
@@ -254,6 +215,11 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/first_league/first_league_07_team_optimatisation_no_transfers.py</url>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/first_league/first_league_00_variables.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
