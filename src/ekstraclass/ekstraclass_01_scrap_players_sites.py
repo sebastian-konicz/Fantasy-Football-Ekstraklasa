@@ -10,7 +10,7 @@ pd.set_option('display.max_rows', None)
 def main():
     # variables
     season = '2021_2022'
-    round = 20
+    round = 21
 
     # output files
     # players_links_path = r'\data\raw\ekstraclass\01_players_links_{date}.csv'.format(date=var.time_stamp)
@@ -36,6 +36,7 @@ def main():
         site_list.append(site)
         # getting the button for the next site
         next_button = driver.find_element_by_link_text('Następny')
+        print(next_button)
         # going to the next site
         next_button.click()
 

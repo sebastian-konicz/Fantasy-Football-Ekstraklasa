@@ -11,15 +11,15 @@ pd.set_option('display.max_rows', None)
 
 def main():
     # variables
-    team_name = 'algolrytm_01'
+    team_name = 'algolrytm_05'
     season = '2021_2022'
     round = 20
-    points_type = 'all'
-    sub_factor = 0.1
+    points_type = '15'
+    sub_factor = 0.5
     total_budget = 30
 
     # input files
-    players_stats_path = r'\data\interim\04_players_sum_stats_{s}_{t}_round_{r}.csv'.format(s=season, r=round, t=points_type)
+    players_stats_path = r'\data\interim\round_{r}\04_players_sum_stats_{s}_{t}_round_{r}.csv'.format(s=season, r=round, t=points_type)
 
     # output files
     team_dataframe_path = r'\data\final\squads\{tn}\{tn}_squad_{s}_round_{r}.csv'.format(tn=team_name, s=season, r=round)

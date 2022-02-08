@@ -23,8 +23,6 @@ def main():
     # gettig the main page with fantasy soccer stat
     driver = webdriver.Chrome(var.chrome_driver)
     driver.get(var.first_league_players)
-    next_button = driver.find_element_by_link_text('Następny')
-    next_button.click()
 
     site_list =[]
     # looping throug pagination (only 28 sites)
