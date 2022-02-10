@@ -11,16 +11,17 @@ pd.set_option('display.max_rows', None)
 
 def main():
     # variables
-    team_name = 'algolrytm_01'
+    team_name = 'algolrytm_05'
     season = '2021_2022'
     round = 21
+    points_type = '15'
     budget_now = 0
     sub_factor = 0.5
 
     round_prev = round - 1 # uwaga mogą się zmienic rundy pomiedzy sezonami 39 na 01
 
     # input files
-    players_stats_sum_all_path = r'\data\interim\04_players_sum_stats_{s}_all_round_{r}.csv'.format(s=season, r=round)
+    players_stats_sum_all_path = r'\data\interim\round_{r}\04_players_sum_stats_{s}_{t}_round_{r}.csv'.format(s=season, r=round, t=points_type)
     squad_old_dataframe_path = r'\data\final\squads\{tn}\{tn}_squad_{s}_round_{r}.csv'.format(tn=team_name, s=season, r=round_prev)
 
     # output files
@@ -35,6 +36,9 @@ def main():
     # loading file with data
     players_stats = pd.read_csv(project_dir + players_stats_sum_all_path, delimiter=',')
     squad = pd.read_csv(project_dir + squad_old_dataframe_path, delimiter=',')
+
+    print(players_stats.tail())
+    print(squad)
 
     # restricting squad dataframe
     squad = squad[['id', 'name', 'position', 'club', 'value', 'points']]
@@ -80,14 +84,19 @@ def main():
         missing_df_list.append(missing_df)
 
     # concatenating missing players
-    concat_df = pd.concat(missing_df_list, axis=0, sort=False)
+    if len(missing_df_list) != 0:
+        concat_df = pd.concat(missing_df_list, axis=0, sort=False)
 
-    # adding missing players to players stats dataframe - added at the bottom of dataframe
-    players_stats = pd.concat([players_stats,concat_df], axis=0, sort=False)
-    print(players_stats.tail(5))
+        # adding missing players to players stats dataframe - added at the bottom of dataframe
+        players_stats = pd.concat([players_stats, concat_df], axis=0, sort=False)
+        print(players_stats.tail(5))
 
-    # reseting index - new values at the bottom of the index
-    players_stats.reset_index(inplace=True, drop=True)
+        # reseting index - new values at the bottom of the index
+        players_stats.reset_index(inplace=True, drop=True)
+    else:
+        pass
+
+
 
     # once again getting index list (hopefully the last) - room for improvment - dedicated function
     index_list = index_creation(players_stats)

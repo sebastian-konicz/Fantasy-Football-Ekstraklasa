@@ -36,7 +36,6 @@ def main():
         site_list.append(site)
         # getting the button for the next site
         next_button = driver.find_element_by_link_text('Następny')
-        print(next_button)
         # going to the next site
         next_button.click()
 
