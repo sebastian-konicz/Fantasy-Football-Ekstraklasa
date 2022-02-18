@@ -13,9 +13,9 @@ def main():
     # variables
     team_name = 'algolrytm_05'
     season = '2021_2022'
-    round = 21
+    round = 22
     points_type = '15'
-    budget_now = 0
+    budget_now = 0.0
     sub_factor = 0.5
 
     round_prev = round - 1 # uwaga mogą się zmienic rundy pomiedzy sezonami 39 na 01
