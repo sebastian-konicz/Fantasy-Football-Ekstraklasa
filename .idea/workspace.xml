@@ -5,9 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_03_ data_concatenation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_03_ data_concatenation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_04_data_prep_for_optimatisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_04_data_prep_for_optimatisation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_06_team_optimatisation_transfers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_06_team_optimatisation_transfers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,7 @@
       <recent name="C:\Users\kose9001\Desktop\FantasyFootball\src\ekstraclass" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ekstraclass_06_team_optimatisation_transfers">
+  <component name="RunManager" selected="Python.ekstraclass_02_scrap_players_stats">
     <configuration name="ekstraclass_01_scrap_players_sites" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ekstraclass_02_scrap_players_stats" />
+        <item itemvalue="Python.ekstraclass_01_scrap_players_sites" />
         <item itemvalue="Python.ekstraclass_06_team_optimatisation_transfers" />
         <item itemvalue="Python.ekstraclass_04_data_prep_for_optimatisation" />
         <item itemvalue="Python.ekstraclass_03_ data_concatenation" />
-        <item itemvalue="Python.ekstraclass_02_scrap_players_stats" />
-        <item itemvalue="Python.ekstraclass_01_scrap_players_sites" />
       </list>
     </recent_temporary>
   </component>
