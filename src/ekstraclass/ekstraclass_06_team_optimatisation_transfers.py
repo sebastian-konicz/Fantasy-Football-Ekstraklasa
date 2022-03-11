@@ -13,7 +13,7 @@ def main():
     # variables
     team_name = 'algolrytm_05'
     season = '2021_2022'
-    round = 22
+    round = 25
     points_type = '15'
     budget_now = 0.0
     sub_factor = 0.5
@@ -81,6 +81,9 @@ def main():
     missing_df_list = []
     for missing in missing_players_list:
         missing_df = squad[squad['id'] == missing]
+        missing_df.reset_index(drop=True, inplace=True)
+        missing_df.at[0, 'points'] = 0
+        print(missing_df)
         missing_df_list.append(missing_df)
 
     # concatenating missing players

@@ -9,7 +9,7 @@ pd.set_option('display.max_rows', None)
 def main():
     # variables
     season = '2021_2022'
-    round = 22
+    round = 25
     # last season before break file
     season_prev = '2021_2022'
     round_final = 19
@@ -47,13 +47,16 @@ def main():
     players_status = players_stats_curr[players_stats_curr['round'] == round]
 
     # restricting dataframe
-    players_status = players_status[['name', 'position', 'status', 'value']]
+    players_status = players_status[['id', 'name', 'position', 'status', 'value']]
 
     # updating current status to concatenates dataframe
-    players_stats = players_stats.merge(players_status, how='left', left_on='name', right_on='name', suffixes=['_old', '_new'])
+    players_stats = players_stats.merge(players_status, how='left', left_on=['name', 'id'], right_on=['name', 'id'], suffixes=['_old', '_new'])
 
     # renaming columns
     players_stats = players_stats.rename(columns={'status_new': 'status', 'value_new': 'value', 'position_new': 'position'})
+
+    # dropping duplicates
+    players_stats.drop_duplicates(subset=['name', 'id', 'round'], keep='first', inplace=True)
 
     # dropping unnecessary columns
     players_stats.drop(columns=['status_old', 'value_old', 'position_old'], inplace=True)
