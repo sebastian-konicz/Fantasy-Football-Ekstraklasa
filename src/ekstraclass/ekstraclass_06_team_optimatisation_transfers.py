@@ -13,7 +13,7 @@ def main():
     # variables
     team_name = 'algolrytm_05'
     season = '2021_2022'
-    round = 25
+    round = 26
     points_type = '15'
     budget_now = 0.0
     sub_factor = 0.5
