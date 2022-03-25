@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd0c45e6-9126-4229-b06e-9a58a6e5aff5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_03_ data_concatenation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_03_ data_concatenation.py" afterDir="false" />
