@@ -9,14 +9,7 @@ import numpy as np
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
-def main():
-    # variables
-    team_name = 'algolrytm_05'
-    season = '2021_2022'
-    round = 27
-    points_type = '15'
-    budget_now = 0.0
-    sub_factor = 0.5
+def main(team_name, season, round, points_type, budget_now, sub_factor):
 
     round_prev = round - 1 # uwaga mogą się zmienic rundy pomiedzy sezonami 39 na 01
 
@@ -388,4 +381,12 @@ class MultiHorizonTransferOptimiser(TransferOptimiser):
         return transfer_in_decisions_all, transfer_out_decisions_all, sub_decisions_all, sub_decisions_all, captain_decisions_all
 
 if __name__ == "__main__":
-    main()
+    # # variables
+    team_name = 'algolrytm_05'
+    season = '2021_2022'
+    round = 28
+    points_type = '15'
+    budget_now = 0.0
+    sub_factor = 0.5
+    print(team_name)
+    main(team_name, season, round, points_type, budget_now, sub_factor)
