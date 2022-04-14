@@ -28,7 +28,7 @@ def main(team_name, season, round, points_type, budget_now, sub_factor):
 
     # loading file with data
     players_stats = pd.read_csv(project_dir + players_stats_sum_all_path, delimiter=',')
-    squad = pd.read_csv(project_dir + squad_old_dataframe_path, delimiter=',')
+    squad = pd.read_csv(project_dir + squad_old_dataframe_path, delimiter=';')
 
     print(players_stats.tail())
     print(squad)
@@ -384,9 +384,8 @@ if __name__ == "__main__":
     # # variables
     team_name = 'algolrytm_05'
     season = '2021_2022'
-    round = 28
+    round = 29
     points_type = '15'
-    budget_now = 0.0
+    budget_now = 0.3
     sub_factor = 0.5
-    print(team_name)
     main(team_name, season, round, points_type, budget_now, sub_factor)

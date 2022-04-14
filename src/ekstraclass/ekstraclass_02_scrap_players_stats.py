@@ -13,7 +13,7 @@ pd.set_option('display.max_rows', None)
 def main():
     # variables
     season = '2021_2022'
-    round = 28
+    round = 29
 
     # input files
     players_links_path = r'\data\raw\01_players_links_{s}_round_{r}.csv'.format(s=season, r=round)
