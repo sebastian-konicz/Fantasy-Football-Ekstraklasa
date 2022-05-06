@@ -13,7 +13,7 @@ pd.set_option('display.max_rows', None)
 def main():
     # variables
     season = '2021_2022'
-    round = 29
+    round = 32
 
     # input files
     players_links_path = r'\data\raw\01_players_links_{s}_round_{r}.csv'.format(s=season, r=round)
@@ -80,6 +80,7 @@ def main():
             col = row.find_all('td')
             if col[0].text == "Cena:":
                 player_value = col[1].text.strip()
+                print(player_value)
             elif col[0].text == "Popularność:":
                 player_popularity = col[1].text.strip()
             elif col[0].text == "Kraj:":

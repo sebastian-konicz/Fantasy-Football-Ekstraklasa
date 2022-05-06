@@ -9,7 +9,7 @@ pd.set_option('display.max_rows', None)
 def main():
     # variables
     season = '2021_2022'
-    round = 29
+    round = 31
     # last season before break file
     season_prev = '2021_2022'
     round_final = 19
@@ -67,6 +67,9 @@ def main():
                                    'assists', 'own_goal', 'penalty', 'penalty_won', 'penalty_given', 'penalty_lost',
                                    'penalty_defended', 'in_stat', 'yellow_card', 'red_card', 'points']]
     # 'points_prev',
+    # players_stats['status'].fillna(value="", inplace=True)
+    #
+    # players_stats['status'] = players_stats['status'].apply(lambda x: 'active' if x == "" else x)
 
     # saving dataframe
     players_stats.to_csv(project_dir + players_stats_path, index=False, encoding='UTF-8')

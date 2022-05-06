@@ -9,12 +9,10 @@ pd.set_option('display.max_rows', None)
 
 def main():
     # variables
-    season = '2021_2022'
-    round = 32
 
     # output files
     # players_links_path = r'\data\raw\ekstraclass\01_players_links_{date}.csv'.format(date=var.time_stamp)
-    players_links_path = r'\data\raw\01_players_links_{s}_round_{r}.csv'.format(s=season, r=round)
+    players_links_path = r'\data\raw\rulings.csv'
 
     # start time of function
     start_time = time.time()
@@ -24,48 +22,52 @@ def main():
 
     # gettig the main page with fantasy soccer stat
     driver = webdriver.Chrome(var.chrome_driver)
-    driver.get(var.ekstraclass_players)
+    driver.get('https://orzeczenia.nsa.gov.pl/cbo/find?p=1&q=+SZUKANE+%5B%22gmina+podatnik+VAT%22%5D+ZORZ+%5Btrue%5D')
 
     site_list =[]
+
     # looping throug pagination (only 33 sites)
-    for i in range(34):
+    for i in range(0, 1):
         # getting the site
         html = driver.page_source
         site = BeautifulSoup(html, 'html.parser')
         # adding site to site_list
         site_list.append(site)
         # getting the button for the next site
-        next_button = driver.find_element_by_link_text('Następny')
+        next_button = driver.find_element_by_link_text('następna »')
         # going to the next site
         next_button.click()
 
     # empty lists for values
-    players_list = []
+    signature_list = []
     links_list = []
 
     # looping thgrou sites
     for site in site_list:
         # getting rows form table
-        table_body = site.find_all('td', class_="sorting_1")
+        table_body = site.find_all('table', class_="info-list pb-none")
         for td in table_body:
+            # print(td)
             # getting a tag with player's name and link
             a = td.find("a")
             # player name
-            player = a.text
+            signature = a.text.strip()
+            print(signature)
             # link to player's stats
-            link = 'https://fantasy.ekstraklasa.org' + a['href']
+            print(a['href'])
+            link = 'https://orzeczenia.nsa.gov.pl/' + a['href']
             # appending lists
-            players_list.append(player)
+            signature_list.append(signature)
             links_list.append(link)
 
     # zipping lists
-    data_tuples = list(zip(players_list, links_list))
+    data_tuples = list(zip(signature_list, links_list))
 
     # creating dataframe
-    players_links_df = pd.DataFrame(data_tuples, columns=['player', 'link'])
+    players_links_df = pd.DataFrame(data_tuples, columns=['ruling', 'link'])
 
     # saving dataframe
-    players_links_df.to_csv(path + players_links_path, index=False, encoding='UTF-8')
+    players_links_df.to_csv(path + players_links_path, index=False) #encoding='UTF-8'
 
     # shutting down selenium driver
     driver.quit()

@@ -11,7 +11,7 @@ pd.set_option('display.max_rows', None)
 
 def main(team_name, season, round, points_type, budget_now, sub_factor):
 
-    round_prev = round - 1 # uwaga mogą się zmienic rundy pomiedzy sezonami 39 na 01
+    round_prev = round - 2 # uwaga mogą się zmienic rundy pomiedzy sezonami 39 na 01
 
     # input files
     players_stats_sum_all_path = r'\data\interim\round_{r}\04_players_sum_stats_{s}_{t}_round_{r}.csv'.format(s=season, r=round, t=points_type)
@@ -28,7 +28,7 @@ def main(team_name, season, round, points_type, budget_now, sub_factor):
 
     # loading file with data
     players_stats = pd.read_csv(project_dir + players_stats_sum_all_path, delimiter=',')
-    squad = pd.read_csv(project_dir + squad_old_dataframe_path, delimiter=';')
+    squad = pd.read_csv(project_dir + squad_old_dataframe_path, delimiter=',')
 
     print(players_stats.tail())
     print(squad)
@@ -382,10 +382,10 @@ class MultiHorizonTransferOptimiser(TransferOptimiser):
 
 if __name__ == "__main__":
     # # variables
-    team_name = 'algolrytm_05'
+    team_name = 'algolrytm_01'
     season = '2021_2022'
-    round = 29
-    points_type = '15'
-    budget_now = 0.3
-    sub_factor = 0.5
+    round = 31
+    points_type = 'all'
+    budget_now = 0.0
+    sub_factor = 0.1
     main(team_name, season, round, points_type, budget_now, sub_factor)
