@@ -9,7 +9,7 @@ pd.set_option('display.max_rows', None)
 def main():
     # variables
     season = '2021_2022'
-    round = 31
+    round = 32
     # last season before break file
     season_prev = '2021_2022'
     round_final = 19
