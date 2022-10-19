@@ -385,7 +385,7 @@ if __name__ == "__main__":
     # # variables
     team_name = 'algolrytm_05'
     season = '2021_2022'
-    round = 32
+    round = 34
     points_type = '15'
     budget_now = 0.0
     sub_factor = 0.5

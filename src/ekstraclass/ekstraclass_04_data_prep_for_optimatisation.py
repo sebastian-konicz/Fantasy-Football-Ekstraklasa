@@ -10,7 +10,7 @@ pd.set_option('display.max_rows', None)
 def main():
     # variables
     season = '2021_2022'
-    round = 32
+    round = 34
     date = 'autumn'
 
     # input files
