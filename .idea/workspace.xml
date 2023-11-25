@@ -4,11 +4,440 @@
     <list default="true" id="fd0c45e6-9126-4229-b06e-9a58a6e5aff5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/bps/final/gminy_names_final.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/final/gminy_names_final.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/final/point_adress_all.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/final/point_adress_all.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_aleksandrow kujawski.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_aleksandrow kujawski.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_aleksandrow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_aleksandrow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_babiak.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_babiak.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_badkowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_badkowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_barwice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_barwice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_bedlno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_bedlno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_bedzino.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_bedzino.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_belchatow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_belchatow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_bialaczow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_bialaczow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_bialogard.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_bialogard.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_bialy bor.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_bialy bor.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_bielany.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_bielany.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_biesiekierz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_biesiekierz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_biezun.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_biezun.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_blizanow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_blizanow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_bobolice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_bobolice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_bobrowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_bobrowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_bojanowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_bojanowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_boleslawiec.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_boleslawiec.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_boniewo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_boniewo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_borek wielkopolski.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_borek wielkopolski.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_borne sulinowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_borne sulinowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_borow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_borow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_borzytuchom.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_borzytuchom.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_braniewo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_braniewo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_braszewice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_braszewice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_brudzew.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_brudzew.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_brzesc kujawski.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_brzesc kujawski.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_brzeznio.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_brzeznio.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_brzuze.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_brzuze.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_buczek.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_buczek.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_budzyn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_budzyn.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_buk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_buk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_bukowiec.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_bukowiec.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_burzenin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_burzenin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_bytnica.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_bytnica.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_byton.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_byton.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_bytow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_bytow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_cedynia.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_cedynia.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_cewice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_cewice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_chelmza.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_chelmza.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_chocen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_chocen.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_chocz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_chocz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_choczewo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_choczewo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_chodecz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_chodecz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_chodow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_chodow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_chrostkowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_chrostkowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_chrzypsko wielkie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_chrzypsko wielkie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_ciechocin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_ciechocin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_ciechocinek.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_ciechocinek.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_ciepielow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_ciepielow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_cybinka.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_cybinka.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_czajkow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_czajkow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_czaplinek.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_czaplinek.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_czarna dabrowka.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_czarna dabrowka.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_czarna.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_czarna.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_czarne.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_czarne.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_czarnkow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_czarnkow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_czarnozyly.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_czarnozyly.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_czastary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_czastary.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_czempin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_czempin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_czerniejewo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_czerniejewo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_czernikowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_czernikowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_dabrowa biskupia.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_dabrowa biskupia.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_dabrowice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_dabrowice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_damaslawek.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_damaslawek.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_damnica.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_damnica.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_darlowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_darlowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_debnica kaszubska.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_debnica kaszubska.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_debowa laka.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_debowa laka.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_dobra.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_dobra.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_dobrzyca.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_dobrzyca.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_dolsk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_dolsk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_dominowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_dominowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_dopiewo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_dopiewo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_doruchow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_doruchow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_drawsko pomorskie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_drawsko pomorskie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_duszniki.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_duszniki.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_dygowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_dygowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_dziemiany.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_dziemiany.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_dziwnow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_dziwnow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_fabianki.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_fabianki.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_galewice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_galewice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_gielniow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_gielniow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_gizalki.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_gizalki.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_glowaczow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_glowaczow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_glowczyce.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_glowczyce.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_gniewino.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_gniewino.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_gniewkowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_gniewkowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_gniezno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_gniezno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_godziesze wielkie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_godziesze wielkie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_golancz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_golancz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_golczewo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_golczewo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_golina.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_golina.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_golub-dobrzyn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_golub-dobrzyn.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_goluchow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_goluchow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_gomunice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_gomunice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_gora.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_gora.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_gorno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_gorno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_gorzkowice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_gorzkowice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_gorzno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_gorzno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_goscino.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_goscino.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_gostyn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_gostyn.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_granowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_granowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_grodziec.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_grodziec.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_grodzisk wielkopolski.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_grodzisk wielkopolski.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_grudusk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_grudusk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_gryfice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_gryfice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_grzegorzew.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_grzegorzew.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_grzmiaca.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_grzmiaca.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_ilow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_ilow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_insko.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_insko.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_izbica kujawska.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_izbica kujawska.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_janowiec wielkopolski.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_janowiec wielkopolski.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_jaraczewo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_jaraczewo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_jarocin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_jarocin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_jednorozec.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_jednorozec.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_jeziora wielkie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_jeziora wielkie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kalisz pomorski.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kalisz pomorski.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kalisz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kalisz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kamien pomorski.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kamien pomorski.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kamienica polska.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kamienica polska.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kamieniec.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kamieniec.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kamiensk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kamiensk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_karlino.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_karlino.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_karnice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_karnice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kaweczyn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kaweczyn.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kazimierz biskupi.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kazimierz biskupi.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kazmierz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kazmierz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kepice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kepice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kepno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kepno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kikol.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kikol.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kiszkowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kiszkowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_klecko.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_klecko.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kleczew.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kleczew.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_klembow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_klembow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kleszczewo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kleszczewo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_klonowa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_klonowa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kluki.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kluki.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kobylnica.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kobylnica.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_koczala.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_koczala.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kodrab.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kodrab.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kolaczkowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kolaczkowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kolbudy.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kolbudy.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kolczyglowy.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kolczyglowy.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kolo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kolo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kolobrzeg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kolobrzeg.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_komorniki.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_komorniki.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_koneck.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_koneck.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_konin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_konin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_korfantow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_korfantow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kornik.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kornik.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_koscian.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_koscian.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_koscierzyna.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_koscierzyna.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kostrzyn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kostrzyn.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_koszalin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_koszalin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_koszyce.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_koszyce.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kowal.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kowal.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kowalewo pomorskie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kowalewo pomorskie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kowary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kowary.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kozmin wielkopolski.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kozmin wielkopolski.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kramsk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kramsk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kraszewice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kraszewice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_krobia.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_krobia.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_krokowa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_krokowa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_krosniewice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_krosniewice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_krosno odrzanskie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_krosno odrzanskie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kruszwica.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kruszwica.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_krynica morska.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_krynica morska.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_krypno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_krypno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_krzemieniewo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_krzemieniewo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_krzykosy.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_krzykosy.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_krzymow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_krzymow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_krzywin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_krzywin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_krzyzanow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_krzyzanow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_ksiaz wielkopolski.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_ksiaz wielkopolski.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kuczbork-osada.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kuczbork-osada.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kuslin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kuslin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kutno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kutno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kuznica.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kuznica.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_kwilcz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_kwilcz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_ladek.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_ladek.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lagow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lagow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_leba.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_leba.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lebork.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lebork.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_leczyce.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_leczyce.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_leki szlacheckie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_leki szlacheckie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_leszno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_leszno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_linia.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_linia.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lipnica.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lipnica.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lipno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lipno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lipsk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lipsk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lipsko.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lipsko.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lipusz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lipusz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lniano.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lniano.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lobez.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lobez.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lomianki.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lomianki.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lubanie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lubanie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lubasz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lubasz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lubianka.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lubianka.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lubicz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lubicz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lubien kujawski.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lubien kujawski.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lubiewo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lubiewo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lubon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lubon.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lubowidz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lubowidz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lubowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lubowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lubraniec.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lubraniec.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lubrza.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lubrza.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lutocin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lutocin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lututow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lututow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lwowek.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lwowek.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_lysomice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_lysomice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_malanow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_malanow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_malechowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_malechowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_manowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_manowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_margonin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_margonin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_miastko.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_miastko.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_miedzichowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_miedzichowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_miedzychod.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_miedzychod.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_miedzyrzecz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_miedzyrzecz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_miedzyzdroje.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_miedzyzdroje.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_miejska gorka.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_miejska gorka.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_mieleszyn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_mieleszyn.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_mielno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_mielno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_miescisko.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_miescisko.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_miloslaw.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_miloslaw.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_miroslawiec.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_miroslawiec.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_mniszkow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_mniszkow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_mochowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_mochowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_mogilno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_mogilno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_mokrsko.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_mokrsko.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_mosina.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_mosina.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_murowana goslina.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_murowana goslina.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_mycielin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_mycielin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_narew.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_narew.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_nekla.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_nekla.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_niechanowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_niechanowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_nieszawa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_nieszawa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_nowa wies leborska.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_nowa wies leborska.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_nowa wies wielka.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_nowa wies wielka.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_nowe miasto nad warta.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_nowe miasto nad warta.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_nowe ostrowy.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_nowe ostrowy.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_nowe skalmierzyce.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_nowe skalmierzyce.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_nowe warpno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_nowe warpno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_nowogard.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_nowogard.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_nowy tomysl.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_nowy tomysl.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_oborniki.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_oborniki.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_obrowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_obrowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_obrzycko.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_obrzycko.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_okonek.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_okonek.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_opalenica.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_opalenica.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_opatowek.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_opatowek.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_opoczno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_opoczno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_oporow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_oporow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_orchowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_orchowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_osie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_osie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_osieciny.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_osieciny.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_osieczna.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_osieczna.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_osiek maly.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_osiek maly.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_osina.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_osina.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_ostroda.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_ostroda.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_ostrorog.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_ostrorog.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_ostrow wielkopolski.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_ostrow wielkopolski.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_ostrow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_ostrow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_ostrowice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_ostrowice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_ostrowite.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_ostrowite.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_papowo biskupie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_papowo biskupie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_paradyz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_paradyz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_parchowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_parchowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_pepowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_pepowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_pilawa gorna.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_pilawa gorna.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_piotrkow kujawski.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_piotrkow kujawski.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_pleszew.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_pleszew.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_ploskinia.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_ploskinia.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_ploty.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_ploty.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_pniewy.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_pniewy.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_pobiedziska.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_pobiedziska.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_pogorzela.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_pogorzela.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_polajewo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_polajewo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_polanow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_polanow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_polczyn-zdroj.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_polczyn-zdroj.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_polkowice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_polkowice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_poniec.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_poniec.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_postomino.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_postomino.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_potegowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_potegowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_powidz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_powidz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_poznan.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_poznan.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_przedborz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_przedborz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_przedecz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_przedecz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_przemet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_przemet.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_przybiernow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_przybiernow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_przysucha.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_przysucha.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_pszczew.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_pszczew.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_puck.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_puck.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_puszczykowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_puszczykowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_pyskowice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_pyskowice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_pyzdry.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_pyzdry.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_rabino.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_rabino.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_raciazek.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_raciazek.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_radomin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_radomin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_radowo male.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_radowo male.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_radzanow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_radzanow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_radziejow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_radziejow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_raszkow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_raszkow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_rawicz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_rawicz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_recz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_recz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_reczno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_reczno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_resko.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_resko.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_rewal.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_rewal.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_rogowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_rogowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_rogozno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_rogozno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_rojewo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_rojewo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_rokietnica.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_rokietnica.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_rosciszewo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_rosciszewo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_rozdrazew.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_rozdrazew.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_rozprza.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_rozprza.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_rychwal.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_rychwal.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_ryczywol.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_ryczywol.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_rydzyna.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_rydzyna.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_rypin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_rypin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_rzeczyca.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_rzeczyca.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_rzepin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_rzepin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_sianow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_sianow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_siemysl.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_siemysl.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_sierakow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_sierakow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_sierakowice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_sierakowice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_sierpc.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_sierpc.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_skepe.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_skepe.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_skoki.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_skoki.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_skrwilno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_skrwilno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_skulsk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_skulsk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_slawno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_slawno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_slawoborze.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_slawoborze.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_slesin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_slesin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_sliwice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_sliwice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_slubice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_slubice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_slupca.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_slupca.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_slupia.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_slupia.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_slupsk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_slupsk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_smigiel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_smigiel.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_smoldzino.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_smoldzino.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_sochocin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_sochocin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_sokolniki.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_sokolniki.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_sompolno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_sompolno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_srem.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_srem.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_sroda wielkopolska.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_sroda wielkopolska.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_starachowice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_starachowice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_stare miasto.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_stare miasto.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_stawiszyn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_stawiszyn.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_stepnica.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_stepnica.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_steszew.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_steszew.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_stezyca.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_stezyca.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_strzalkowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_strzalkowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_strzelce.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_strzelce.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_strzelno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_strzelno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_studzienice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_studzienice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_sucha beskidzka.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_sucha beskidzka.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_suleczyno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_suleczyno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_swidwin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_swidwin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_swieciechowa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_swieciechowa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_swiedziebnia.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_swiedziebnia.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_swiekatowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_swiekatowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_swiercze.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_swiercze.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_swierzno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_swierzno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_swieszyno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_swieszyno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_swinoujscie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_swinoujscie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_szamotuly.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_szamotuly.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_szczecinek.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_szczecinek.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_szczercow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_szczercow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_szczutowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_szczutowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_szrensk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_szrensk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_szubin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_szubin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_szydlowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_szydlowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_tarnowo podgorne.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_tarnowo podgorne.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_tluchowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_tluchowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_topolka.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_topolka.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_torun.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_torun.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_torzym.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_torzym.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_trabki wielkie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_trabki wielkie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_trzcianka.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_trzcianka.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_trzciel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_trzciel.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_trzebiatow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_trzebiatow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_trzebielino.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_trzebielino.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_trzemeszno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_trzemeszno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_tuchomie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_tuchomie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_tuczno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_tuczno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_tuliszkow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_tuliszkow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_turek.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_turek.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_tychowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_tychowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_ustka.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_ustka.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_ustronie morskie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_ustronie morskie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wabrzezno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wabrzezno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_waganiec.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_waganiec.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wagrowiec.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wagrowiec.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_walcz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_walcz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wapielsk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wapielsk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wapno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wapno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wegorzyno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wegorzyno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wicko.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wicko.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_widuchowa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_widuchowa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wielen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wielen.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wielgie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wielgie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wielichowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wielichowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wielka nieszawka.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wielka nieszawka.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wielun.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wielun.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wieruszow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wieruszow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wierzbinek.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wierzbinek.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wierzchlas.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wierzchlas.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wierzchowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wierzchowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wilczyn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wilczyn.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wisla.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wisla.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_witkowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_witkowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wladyslawow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wladyslawow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wladyslawowo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wladyslawowo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wloclawek.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wloclawek.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wloszakowice.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wloszakowice.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wolin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wolin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wronki.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wronki.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wrzesnia.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wrzesnia.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_wschowa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_wschowa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_zagorow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_zagorow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_zaniemysl.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_zaniemysl.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_zarnow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_zarnow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_zawidz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_zawidz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_zbojno.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_zbojno.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_zelazkow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_zelazkow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_zerkow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_zerkow.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_zlawies wielka.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_zlawies wielka.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_zlocieniec.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_zlocieniec.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_zuromin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_zuromin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bps/interim/points_zychlin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/interim/points_zychlin.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/bps/raw/gminy_names.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/raw/gminy_names.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bps/raw/gminy_names.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/raw/gminy_names.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bps/raw/gminy_names_final.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bps/raw/gminy_names_short.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bps/raw/gminy_names_short.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ekstraclass/bps_01_banks_scrap_.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/bps_01_banks_scrap_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ekstraclass/bps_01_banks_scrap_.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/bps_01_banks_scrap_gminy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,26 +471,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ekstraclass" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../elections2023" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sebastian\Desktop\Projects\Fantasy-Fotball-Ekstraklasa\src\ekstraclass" />
+      <recent name="C:\Users\Sebastian\Desktop\Projects\Fantasy-Fotball-Ekstraklasa\src\ekstraclass\other" />
       <recent name="C:\Users\Sebastian\Desktop\Fantasy-Fotball-Ekstraklasa\src\ekstraclass" />
       <recent name="C:\Users\sebas\OneDrive\Pulpit\Fantasy-Fotball-Ekstraklasa\src\first_league" />
       <recent name="C:\Users\sebas\OneDrive\Pulpit\Fantasy-Fotball-Ekstraklasa\src\ekstraclass" />
-      <recent name="C:\Users\kose9001\Desktop\FantasyFootball\src\first_league" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sebastian\Desktop\Projects\Fantasy-Fotball-Ekstraklasa\src\ekstraclass" />
       <recent name="C:\Users\Sebastian\Desktop\Projects\Fantasy-Fotball-Ekstraklasa\src\ekstraclass\other" />
       <recent name="C:\Users\kose9001\Desktop\FantasyFootball\data\interim\ekstraclass" />
       <recent name="C:\Users\kose9001\Desktop\FantasyFootball\data\raw\ekstraclass" />
       <recent name="C:\Users\kose9001\Desktop\FantasyFootball\src\ekstraclass" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bps_01_banks_scrap_">
-    <configuration name="bps_01_banks_scrap_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.konrad">
+    <configuration name="aaa_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,7 +503,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ekstraclass/bps_01_banks_scrap_.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Sebastian\Desktop\Projects\Fantasy-Fotball-Ekstraklasa\src\diss\aaa_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,7 +512,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ekstraclass_00_variables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bps_01_banks_scrap_gminy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,7 +524,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_00_variables.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Sebastian\Desktop\Projects\Fantasy-Fotball-Ekstraklasa\src\diss\bps_01_banks_scrap_gminy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +533,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ekstraclass_01_scrap_players_sites" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bps_04_data_concatenation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,7 +545,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Sebastian\Desktop\Projects\Fantasy-Fotball-Ekstraklasa\src\diss\bps_04_data_concatenation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +554,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ekstraclass_02_scrap_players_stats" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bps_05_final_data_concatenation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,7 +566,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Sebastian\Desktop\Projects\Fantasy-Fotball-Ekstraklasa\src\diss\bps_05_final_data_concatenation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +575,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ekstraclass_06_team_optimatisation_transfers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="konrad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,7 +587,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ekstraclass/ekstraclass_06_team_optimatisation_transfers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ekstraclass/konrad.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +598,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.bps_01_banks_scrap_" />
-        <item itemvalue="Python.ekstraclass_01_scrap_players_sites" />
-        <item itemvalue="Python.ekstraclass_00_variables" />
-        <item itemvalue="Python.ekstraclass_02_scrap_players_stats" />
-        <item itemvalue="Python.ekstraclass_06_team_optimatisation_transfers" />
+        <item itemvalue="Python.konrad" />
+        <item itemvalue="Python.aaa_test" />
+        <item itemvalue="Python.bps_05_final_data_concatenation" />
+        <item itemvalue="Python.bps_01_banks_scrap_gminy (1)" />
+        <item itemvalue="Python.bps_04_data_concatenation" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +653,10 @@
           <url>file://$PROJECT_DIR$/src/first_league/first_league_00_variables.py</url>
           <line>4</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/ekstraclass/bps_02_banks_scrap_powiaty.py</url>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
