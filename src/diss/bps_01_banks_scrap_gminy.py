@@ -27,7 +27,7 @@ def main():
     path = var.project_dir
 
     # gminy dataframe
-    gm = pd.read_csv(path + gminy_names_path, sep=';')
+    gm = pd.read_csv(path + gminy_names_path, sep=',')
 
     # reshaping and cleaning df
     gm['pow_teryt'] = gm['pow_teryt'].apply(lambda x: str(x).zfill(4))
@@ -65,7 +65,8 @@ def main():
         inputElement.send_keys(Keys.ENTER)
         driver.implicitly_wait(100)
         inputElement.send_keys(Keys.ARROW_UP)
-        time.sleep(0.5)
+        # time.sleep(0.5)
+        time.sleep(2.5)
 
         # getting div with points data
         all_divs = driver.find_element("id", 'cruzmap-points')
