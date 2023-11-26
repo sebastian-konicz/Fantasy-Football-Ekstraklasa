@@ -71,7 +71,7 @@ def main(team_name, season, round, points_type, budget_now, sub_factor):
 
     print(missing_players_list)
 
-    # gettign dataframes
+    # getting dataframes
     missing_df_list = []
     for missing in missing_players_list:
         missing_df = squad[squad['id'] == missing]
@@ -92,8 +92,6 @@ def main(team_name, season, round, points_type, budget_now, sub_factor):
         players_stats.reset_index(inplace=True, drop=True)
     else:
         pass
-
-
 
     # once again getting index list (hopefully the last) - room for improvment - dedicated function
     index_list = index_creation(players_stats)

@@ -9,8 +9,8 @@ pd.set_option('display.max_rows', None)
 
 def main():
     # variables
-    season = '2021_2022'
-    round = 'test'
+    season = '2023_2024'
+    round = '15'
 
     # output files
     # players_links_path = r'\data\raw\ekstraclass\01_players_links_{date}.csv'.format(date=var.time_stamp)
@@ -23,7 +23,8 @@ def main():
     path = var.project_dir
 
     # gettig the main page with fantasy soccer stat
-    driver = webdriver.Chrome(var.chrome_driver)
+    # driver = webdriver.Chrome(var.chrome_driver)
+    driver = webdriver.Firefox(executable_path=var.gecko_driver)
     driver.get(var.ekstraclass_players)
 
     site_list =[]

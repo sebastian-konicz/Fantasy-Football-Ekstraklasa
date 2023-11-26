@@ -1,8 +1,9 @@
 from pathlib import Path
 import datetime as dt
 
-# chrome driver path
-chrome_driver = r'C:\Users\Sebastian\Desktop\chromedriver.exe'
+# driver path
+# chrome_driver = r'C:\Users\Sebastian\Desktop\chromedriver.exe'
+gecko_driver = r'C:\Users\Sebastian\Desktop\geckodriver.exe'
 # chrome_driver = r'C:\Users\sebas\OneDrive\Pulpit\chromedriver.exe'
 
 # project directory

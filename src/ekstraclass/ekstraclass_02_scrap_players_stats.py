@@ -12,13 +12,14 @@ pd.set_option('display.max_rows', None)
 
 def main():
     # variables
-    season = '2021_2022'
-    round = 35
+    season = '2023_2024'
+    round = '15'
 
     # input files
     players_links_path = r'\data\raw\01_players_links_{s}_round_{r}.csv'.format(s=season, r=round)
 
     # output files
+    players_stats_path_bckp = r'\data\raw\02_players_stats_{s}_round_{r}_bckp.csv'.format(s=season, r=round)
     players_stats_path = r'\data\raw\02_players_stats_{s}_round_{r}.csv'.format(s=season, r=round)
 
     # start time of function
@@ -42,7 +43,8 @@ def main():
     for link in link_list:
         # gettig the page with stats for player
         # driver = webdriver.Chrome(ChromeDriverManager().install())
-        driver = webdriver.Chrome(var.chrome_driver)
+        # driver = webdriver.Chrome(var.chrome_driver)
+        driver = webdriver.Firefox(executable_path=var.gecko_driver)
         driver.get(link)
 
         # getting the site html
@@ -90,7 +92,6 @@ def main():
 
         # player status
         player_status = site.find('div', class_='col-sm-6 col-md-5 text-center').text.strip()
-        print(player_status)
         if player_status == '':
             player_status = "active"
         else:
@@ -272,24 +273,27 @@ def main():
         for column in columns_list:
             players_stats[column] = players_stats[column].apply(lambda value: value.replace(special_letter, normal_letter))
 
-    club_dictionary = {"Bruk-Bet Termalica Nieciecza": "BBT",
-                       "Cracovia": "CRA",
-                       "Gornik Leczna": "GKL",
+    players_stats.to_csv(path + players_stats_path_bckp, index=False, encoding='UTF-8')
+
+    club_dictionary = {"Cracovia": "CRA",
                        "Gornik Zabrze": "GOR",
                        "Jagiellonia Bialystok": "JAG",
+                       "KGHM Zaglebie Lubin": "ZAG",
+                       "Korona Kielce": "KOR",
                        "Lech Poznan": "LPO",
-                       "Lechia Gdansk": "LGD",
                        "Legia Warszawa": "LEG",
+                       "LKS Lodz": "LKS",
                        "PGE FKS Stal Mielec": "STM",
                        "Piast Gliwice": "PIA",
                        "Pogon Szczecin": "POG",
+                       "Puszcza Niepolomice": "PUN",
                        "Radomiak Radom": "RAD",
                        "Rakow Czestochowa": "RCZ",
+                       "Ruch Chorzow": "RCH",
                        "Slask Wroclaw": "SLA",
                        "Warta Poznan": "WAR",
-                       "Wisla Krakow": "WIS",
-                       "Wisla Plock": "WPL",
-                       "Zaglebie Lubin": "ZAG"}
+                       "Widzew Lodz": "WID"
+                      }
 
     # adding club abbreviation
     for club_name, club_abr in club_dictionary.items():
