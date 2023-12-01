@@ -3,130 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fd0c45e6-9126-4229-b06e-9a58a6e5aff5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/05_players_concat.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/05_players_concat_before_round_20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/06_players_sum_stats.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/06_players_sum_stats_03FEB22.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/06_players_sum_stats_22_02_03.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/06_players_sum_stats_22_02_04_05_round_20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/06_players_sum_stats_22_02_04_10_round_20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/06_players_sum_stats_22_02_04_15_round_20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/ekstraclass/06_players_sum_stats_22_02_04_all_round_20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_20/03_players_concat_before_round_20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_20/04_players_sum_stats_2021_2022_05_round_20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_20/04_players_sum_stats_2021_2022_10_round_20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_20/04_players_sum_stats_2021_2022_15_round_20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_20/04_players_sum_stats_2021_2022_all_round_20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_21/03_players_concat_before_round_21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_21/04_players_sum_stats_2021_2022_05_round_21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_21/04_players_sum_stats_2021_2022_10_round_21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_21/04_players_sum_stats_2021_2022_15_round_21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_21/04_players_sum_stats_2021_2022_all_round_21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_22/03_players_concat_before_round_22.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_22/04_players_sum_stats_2021_2022_05_round_22.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_22/04_players_sum_stats_2021_2022_10_round_22.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_22/04_players_sum_stats_2021_2022_15_round_22.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_22/04_players_sum_stats_2021_2022_all_round_22.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_23/03_players_concat_before_round_23.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_23/04_players_sum_stats_2021_2022_05_round_23.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_23/04_players_sum_stats_2021_2022_10_round_23.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_23/04_players_sum_stats_2021_2022_15_round_23.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_23/04_players_sum_stats_2021_2022_all_round_23.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_24/03_players_concat_before_round_24.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_24/04_players_sum_stats_2021_2022_05_round_24.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_24/04_players_sum_stats_2021_2022_10_round_24.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_24/04_players_sum_stats_2021_2022_15_round_24.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_24/04_players_sum_stats_2021_2022_all_round_24.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_25/03_players_concat_before_round_25.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_25/04_players_sum_stats_2021_2022_05_round_25.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_25/04_players_sum_stats_2021_2022_10_round_25.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_25/04_players_sum_stats_2021_2022_15_round_25.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_25/04_players_sum_stats_2021_2022_all_round_25.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_26/03_players_concat_before_round_26.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_26/04_players_sum_stats_2021_2022_05_round_26.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_26/04_players_sum_stats_2021_2022_10_round_26.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_26/04_players_sum_stats_2021_2022_15_round_26.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_26/04_players_sum_stats_2021_2022_all_round_26.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_27/03_players_concat_before_round_27.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_27/04_players_sum_stats_2021_2022_05_round_27.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_27/04_players_sum_stats_2021_2022_10_round_27.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_27/04_players_sum_stats_2021_2022_15_round_27.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_27/04_players_sum_stats_2021_2022_all_round_27.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_28/03_players_concat_before_round_28.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_28/04_players_sum_stats_2021_2022_05_round_28.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_28/04_players_sum_stats_2021_2022_10_round_28.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_28/04_players_sum_stats_2021_2022_15_round_28.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_28/04_players_sum_stats_2021_2022_all_round_28.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_29 — kopia/03_players_concat_before_round_29.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_29 — kopia/04_players_sum_stats_2021_2022_05_round_29.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_29 — kopia/04_players_sum_stats_2021_2022_10_round_29.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_29 — kopia/04_players_sum_stats_2021_2022_15_round_29.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_29 — kopia/04_players_sum_stats_2021_2022_all_round_29.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_29/03_players_concat_before_round_29.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_29/04_players_sum_stats_2021_2022_05_round_29.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_29/04_players_sum_stats_2021_2022_10_round_29.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_29/04_players_sum_stats_2021_2022_15_round_29.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_29/04_players_sum_stats_2021_2022_all_round_29.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_31/03_players_concat_before_round_31-copy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_31/03_players_concat_before_round_31.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_31/04_players_sum_stats_2021_2022_05_round_31.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_31/04_players_sum_stats_2021_2022_10_round_31.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_31/04_players_sum_stats_2021_2022_15_round_31.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_31/04_players_sum_stats_2021_2022_all_round_31.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_32/03_players_concat_before_round_32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_32/04_players_sum_stats_2021_2022_05_round_32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_32/04_players_sum_stats_2021_2022_10_round_32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_32/04_players_sum_stats_2021_2022_15_round_32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_32/04_players_sum_stats_2021_2022_all_round_32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_33/03_players_concat_before_round_33.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_33/04_players_sum_stats_2021_2022_05_round_33.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_33/04_players_sum_stats_2021_2022_10_round_33.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_33/04_players_sum_stats_2021_2022_15_round_33.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_33/04_players_sum_stats_2021_2022_all_round_33.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_34/03_players_concat_before_round_34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_34/04_players_sum_stats_2021_2022_05_round_34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_34/04_players_sum_stats_2021_2022_10_round_34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_34/04_players_sum_stats_2021_2022_15_round_34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interim/round_34/04_players_sum_stats_2021_2022_all_round_34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/01_players_links_2021_2022_round_20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/01_players_links_2021_2022_round_21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/01_players_links_2021_2022_round_22.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/01_players_links_2021_2022_round_23.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/01_players_links_2021_2022_round_24.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/01_players_links_2021_2022_round_25.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/01_players_links_2021_2022_round_26.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/01_players_links_2021_2022_round_27.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/01_players_links_2021_2022_round_28.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/01_players_links_2021_2022_round_29.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/01_players_links_2021_2022_round_31 — kopia.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/01_players_links_2021_2022_round_31.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/01_players_links_2021_2022_round_32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/01_players_links_2021_2022_round_33.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/01_players_links_2021_2022_round_34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/01_players_links_2021_2022_round_35.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/01_players_links_2021_2022_round_test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/02_players_stats_2021_2022_round_19.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/02_players_stats_2021_2022_round_20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/02_players_stats_2021_2022_round_21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/02_players_stats_2021_2022_round_22.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/02_players_stats_2021_2022_round_23.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/02_players_stats_2021_2022_round_24.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/02_players_stats_2021_2022_round_25.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/02_players_stats_2021_2022_round_26.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/02_players_stats_2021_2022_round_27.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/02_players_stats_2021_2022_round_28.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/02_players_stats_2021_2022_round_29.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/02_players_stats_2021_2022_round_31 — kopia.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/02_players_stats_2021_2022_round_31.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/02_players_stats_2021_2022_round_32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/02_players_stats_2021_2022_round_33.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/02_players_stats_2021_2022_round_34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/02_players_stats_2021_2022_round_35.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/rulings.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_00_variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_00_variables.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_06_team_optimatisation_transfers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_06_team_optimatisation_transfers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../robotrener" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">

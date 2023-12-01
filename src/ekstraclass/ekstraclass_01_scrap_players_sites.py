@@ -10,7 +10,7 @@ pd.set_option('display.max_rows', None)
 def main():
     # variables
     season = '2023_2024'
-    round = '15'
+    round = '16'
 
     # output files
     # players_links_path = r'\data\raw\ekstraclass\01_players_links_{date}.csv'.format(date=var.time_stamp)
