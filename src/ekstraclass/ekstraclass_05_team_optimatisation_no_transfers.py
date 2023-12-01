@@ -12,8 +12,8 @@ pd.set_option('display.max_rows', None)
 def main():
     # variables
     team_name = 'algolrytm_05'
-    season = '2021_2022'
-    round = 20
+    season = '2023_2024'
+    round = 16
     points_type = '15'
     sub_factor = 0.5
     total_budget = 30

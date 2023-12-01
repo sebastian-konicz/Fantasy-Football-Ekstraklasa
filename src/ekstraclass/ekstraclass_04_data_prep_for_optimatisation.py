@@ -9,8 +9,8 @@ pd.set_option('display.max_rows', None)
 
 def main():
     # variables
-    season = '2021_2022'
-    round = 34
+    season = '2023_2024'
+    round = 16
     date = 'autumn'
 
     # input files
@@ -47,24 +47,25 @@ def main():
 
     # changing text values to number values
     # club / team
-    club_dictionary = {"Bruk-Bet Termalica Nieciecza": 1,
-                       "Cracovia": 2,
-                       "Gornik Leczna": 3,
-                       "Gornik Zabrze": 4,
-                       "Jagiellonia Bialystok": 5,
+    club_dictionary = {"Cracovia": 1,
+                       "Gornik Zabrze": 2,
+                       "Jagiellonia Bialystok": 3,
+                       "KGHM Zaglebie Lubin": 4,
+                       "Korona Kielce": 5,
                        "Lech Poznan": 6,
-                       "Lechia Gdansk": 7,
-                       "Legia Warszawa": 8,
+                       "Legia Warszawa": 7,
+                       "LKS Lodz": 8,
                        "PGE FKS Stal Mielec": 9,
                        "Piast Gliwice": 10,
                        "Pogon Szczecin": 11,
-                       "Radomiak Radom": 12,
-                       "Rakow Czestochowa": 13,
-                       "Slask Wroclaw": 14,
-                       "Warta Poznan": 15,
-                       "Wisla Krakow": 16,
-                       "Wisla Plock": 17,
-                       "Zaglebie Lubin": 18}
+                       "Puszcza Niepolomice": 12,
+                       "Radomiak Radom": 13,
+                       "Rakow Czestochowa": 14,
+                       "Ruch Chorzow": 15,
+                       "Slask Wroclaw": 16,
+                       "Warta Poznan": 17,
+                       "Widzew Lodz": 18,
+                       }
 
     for club_name, club_no in club_dictionary.items():
         players_stats["club"] = players_stats.apply(

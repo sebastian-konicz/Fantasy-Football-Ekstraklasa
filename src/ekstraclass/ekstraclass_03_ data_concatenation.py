@@ -8,14 +8,14 @@ pd.set_option('display.max_rows', None)
 
 def main():
     # variables
-    season = '2021_2022'
-    round = 34
-    # last season before break file
-    season_prev = '2021_2022'
-    round_final = 19
+    season = '2023_2024'
+    round = 16
+    # # last season before break file
+    # season_prev = '2021_2022'
+    # round_final = 19
 
     # input files
-    players_stats_prev_season_path = r'\data\raw\02_players_stats_{s}_round_{r}.csv'.format(s=season_prev, r=round_final)
+    # players_stats_prev_season_path = r'\data\raw\02_players_stats_{s}_round_{r}.csv'.format(s=season_prev, r=round_final)
     players_stats_curr_season_path = r'\data\raw\02_players_stats_{s}_round_{r}.csv'.format(s=season, r=round)
 
     # output files
@@ -27,18 +27,19 @@ def main():
     # project directory
     project_dir = str(Path(__file__).resolve().parents[2])
 
-    # loading file with data concerning previous season
-    players_stats_prev = pd.read_csv(project_dir + players_stats_prev_season_path, delimiter=',')
+    # # loading file with data concerning previous season
+    # players_stats_prev = pd.read_csv(project_dir + players_stats_prev_season_path, delimiter=',')
 
     # loading file with data concerning current season
     players_stats_curr = pd.read_csv(project_dir + players_stats_curr_season_path, delimiter=',')
 
-    # dropping duplicates
-    players_stats_prev.drop_duplicates(keep='first', inplace=True)
+    # # dropping duplicates
+    # players_stats_prev.drop_duplicates(keep='first', inplace=True)
     players_stats_curr.drop_duplicates(keep='first', inplace=True)
 
     # concatenating two dataframes
-    players_stats = pd.concat([players_stats_prev, players_stats_curr])
+    # players_stats = pd.concat([players_stats_prev, players_stats_curr])
+    players_stats = pd.concat([players_stats_curr])
 
     # sorting data
     players_stats.sort_values(by=['id', 'round'], inplace=True)
