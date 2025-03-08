@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fd0c45e6-9126-4229-b06e-9a58a6e5aff5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_01_scrap_players_sites.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ekstraclass/ekstraclass_02_scrap_players_stats.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +32,23 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="1mVQqBRLS0lAVoqG2Cux1uvIoKR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../strava-hr-zones" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.ekstraclass_01_scrap_players_sites.executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Sebastian/Desktop/Projects/Fantasy-Fotball-Ekstraklasa"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sebastian\Desktop\Projects\Fantasy-Fotball-Ekstraklasa\src\ekstraclass" />
@@ -57,9 +65,10 @@
       <recent name="C:\Users\kose9001\Desktop\FantasyFootball\data\raw\ekstraclass" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ekstraclass_02_scrap_players_stats">
+  <component name="RunManager" selected="Python.ekstraclass_01_scrap_players_sites">
     <configuration name="ekstraclass_01_scrap_players_sites" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -81,6 +90,7 @@
     </configuration>
     <configuration name="ekstraclass_02_scrap_players_stats" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -102,6 +112,7 @@
     </configuration>
     <configuration name="ekstraclass_03_ data_concatenation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -123,6 +134,7 @@
     </configuration>
     <configuration name="ekstraclass_04_data_prep_for_optimatisation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -144,6 +156,7 @@
     </configuration>
     <configuration name="ekstraclass_05_team_optimatisation_no_transfers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FantasyFootball" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -165,13 +178,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ekstraclass_02_scrap_players_stats" />
         <item itemvalue="Python.ekstraclass_01_scrap_players_sites" />
+        <item itemvalue="Python.ekstraclass_02_scrap_players_stats" />
         <item itemvalue="Python.ekstraclass_05_team_optimatisation_no_transfers" />
         <item itemvalue="Python.ekstraclass_04_data_prep_for_optimatisation" />
         <item itemvalue="Python.ekstraclass_03_ data_concatenation" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -197,7 +217,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
